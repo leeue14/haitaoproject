@@ -4,8 +4,8 @@
     background-color: #323232;
 }
 .specify{
-    width: 1200px;
-    margin: 0 auto;
+    width: 1200px !important;
+    margin: 0 auto !important;
 }
 .toper .menus{
     height: 40px;

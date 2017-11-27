@@ -348,3 +348,315 @@
     margin-left: 19px;
 }
 
+/*官方直购等*/
+
+.pop-img{
+    margin: 0 auto;
+    padding: 13px 0;
+    width: 1160px;
+    height: 56px;
+}
+.pop-img .item{
+    float: left;
+    overflow: hidden;
+    width: 220px;
+    margin-left: 60px;
+}
+
+.pop-img .item .icon {
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    color: #4c4c4c;
+    border: 1px solid #4c4c4c;
+    width: 46px;
+    height: 46px;
+    margin: 4px 10px 4px 0;
+    float: left;
+    text-align: center;
+    font: 400 19px/46px "Microsoft YaHei", tahoma, arial;
+}
+.pop-img .item .title{
+    display: block;
+    font: 400 14px/30px "Microsoft YaHei", tahoma, arial;
+    color: #4c4c4c;
+    position: relative;
+    top: 6px;
+
+}
+.pop-img .item span {
+    font: 400 12px/18px "Microsoft YaHei", tahoma, arial;
+    color: #bebebe;
+}
+
+.more-goods{
+    height: 230px;
+}
+.more-goods a{
+    width: 285px;
+    height: 230px;
+    background-size: cover;
+    margin-right:20px;
+    float: left;
+}
+
+
+/*商品展览区*/
+.floors{
+    width: 100%;
+    height: auto;
+    background: #f5f5f5;
+    padding-bottom: 40px;
+    margin-top: 40px;
+
+}
+.floors .benifits-goods{
+    padding-top: 40px;
+}
+
+.floors .title{
+    padding-left: 20px;
+    border-left: 5px solid #333;
+    margin-bottom: 20px;
+    color: #333;
+    font: 400 20px/23px "Microsoft YaHei", tahoma, arial;
+}
+
+.floors .selected-items .list{
+    height: 874px;
+}
+
+
+.floors .list a.item {
+    position: relative;
+    width: 228px;
+    height: 430px;
+    background: #fff;
+    margin-right: 15px;
+    margin-top: 15px;
+    float: left;
+
+}
+
+.floors .benifits-goods .list a.item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 60px;
+    background-image: url(../../images/firstpage/bf.png);
+    background-position: top left;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.floors .selected-items a.item:nth-child(n+6) {
+    margin-top: 15px;
+}
+.tag{
+    z-index: 1;
+    display: none;
+    margin-top: -15px;
+    margin-left: -5px;
+}
+
+.floors a.item{
+    padding: 15px;
+    height: 350px !important;
+    width: 198px !important;
+    background-color: #fff !important;
+    float: left;
+}
+
+.floors .list .picture{
+    float: none;
+    display: block;
+}
+
+
+/*商标字体*/
+.floors .list .brand {
+    margin-top: 12.5px;
+    text-align: center;
+    color: #333;
+    font: 800 13px/16px "Microsoft YaHei", tahoma, arial;
+}
+.text-elip {
+    word-wrap: normal;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.floors .list .brand-t {
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.floors .list .market, .floors .list .seller {
+    text-align: center;
+    font: 400 12px/16px "Microsoft YaHei", tahoma, arial;
+    margin-top: 8px;
+    color: #b5b5b5;
+}
+.floors .list .market {
+    color: #ff3433;
+    font-size: 14px;
+}
+
+
+
+.benifits-goods .title a span {
+    width: 9px;
+    height: 10px;
+    margin: 7px;
+    margin-right: 0;
+    float: right;
+    background-image: url(../../images/firstpage/ri-arr.png);
+}
+
+.benifits-goods a {
+    color: #b2b2b2;
+    font: 100 12px/23px "Microsoft YaHei", tahoma, arial, sans-serif;
+}
+
+/*第二层*/
+.floors .block{
+    height: 380px;
+    margin-top: 15px;
+}
+
+.floors .block .specials {
+    height: 100%;
+    margin-right: 15px;
+}
+
+.floors .block .countdown {
+    letter-spacing: 1px;
+    font: 100 18px/40px "Microsoft YaHei", tahoma, arial;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    background: rgba(0,0,0,.5);
+    position: relative;
+    top: 340px;
+/*    display: none;*/
+}
+.floors .block .prev,.floors .block .next{
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    width: 30px;
+    height: 30px;
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+    z-index: 2;
+}
+.floors .block .list{
+    position: relative;
+    width: 699px;
+    height: 100% !important;
+    overflow: hidden;
+}
+.floors .block .prev {
+    background-image: url(../../images/firstpage/left-arrow-circle.png);
+    left: 5px;
+}
+.floors .block .next {
+    background-image: url(../../images/firstpage/right-arrow-circle.png);
+    right: 5px;
+}
+
+.floors .block .list .imgitem{
+     padding: 15px;
+     height: 350px !important;
+     width: 198px !important;
+     background-color: #fff !important;
+    margin-right: 10px;
+    display: block;
+     float: left;
+
+ }
+.floors .list .market span {
+    text-decoration: line-through;
+    color: #b5b5b5;
+    font: 400 12px/16px "Microsoft YaHei", tahoma, arial;
+}
+/*打折*/
+.floors .list .market em {
+    margin-left: 3px;
+    width: 40px;
+    height: 17px;
+    font: 100 12px/16px "Microsoft YaHei", tahoma, arial;
+    background-color: #f46464;
+    color: #fff;
+    display: inline-block;
+}
+
+
+/*第三层*/
+.floors .clothbox{
+    height: 695px;
+}
+.floors .james{
+    width: 228px;
+    height: 100%;
+    margin-right: 15px;
+}
+.floors .harden {
+    height: 100%;
+    width: 957px;
+}
+.floors .clothbox a.item{
+    padding: 0px;
+    height: 340px !important;
+    width: 228px !important;
+    background-color: #fff !important;
+    float: left;
+}
+.floors .james a.item {
+    margin-bottom: 15px;
+}
+.floors .james a.item {
+    margin-bottom: 15px;
+}
+.floors .james a.item:last-child {
+    margin-bottom: 0;
+}
+.floors .clothbox .harden a.item{
+    margin-right: 15px;
+}
+.floors .clothbox a.item:nth-child(4n) {
+    margin-right: 0;
+}
+
+.floors .clothbox .harden a.item:last-child{
+    margin-right: 0px;
+}
+
+
+.floors .clothbox .harden a.item:nth-child(n+5){
+    margin-top: 15px;
+}
+
+.floors .benifits-goods .linkselect a{
+    display: inline-block;
+    float: left;
+    color: #b2b2b2;
+    margin-right: 13px;
+    font: 400 13px/23px "Microsoft YaHei", tahoma, arial;
+}
+/*新品推荐*/
+.new-products .block .special {
+    width: 228px !important;
+}
+.new-products .block .list {
+    width: 957px !important;
+}
+.new-products .block .list .imgitems a.imgitem{
+    margin-right: 15px;
+}
+.new-products .block .list .imgitems a.imgitem:nth-child(4n){
+    margin-right: 0px;
+}
