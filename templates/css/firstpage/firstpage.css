@@ -1,0 +1,350 @@
+.out-wrap .icon-func {
+    margin-top: 17px;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    background-image: url(../../images/firstpage/tutu.png);
+}
+
+.out-wrap .navs {
+    height: 52px;
+    background-color: #fff;
+}
+
+.out-wrap .all-in {
+    cursor: pointer;
+    width: 135px;
+    padding: 0 65px 0 50px;
+    float: left;
+    border-bottom: 4px solid transparent;
+    color: #333;
+    font: 400 17px/52px "Microsoft YaHei", tahoma, arial, sans-serif !important;
+}
+
+.out-wrap .navs .link.active {
+    border-bottom: 4px solid #333;
+}
+
+.out-wrap .navs .link {
+    float: left;
+    margin-right: 65px;
+    border-bottom: 4px solid transparent;
+    color: #333;
+    font: 400 17px/52px "Microsoft YaHei", tahoma, arial, sans-serif !important;
+}
+
+/*跑马灯那块*/
+
+.out-wrap .cates-banner {
+    height: 485px;
+}
+
+.out-wrap .banner {
+    width: 1200px;
+    height: 485px;
+    margin-top: 4px;
+}
+
+.abso {
+
+    position: absolute !important;
+
+}
+
+.sideBox {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative; /*相对定位，相对自己原来的位置定位*/
+}
+
+.sideBox .hd {
+    height: 24px;
+    overflow: hidden;
+    position: absolute;
+    bottom: 10px;
+    z-index: 1;
+    width: 977px;
+    margin-left: 223px;
+    text-align: center;
+}
+
+.sideBox .hd ul {
+    overflow: hidden;
+    zoom: 1;
+    padding: 4px 6px;
+    display: inline-block;
+}
+
+.sideBox .hd ul li {
+    float: left;
+    margin-right: 11px;
+    width: 12px;
+    height: 12px;
+    line-height: 12px;
+    text-align: center;
+    background: #aaaaaa;
+    cursor: pointer;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border: 1px solid rgba(158, 163, 167, 1);
+}
+
+.sideBox .scrollad{
+    position: absolute;
+}
+.sideBox .scrollad ul {
+    position: relative;
+    width: 1200px;
+    height: 486px;
+}
+
+.sideBox .scrollad ul li {
+    position: absolute;
+    width: 1200px;
+    left: 0px;
+    top: 0px;
+    display: none;
+}
+.sideBox .prev img, .sideBox .next img{
+    width: 14px;
+    height: 24px;
+}
+.sideBox .scrollad .next {
+    position: absolute;
+    top: 50%;
+    margin-top: -12px;
+    width: 14px;
+    height: 24px;
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+    background-color: #444;
+    padding: 15px 5px;
+    left: 1160px;
+}
+
+.sideBox .scrollad .prev {
+    left: 243px;
+    position: absolute;
+    top: 50%;
+    margin-top: -12px;
+    width: 14px;
+    height: 24px;
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+    background-color: #444;
+    padding: 15px 5px;
+}
+.sideBox .scrollad a:hover{
+    background-color: #666;
+    text-decoration: none;
+}
+
+
+    /*左侧导航栏*/
+.out-wrap .cates-banner .cates {
+    margin: 0;
+   /* width: 223px;*/
+    width: 226px;
+    height: 485px;
+    margin-top: 4px;
+    z-index: 1;
+    background-color: rgba(51, 51, 51, 0.88) !important;
+}
+
+.out-wrap .cates li.cate:first-child {
+    margin-top: 0px;
+    height: 56px;
+}
+
+.out-wrap .cates li.cate {
+    border-bottom: 1px solid rgba(222, 222, 222, 0.4);
+    width: 203px;
+    padding-top: 40px;
+    margin-top: -1px;
+
+}
+
+.out-wrap .cates li.cate:hover {
+    width: 223px;
+    border-bottom: 1px solid transparent;
+    z-index: 100;
+    background-color: #fff;
+    box-shadow: 0px 0px 4px 0px rgba(68, 68, 68, 0.4);
+
+}
+
+.out-wrap .cates li.cate a {
+    color: #fff;
+    float: left;
+
+}
+
+/*.out-wrap .cates li.cate .whiteone {
+
+    z-index: 100;
+    width: 14px;
+    height: 97px;
+    position: absolute;
+    margin-left: 217px;
+    margin-top: -40px;
+   !* background-color: #ffffff;*!
+
+}*/
+.out-wrap .cates li.cate .white {
+
+   /* z-index: 100;
+    width: 14px;
+    height: 97px;
+    background: transparent;
+    position: absolute;
+    margin-left: 217px;
+    margin-top: -40px;
+    display: none;*/
+    z-index: 100;
+    width: 14px;
+    height: 97px;
+    position: absolute;
+    margin-left: 217px;
+    margin-top: -40px;
+    background-color: #ffffff;
+    display: none;
+
+}
+
+.out-wrap .cates .cate-hd {
+    padding-left: 36px;
+}
+
+.out-wrap .cates .icon-cloth {
+    margin-right: 16px;
+    width: 29px;
+    height: 24px;
+    background-image: url(../../images/firstpage/icon-cloth.png);
+}
+
+.out-wrap .cates .cate-hd a {
+    color: #fff;
+    font: 400 16px/24px "Microsoft YaHei", tahoma, arial;
+}
+
+.out-wrap .cates .cate-bd {
+    height: 27px;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    padding-left: 36px;
+    overflow: hidden;
+}
+
+.out-wrap .cates .cate-bd a {
+    font-size: 13px;
+    color: #aaa !important;
+}
+
+.out-wrap .cates .cate-bd .slash {
+    padding: 0 3px;
+}
+
+.out-wrap .cates .icon-shoe {
+    margin-right: 17px;
+    width: 26px;
+    height: 21px;
+    background-image: url(../../images/firstpage/icon-shoe.png);
+}
+
+.out-wrap .cates .icon-bag {
+    margin-right: 17px;
+    width: 26px;
+    height: 21px;
+    background-image: url(../../images/firstpage/icon-bag.png);
+}
+
+.out-wrap .cates .icon-lip {
+    margin-right: 17px;
+    width: 26px;
+    height: 21px;
+    background-image: url(../../images/firstpage/icon-lip.png);
+}
+
+.out-wrap .cates .icon-watch {
+    margin-right: 17px;
+    width: 26px;
+    height: 21px;
+    background-image: url(../../images/firstpage/icon-watch.png);
+}
+
+
+
+.out-wrap .cates li.cate:hover .icon-cloth {
+    background-image: url(../../images/firstpage/icon-cloth-h.png);
+}
+
+.out-wrap .cates li.cate:hover a {
+    color: #010101;
+}
+
+.b-bottom0 {
+    border-bottom: 0 !important;
+}
+
+
+
+/*hover子菜单*/
+.out-wrap .hover-boxs{
+    visibility: hidden;
+    z-index: 90;
+    top: 0;
+    left: 223px;
+    background: #fff;
+    color: #333;
+    width: 910px;
+    padding: 0 30px 0 37px;
+    height: 486px;
+    box-shadow: 0px 0px 4px 0px rgba(68, 68, 68, 0.4);
+}
+
+.cates .part{
+    width: 265px;
+    float: left;
+}
+.cates .part .title{
+    margin: 0;
+    padding: 42px 0 10px;
+    color: #333;
+    font: 400 16px/16px "Microsoft YaHei", tahoma, arial;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/*.cate .list a :hover{
+    color: #010101;
+}*/
+.cate .list  a{
+    color: #010101 !important;
+    width: 50%;
+    float: left;
+    display: inline-block;
+    margin-top: 16px;
+    font: 400 13px/17px "Microsoft YaHei", tahoma, arial;
+
+}
+
+
+
+.cate .list a.hot{
+    color: #fd8553 !important;
+}
+
+.cate .brands-box a{
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 106px;
+    height: 60px;
+    float: left;
+    border: 1px solid #eee;
+    margin-top: 30px;
+    margin-left: 19px;
+}
+

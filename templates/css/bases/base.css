@@ -1,0 +1,30 @@
+.clearfix::after, .clearfix::before {
+    display: table;
+    content: '';
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.fl {
+    float: left;
+}
+.fr{
+    float: right;
+}
+body {
+    word-wrap: break-word;
+    font: 16px/1.5 Helvetica,Arial;
+    color: #666;
+    background: #fff;
+}
+
+a, a:hover {
+    color: #666;
+    text-decoration: none;
+}
