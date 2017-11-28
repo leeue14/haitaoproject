@@ -90,7 +90,7 @@
 
 
 .out-wrap .part-3 ul.menu {
-    display: block;
+    display: none;
     padding: 0 20px;
     height: auto;
     max-height: 280px;
@@ -143,8 +143,9 @@
     overflow: hidden;
 }
 .out-wrap ul.menu a:hover{
-    font: 400 18px "Microsoft YaHei", tahoma, arial,sans-serif !important;
-    color: red;
+    font-weight: bold !important;
+    color: #aa142d;
+
 }
 .out-wrap ul.menu .number {
     float: right;
@@ -205,15 +206,7 @@
     line-height: 28px;
     padding: 0;
 }
-.sort_cate a{
-    display: inline-block;
-    padding: 0px 10px;
-    font-size: 14px;
-    font-weight: bold;
-    border-right: solid 1px #eceded;
-    min-width: 70px;
-    text-align: center;
-}
+
 
 .out-wrap .part-3 .p3-func {
     background-color: #fff;
@@ -221,4 +214,270 @@
     color: #fff;
     width: 958px;
     height: 36px;
+}
+.sort_cate a {
+    display: inline-block;
+    padding: 0 10px;
+    color: #666;
+    font-size: 14px;
+    font-weight: bold;
+    border-right: solid 1px #eceded;
+    min-width: 70px;
+    text-align: center;
+}
+.sort_cate_on {
+    box-shadow: 0px 0px 0px 1px rgb(245, 99, 98);
+    color: rgb(245, 99, 98) !important;
+    /* background: #666; */
+    /* color: #fff!important; */
+}
+
+.sort_cate a span {
+    font: 500 14px/36px "Microsoft YaHei", tahoma, arial,sans-serif !important;
+}
+
+.out-wrap .arrow-desc {/*排序小尖头*/
+    border-top: 8px solid #9a9a9a;
+    top: 12px;
+}
+.out-wrap .arrow-desc, .out-wrap .arrow-asc {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    position: relative;
+    left: 4px;
+    margin-right: 4px;
+}
+
+.price_range {
+    float: left;
+    margin: 4px 20px;
+}
+
+.sort_price_input {
+    outline: none;
+    height: 18px;
+    font: 400 14px/18px "Microsoft YaHei", tahoma, arial,sans-serif !important;
+    margin: 4px 0;
+    padding: 0;
+    color: #000;
+    background-color: #fff;
+    float: left;
+    width: 35px;
+    border: 1px solid #ccc;
+    color: #333;
+    text-align: center;
+    padding: 0 7px;
+}
+
+.price_range .gap {
+    float: left;
+    margin: 0 6px;
+    color: #999999;
+    line-height: 28px;
+}
+
+.price_range_confirm {
+    color: #aa142d;
+    text-decoration: none;
+    width: 48px;
+    height: 28px;
+    text-align: center;
+}
+
+.price_range_confirm, .price_range_clear {
+    display: none;
+    float: left;
+    margin-left: 10px;
+    font-size: 12px;
+    color: #999;
+    cursor: pointer;
+    font: bold 14px/28px "Microsoft YaHei", tahoma, arial,sans-serif !important;
+}
+.pagination{
+    color: #333 !important;
+    font: 400 14px/36px "Helvetica","Arial",sans-serif !important;
+    float: right;
+    padding: 0 10px;
+}
+
+.pagination {
+    color: #333 !important;
+    font: 400 14px/36px "Helvetica","Arial",sans-serif !important;
+    float: right;
+    padding: 0 10px;
+    /* padding-left: 20px; */
+}
+
+.pagination b {
+    color: #aa142d;
+}
+
+.pagination .prev {
+    margin-left: 10px;
+    background-image: url(../../images/websearch/icon-arrow-left.png);
+}
+
+.pagination .next {
+    background-image: url(../../images/websearch/icon-arrow-right.png);
+}
+
+
+.pagination .prev, .pagination .next {
+    display: inline-block;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 14px;
+    height: 14px;
+    vertical-align: middle;
+}
+.relate-query {
+    width: 958px;
+    font-size: 0;
+    text-align: center;
+    float: right;
+}
+.relate-query span {
+    padding-right: 20px;
+    font: 200 14px/36px "Microsoft YaHei", tahoma, arial,sans-serif !important;
+}
+.relate-query a {
+    font: 200 14px/36px "Microsoft YaHei", tahoma, arial,sans-serif !important;
+}
+.relate-query b {
+    font: 200 16px/36px "Microsoft YaHei", tahoma, arial,sans-serif !important;
+    border-right: solid 1px #cfcfcf;
+    margin: 0 15px;
+}
+
+
+/*商品展示区开始*/
+.out-wrap .part-3 .p3-goods {
+    height: auto;
+    padding: 0 0 22px;
+    width: 958px;
+    margin-left: 10px;
+}
+.filter-box {
+    text-align: center;
+    height: 29px;
+    margin: 0;
+}
+ul.filter {
+    max-width: 958px;
+    overflow: hidden;
+    text-align: center;
+    display: inline-block;
+    height: auto;
+}
+
+.out-wrap .part-3 ul.m-list li {
+    background-color: #fff;
+    float: left;
+    width: 232px;
+    height: 398px;
+    padding: 6px 0 14px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.tag {
+    z-index: 1;
+    margin-top: -6px;
+    margin-left: 10px;
+}
+
+.out-wrap .part-3 ul.m-list .m-pic {/*展示的图片的格式*/
+    position: relative;
+    -moz-background-size: contain;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 220px;
+    height: 280px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+
+.out-wrap .part-3 ul.m-list li {/*li的样式*/
+    background-color: #fff;
+    float: left;
+    width: 232px;
+    height: 398px;
+    padding: 6px 0 14px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.out-wrap .part-3 ul.m-list li:nth-child(4n){
+    margin-right: 0px;
+}
+.out-wrap .part-3 ul.m-list .line {/*分割线*/
+    margin: 8px auto 2px;
+    width: 80px;
+    border-top: 1px solid #e6e6e6;
+}
+
+.out-wrap .part-3 ul.m-list .m-desc {
+    color: #333;
+    height: 18px;
+    word-wrap: normal;
+    word-break: break-word;
+    cursor: pointer;
+    text-align: center;
+    padding: 6px 25px 0;
+    font: bold 14px/16px "Microsoft YaHei", tahoma, arial,sans-serif !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.out-wrap .part-3 ul .priceinfo {
+    width: 100%;
+    font: 400 16px/16px "Microsoft YaHei", tahoma, arial,sans-serif !important;
+    text-align: center;
+    color: #6B6663;
+    margin-top: 4px;
+    height: 17px;
+}
+.out-wrap .part-3 ul .real {
+    margin-right: 5px;
+    color: #a1a1a1;
+    font: 400 11px/16px "Microsoft YaHei", tahoma, arial,sans-serif !important;
+    display: inline-block;
+}
+.out-wrap .part-3 ul .original{
+    color: #a1a1a1;
+    font: 400 11px/16px "Microsoft YaHei", tahoma, arial,sans-serif !important;
+}
+.out-wrap .part-3 ul .original em {
+    text-decoration: line-through;
+}
+
+.out-wrap .part-3 ul .discount {/*打折框框*/
+    margin-left: 10px;
+    display: inline-block;
+    padding: 0 5px;
+    color: #fff;
+    background-color: rgb(245, 99, 98);
+    font: 400 12px/16px "Microsoft YaHei", tahoma, arial,sans-serif !important;
+}
+
+
+.out-wrap .part-3 ul.m-list .sellerinfo {
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    text-align: center;
+    color: #a1a1a1;
+    margin: 0 auto;
+    display: block;
+    padding: 0 12px;
+    font: 400 12px/24px "Microsoft YaHei", tahoma, arial,sans-serif !important;
+    max-width: 80%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
