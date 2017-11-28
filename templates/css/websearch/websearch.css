@@ -1,3 +1,8 @@
+.out-wrap {
+    overflow: initial;
+}
+
+
 .out-wrap .part-3{
     width: 100%;
     min-width: 1280px;
@@ -43,17 +48,6 @@
     background-position: center;
     background-repeat: no-repeat;
     cursor: pointer;
-}
-
-
-.cates-banner .cates li.hover {
-    width: 223px;
-    border-bottom: 1px solid transparent;
-    z-index: 100;
-    background-color: #fff;
-    box-shadow: 0px 0px 4px 0px rgba(68, 68, 68, 0.4);
-    color: #010101;
-
 }
 .icon-cate {
     width: 20px;
@@ -203,4 +197,28 @@
     display: inline-block;
     float: left;
     cursor: pointer;
+}
+
+.sort_cate{
+    float: left;
+    font-size: 0;
+    line-height: 28px;
+    padding: 0;
+}
+.sort_cate a{
+    display: inline-block;
+    padding: 0px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border-right: solid 1px #eceded;
+    min-width: 70px;
+    text-align: center;
+}
+
+.out-wrap .part-3 .p3-func {
+    background-color: #fff;
+    border: solid 1px #eceded;
+    color: #fff;
+    width: 958px;
+    height: 36px;
 }

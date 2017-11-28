@@ -1,14 +1,9 @@
-.clearfix::after, .clearfix::before {
-    display: table;
-    content: '';
+
+.clearfix{
     clear: both !important;
 }
 
 
-
-.clearfix {
-    *zoom: 1;
-}
 
 .fl {
     float: left !important;
