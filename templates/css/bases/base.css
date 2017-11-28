@@ -1,22 +1,22 @@
 .clearfix::after, .clearfix::before {
     display: table;
     content: '';
+    clear: both !important;
 }
 
-.clearfix::after {
-    clear: both;
-}
+
 
 .clearfix {
     *zoom: 1;
 }
 
 .fl {
-    float: left;
+    float: left !important;
 }
 .fr{
-    float: right;
+    float: right !important;
 }
+
 body {
     word-wrap: break-word;
     font: 16px/1.5 Helvetica,Arial;
@@ -28,3 +28,4 @@ a, a:hover {
     color: #666;
     text-decoration: none;
 }
+

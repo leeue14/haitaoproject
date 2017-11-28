@@ -46,3 +46,14 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
+body{
+    overflow-x: auto;
+    overflow-y: auto;
+    width: 100%;
+    min-height: 0 !important;
+    word-wrap: break-word;
+    font: 16px/1.5 Helvetica,Arial;
+    color: #666;
+    background: #fff;
+}

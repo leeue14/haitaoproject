@@ -1,0 +1,50 @@
+.new-footer{
+    background-color: #1a1a1a;
+    width: 100%;
+    min-width: 1280px;
+}
+.new-footer .pop-img .item .icon{
+    color: #ffffff;
+}
+
+.new-footer .pop-img .item .title{
+    color: #ffffff;
+}
+
+.new-footer ul.links{
+    width: 980px;
+    margin: 0 auto;
+    padding: 32px 50px 36px;
+    height: 158px;
+    border-top: 1px solid #5b5b5b;
+    border-bottom: 1px solid #5b5b5b;
+    overflow: hidden;
+}
+.new-footer ul.links li{
+    float: left;
+    display: inline-block;
+    width: 100px;
+    margin-right: 179px;
+    padding-left: 10px;
+}
+.new-footer ul.links li:last-child{
+    margin-right: 0px;
+}
+.new-footer ul.links li div {
+    color: #fff;
+    font: 400 14px/34px Helvetica,"Microsoft YaHei",tahoma,arial;
+    display: inline;
+}
+.new-footer ul.links li a {
+    color: #999;
+    font: 400 14px/26px Helvetica,"Microsoft YaHei",tahoma,arial;
+    display: block;
+}
+
+.new-footer .statement {
+    color: #999;
+    height: 80px;
+    font: 400 14px/80px "Microsoft YaHei",tahoma,arial,sans-serif!important;
+    text-align: center;
+    margin-top: 10px;
+}

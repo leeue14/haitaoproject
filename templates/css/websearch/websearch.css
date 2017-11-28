@@ -1,0 +1,206 @@
+.out-wrap .part-3{
+    width: 100%;
+    min-width: 1280px;
+    min-height: 1200px;
+    padding-top: 10px;
+}
+.f5-to-f0 {
+    background: #f5f5f5;
+}
+
+.out-wrap .part-3 .p3-filter{
+    border-top: 5px solid #666666;
+    border-bottom: 4px solid #666666;
+}
+.out-wrap .part-3 .p3-classic{
+    background-color: #ffffff;
+    width: 230px;
+}
+
+.out-wrap .part-3 .p3-filter .name{
+    color: #666666;
+    padding: 13px;
+    border: 1px solid #ccc;
+    border-bottom: 0;
+    margin-top: -1px;
+    font: 400 14px/20px "Microsoft YaHei", tahoma, arial,sans-serif !important;
+}
+
+.big-cate {
+    cursor: pointer;
+    display: inline-block;
+    width: 70%;
+    font: 400 14px/20px "Microsoft YaHei", tahoma, arial,sans-serif !important;
+}
+
+.out-wrap .part-3 .p3-filter .name .a-desc, .out-wrap .part-3 .p3-filter .name .a-asc {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    right: 4px;
+    background-color: #fff;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+
+.cates-banner .cates li.hover {
+    width: 223px;
+    border-bottom: 1px solid transparent;
+    z-index: 100;
+    background-color: #fff;
+    box-shadow: 0px 0px 4px 0px rgba(68, 68, 68, 0.4);
+    color: #010101;
+
+}
+.icon-cate {
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    display: inline-block;
+    position: relative;/*相对自己来定位*/
+    float: left;
+}
+
+.icon-women {
+    background-image: url(../../images/websearch/icon-women.png);
+}
+
+.doc-count {
+    font: 400 12px/12px "Microsoft YaHei", tahoma, arial,sans-serif !important;
+    color: #a1a1a1;
+}
+
+.out-wrap .part-3 .p3-filter .name .a-desc {
+    top: 0;
+    background-image: url(../../images/websearch/arrow-desc.png);
+}
+
+
+.out-wrap .part-3 .p3-filter .name .a-desc, .out-wrap .part-3 .p3-filter .name .a-asc {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    right: 4px;
+    background-color: #fff;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+
+.out-wrap .part-3 ul.menu {
+    display: none;
+    padding: 0 20px;
+    height: auto;
+    max-height: 280px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+}
+.out-wrap .part-3 ul.menu li:first-child {
+    margin-top: 14px;
+}
+.out-wrap .part-3 ul.menu li {/*有菜单的li*/
+    margin-top: 8px;
+    margin-bottom: 6px !important;
+}
+
+.out-wrap ul.menu .point-border {/*显示一个小点*/
+    position: relative;
+    top: -3px;
+    display: inline-block;
+    width: 2px;
+    height: 2px;
+    padding: 6px 8px 6px 0;
+}
+
+.out-wrap ul.menu .point, .out-wrap ul.menu .point-hover {
+    display: inline-block;
+    width: 2px;
+    height: 2px;
+    background-position: left 70%;
+    background-size: 2px 2px;
+    background-repeat: no-repeat;
+}
+
+.out-wrap ul.menu .point {
+    background-image: url(../../images/websearch/point.png);
+}
+.show {
+    display: block !important;
+}
+
+
+
+.out-wrap ul.menu a {
+    color: #535353;
+    display: inline-block;
+    width: 96%;
+    font: 400 14px "Microsoft YaHei", tahoma, arial,sans-serif !important;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.out-wrap ul.menu a:hover{
+    font: 400 18px "Microsoft YaHei", tahoma, arial,sans-serif !important;
+    color: red;
+}
+.out-wrap ul.menu .number {
+    float: right;
+    color: #a1a1a1;
+    font: 400 12px/20px "Microsoft YaHei", tahoma, arial,sans-serif !important;
+}
+
+.out-wrap .bBottom1 {/*两个；列表之间中间的留白部分*/
+    height: 10px;
+    border-bottom: 1px solid #ccc !important;
+    border-top: 1px solid #ccc !important;
+    margin-top: -1px;
+}
+
+.bg-f5-to-f0 {
+    background: #f5f5f5;
+}
+
+.out-wrap .part-3 .p3-filter .no-icon {/*没有图标的就向左移动20px*/
+    padding-left: 20px;
+}
+.out-wrap .part-3 .p3-filter .search {/*搜索栏的div*/
+    padding: 10px 20px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.filter-input {/*小输入框*/
+    width: 156px;
+    float: left;
+    background-color: #fff;
+    height: 24px;
+    padding-left: 7px;
+    color: #222 !important;
+    border-radius: 3px 0 0 3px;
+    font: 100 12px/20px "Microsoft YaHei", tahoma, arial,sans-serif !important;
+}
+.icon-filter-search{/*搜索小图标*/
+    width: 12px;
+    height: 12px;
+    background-image: url(../../images/websearch/nav-light.png);
+    background-color: #fff;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 6px solid #fff;
+    border-radius: 0 3px 3px 0;
+    display: inline-block;
+    float: left;
+    cursor: pointer;
+}

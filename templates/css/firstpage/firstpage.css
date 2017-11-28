@@ -38,11 +38,20 @@
 .out-wrap .cates-banner {
     height: 485px;
 }
+.out-wrap .cates-banner {
+    width: 1200px;
+    height: 485px;
+    position: absolute;
+    z-index: 99;
+    margin-top: 4px;
+    margin-left: -50px;
+    display: none;
+}
 
 .out-wrap .banner {
     width: 1200px;
     height: 485px;
-    margin-top: 4px;
+  /*  margin-top: 4px;*/
 }
 
 .abso {
@@ -146,9 +155,8 @@
 .out-wrap .cates-banner .cates {
     margin: 0;
    /* width: 223px;*/
-    width: 226px;
+    width: 223px;
     height: 485px;
-    margin-top: 4px;
     z-index: 1;
     background-color: rgba(51, 51, 51, 0.88) !important;
 }
@@ -156,6 +164,17 @@
 .out-wrap .cates li.cate:first-child {
     margin-top: 0px;
     height: 56px;
+}
+
+
+
+.out-wrap .cates li.cate:hover {
+    width: 223px;
+    border-bottom: 1px solid transparent;
+    z-index: 100;
+    background-color: #fff;
+    box-shadow: 0px 0px 4px 0px rgba(68, 68, 68, 0.4);
+
 }
 
 .out-wrap .cates li.cate {
@@ -166,14 +185,7 @@
 
 }
 
-.out-wrap .cates li.cate:hover {
-    width: 223px;
-    border-bottom: 1px solid transparent;
-    z-index: 100;
-    background-color: #fff;
-    box-shadow: 0px 0px 4px 0px rgba(68, 68, 68, 0.4);
 
-}
 
 .out-wrap .cates li.cate a {
     color: #fff;
@@ -465,7 +477,7 @@
     height: 350px !important;
     width: 198px !important;
     background-color: #fff !important;
-    float: left;
+    float: left ;
 }
 
 .floors .list .picture{
@@ -568,7 +580,7 @@
     right: 5px;
 }
 
-.floors .block .list .imgitem{
+.floors .list .imgitem{
      padding: 15px;
      height: 350px !important;
      width: 198px !important;
@@ -659,4 +671,52 @@
 }
 .new-products .block .list .imgitems a.imgitem:nth-child(4n){
     margin-right: 0px;
+}
+
+
+/*猜你喜欢 css*/
+.guesslist{
+    padding: 40px 0 0 !important;
+}
+.floors .titlename{
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333333;
+    font: 300 22px/22px "Microsoft YaHei", tahoma, arial;;
+}
+.floors .titlename a{
+    position:  absolute;
+    margin-left: 576px;
+}
+
+.icon-refresh{
+    width: 14px;
+    height: 14px;
+    background-image: url(../../images/firstpage/icon-refresh.png);
+    margin: 4px 0 4px 10px;
+}
+
+
+.floors .text-refresh {
+    color: #aeaeae;
+    font: 300 14px/22px "Microsoft YaHei", tahoma, arial;
+}
+
+.floors .guesslike .list{
+    height: 430px;
+}
+
+.floors .list a.imgitem:last-child {
+    margin-right: 0;
+}
+
+.floors .guesslike .list .imgitem{
+    padding: 15px;
+    height: 350px !important;
+    width: 198px !important;
+    background-color: #fff !important;
+    margin-right: 15px;
+    display: block;
+    float: left;
+
 }
