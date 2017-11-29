@@ -359,6 +359,13 @@ button, input, select, textarea {
     width: 198px !important;
     background-color: #fff !important;
 }
+.list a.item:nth-child(5n) {
+    margin-right: 0;
+}
+.list a.item:nth-child(n+6) {
+    margin-top: 15px;
+}
+
 .list .picture {
     width: 148px;
     height: 248px;
