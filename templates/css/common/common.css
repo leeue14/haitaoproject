@@ -277,7 +277,12 @@
 .out-wrap .brands-box a:nth-child(odd) {
     margin-left: 0;
 }
-
+textarea, input {
+    background: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -webkit-appearance: none;
+}
 button, input, select, textarea {
     font: 16px/1.5 Helvetica, Arial;
     outline: none;
@@ -292,6 +297,11 @@ textarea, input {
 
 address, em, i, b {
     font-style: normal;
+}
+
+button, input, select, textarea {
+    font: 16px/1.5 Helvetica,Arial;
+    outline: none;
 }
 
 /*页码样式*/

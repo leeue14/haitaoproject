@@ -201,3 +201,746 @@ body .out-wrap {
     font: bold 12px/19px "Microsoft YaHei", tahoma, arial;
     color: #333;
 }
+
+.xbase .row2 {
+    position: relative;
+    height: 71px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.xbase .row2 dl {
+    position: relative;
+}
+.xbase .row2 dd {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    max-height: 82px;
+    font: 400 14px/71px "Microsoft YaHei", tahoma, arial;
+}
+.xbase .row2 span {
+    font: 400 48px/71px Helvetica, "Microsoft YaHei", tahoma, arial;
+    color: #d0021b;
+    float: left;
+}
+
+.xbase .row2 dt {
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+    font: 400 14px/71px "Microsoft YaHei", tahoma, arial;
+    color: #a1a1a1;
+    text-align: justify;
+    margin-right: 0;
+}
+
+
+
+.org-price {
+    margin: 0;
+    font: 400 14px/16px "Microsoft YaHei", tahoma, arial;
+    line-height: 71px;
+    float: left;
+    color: #a1a1a1;
+}
+
+.org-price em {
+    text-decoration: line-through;
+    font: 400 14px/16px "Microsoft YaHei", tahoma, arial;
+    color: #a1a1a1;
+    margin: 13px 0 0;
+}
+.discount {
+    display: block;
+    background-color: #f56362;
+    color: #fff;
+    width: auto;
+    max-width: 60px;
+    text-align: center;
+    font: 400 14px/19px "Microsoft YaHei", tahoma, arial;
+    margin: 3px 0;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+.discount {
+     float: left;
+     display: inline-block;
+     margin: 26px 8px;
+     width: 53px;
+ }
+.discount em {
+    font: 400 13px/20px "Microsoft YaHei", tahoma, arial;
+}
+
+#freetax dl.promption dt {
+    position: relative;
+    width: 100%;
+    margin-bottom: 18px;
+    height: 32px;
+    color: #666666;
+    font: 400 16px/2 PingFang-SC, Helvetica, "Microsoft YaHei", tahoma, arial;
+    text-align: left;
+}
+
+#freetax .promption__tag {
+    float: left;
+    position: relative;
+    padding: 0 10px;
+    margin-right: 14px;
+    color: #FFF;
+    font-size: 16px;
+    line-height: 2;
+    background-color: #F56362;
+    border-radius: 2px;
+}
+
+#freetax .promption__tag::after {/*小角标*/
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -4px;
+    margin-top: -6px;
+    border-left: 4px solid #F56362;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+}
+
+.xbase .row2 span {
+    font: 400 48px/71px Helvetica, "Microsoft YaHei", tahoma, arial;
+    color: #d0021b;
+    float: left;
+}
+#freetax .promption__btn {
+    float: right;
+    padding: 0 14px;
+    color: #000;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 2;
+    background-color: #FFCC40;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.xbase .row3 {
+    position: relative;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.xbase .row3 li {
+    overflow: hidden;
+    display: block;
+    margin-bottom: 10px;
+    position: relative;
+}
+.xbase .row3 h2 {
+    float: left;
+    min-width: 42px;
+    padding: 0;
+    color: #333;
+}
+.xbase .row3 h2, .xbase .row3 span, .xbase .row3 a {
+    display: inline-block;
+    font: 400 14px/19px "Microsoft YaHei", tahoma, arial;
+    word-wrap: normal;
+    word-break: initial;
+}
+
+.xbase .row3 span {
+    font: 400 14px/21px Helvetica, "Microsoft YaHei", tahoma, arial;
+    position: relative;
+    left: 20px;
+    float: left;
+    color: #666666;
+
+}
+.xbase .row3 a {
+    color: rgb(112, 167, 232);
+    padding: 0px 5px;
+}
+.nation-flag {
+    float: left;
+    width: 23px;
+    height: 17px;
+    background-size: 23px 17px;
+    background-image: url(info.css);
+    margin: 1px 10px 1px 0px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    margin-right: 2px;
+}
+
+.xbase .row3 span span {
+    left: 0px;
+    float: none;
+}
+
+
+.ques {/*圆圈里的小问号css*/
+    float: left;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #666;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    text-align: center;
+    font: 100 12px/14px "Microsoft YaHei", tahoma, arial !important;
+    color: #666;
+    cursor: pointer;
+    display: inline-block !important;
+    /* margin-top: 12px; */
+    margin-left: 5px;
+}
+
+/*row4 css*/
+.xbase .row4 {
+    margin-bottom: 30px;
+}
+.xbase .row4 li {
+    display: block;
+    overflow: hidden;
+}
+
+.xbase .row3 label, .xbase .row4 label {
+    display: inline-block;
+    float: left;
+    min-width: 38px;
+    margin-right: 24px;
+    color: rgb(51, 51, 51);
+    font: 400 14px/19px "Microsoft YaHei", tahoma, arial;
+}
+
+.xbase .row4 label {
+    font: 400 14px/25px "Microsoft YaHei", tahoma, arial;
+}
+.block-style label {
+    line-height: 60px;
+}
+
+/*选择的图片区*/
+.xbase .row4 .rect-select {
+    width: 490px;
+}
+.xbase .row4 .rect-select {
+    float: left;
+    width: 470px;
+    overflow: hidden;
+}
+
+
+.xbase .row4 .rect-option {
+    min-width: 106px;
+    font: 400 14px/25px "Microsoft YaHei", tahoma, arial;
+}
+/*.xbase .row4 .selected {
+    background-color: rgb(51, 51, 51);
+    color: rgb(255, 255, 255);
+    cursor: auto;
+}*/
+.xbase .row4 .rect-option {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: left;
+    color: rgb(51, 51, 51);
+    cursor: pointer;
+    min-width: 98px;
+    text-align: center;
+    word-break: initial;
+    padding: 0px 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(51, 51, 51);
+    border-image: initial;
+    font: 400 14px/25px "Microsoft YaHei", tahoma, arial;
+}
+.xbase .row4 .rect-option{
+    min-width: auto;
+}
+
+.block-style .rect-option {
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+    padding: 1px !important;
+}
+
+.block-style .img {
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    z-index: -100;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/*鼠标选择了某个商品样式*/
+.block-style .selected {
+    position: relative;
+    background-color: transparent;
+    padding: 0px !important;
+    border-width: 2px !important;
+    border-style: solid !important;
+    border-color: rgb(51, 51, 51) !important;
+    border-image: initial !important;
+}
+.block-style .rect-option {
+    height: 60px;
+    width: 60px;
+    min-width: auto;
+    cursor: pointer;
+    padding: 1px !important;
+}
+.block-style .selected b {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 22px;
+    height: 22px;
+    background-image: url(../../images/gooddetail/selected.png);
+    z-index: 5;
+    background-position: right bottom;
+}
+
+/*数量选择一栏*/
+.xbase .row4 .minus {
+    font-size: 20px;
+}
+.xbase .row4 span {
+    color: rgb(151, 151, 151);
+    cursor: pointer;
+    float: left;
+    font: 400 14px/25px "Microsoft YaHei", tahoma, arial;
+    padding: 0px 8px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(230, 230, 230);
+    border-image: initial;
+}
+.xbase .row4 #num {
+    border-right-width: initial;
+    border-left-width: initial;
+    border-right-color: initial;
+    border-left-color: initial;
+    width: 45px;
+    text-align: center;
+    float: left;
+    border-style: solid none;
+    border-image: initial;
+    border-top: 1px solid rgb(230, 230, 230);
+    border-bottom: 1px solid rgb(230, 230, 230);
+    font: 400 14px/25px "Microsoft YaHei", tahoma, arial;
+    padding: 0px;
+}
+.xbase .row4 .limit-count {
+    display: none;
+    text-align: center;
+    color: rgb(208, 2, 27);
+    cursor: default;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    font: 400 12px/25px "Microsoft YaHei", tahoma, arial;
+}
+
+.stock-summary {
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-family: "Microsoft YaHei", tahoma, arial;
+    line-height: 72px;
+}
+
+/*尺码选择*/
+/*
+.xbase .row4 .j_select .rect-select .rect-option {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: left;
+    color: rgb(51, 51, 51);
+    cursor: pointer;
+    min-width: 98px;
+    text-align: center;
+    word-break: initial;
+    padding: 0px 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(51, 51, 51);
+    border-image: initial;
+    font: 400 14px/25px "Microsoft YaHei", tahoma, arial;
+}
+*/
+.xbase .row4 #select .rect-select  a{
+    min-width: 106px;
+}
+.xbase .row4 #select .rect-select .selected{
+    background-color: rgb(51, 51, 51);
+    color: rgb(255, 255, 255);
+    cursor: auto;
+}
+.sizematch {
+    color: rgb(72, 144, 226);
+    cursor: pointer;
+    float: left;
+    margin-left: 10px;
+    font: 400 12px/27px Helvetica, "Microsoft YaHei", tahoma, arial;
+    text-decoration: underline;
+}
+
+/**/
+.stock-summary {
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-family: "Microsoft YaHei", tahoma, arial;
+    line-height: 72px;
+}
+
+/*row5 css*/
+.xbase .row5 {
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.xbase .row5 .buy {
+    color: rgb(255, 255, 255);
+    background-color: rgb(51, 51, 51);
+}
+.xbase .row5 a {
+    display: block;
+    float: left;
+    margin-right: 20px;
+    color: rgb(102, 102, 102);
+    font: 400 12px/48px "Microsoft YaHei", tahoma, arial;
+    text-decoration: underline;
+}
+.xbase .row5 .add-cart, .xbase .row5 .buy, .xbase .row5 .no-goods {
+    width: 144px;
+    text-align: center;
+    cursor: pointer;
+    font: 400 14px/44px "Microsoft YaHei", tahoma, arial;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(51, 51, 51);
+    border-image: initial;
+    text-decoration: none;
+}
+
+.xbase .row6 {
+    color: rgb(153, 153, 153);
+    overflow: hidden;
+    font: 400 12px/16px "Microsoft YaHei", tahoma, arial;
+}
+
+
+/*poperty-img*/
+.property-img {
+    float: left;
+    width: 1160px;
+    text-align: left;
+    margin: 20px auto 0px;
+    padding: 10px 0px;
+    border-top: 1px solid rgb(230, 230, 230);
+    border-bottom: 1px solid rgb(230, 230, 230);
+}
+.property-img .item {
+    margin-left: 70px;
+    float: left;
+    width: 220px;
+    overflow: hidden;
+}
+.property-img .item:first-child {
+    margin-left: 40px;
+}
+.property-img .item .icon {
+    width: 40px;
+    height: 40px;
+    float: left;
+    text-align: center;
+    color: rgb(102, 102, 102);
+    background-image: url(../../images/gooddetail/icon-box.png);
+    background-size: contain;
+    margin: 4px 10px 4px 0px;
+    font: 400 20px/38px "Microsoft YaHei", tahoma, arial;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.property-img .item .title {
+    display: block;
+    color: rgb(102, 102, 102);
+    font: 400 18px/24px "Microsoft YaHei", tahoma, arial;
+}
+.property-img .item .title {
+    top: 4px;
+    position: relative;
+}
+.property-img .item span {
+    color: rgb(153, 153, 153);
+    font: 400 12px/18px "Microsoft YaHei", tahoma, arial;
+}
+
+.relative-goods {
+    text-align: center;
+    float: left;
+}
+.relative-goods h2 {
+    display: block;
+    color: rgb(51, 51, 51);
+    background-color: rgb(255, 255, 255);
+    width: 1280px;
+    font: 400 18px/24px "Microsoft YaHei", tahoma, arial;
+    padding: 20px 0px;
+}
+
+/*相关商品展示区*/
+.relative-goods .goods-pad {
+    width: 1280px;
+    height: 426px;
+    padding: 10px 0px;
+}
+.relative-goods .goods-card:first-child {
+    margin-left: 0px;
+}
+.relative-goods .goods-card {
+    position: relative;
+    width: 248px;
+    height: 426px;
+    margin-left: 10px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    float: left;
+}
+.relative-goods .goods-card h3 {
+    width: 210px;
+    height: 20px;
+    color: rgb(51, 51, 51);
+    word-wrap: normal;
+    word-break: break-word;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    overflow: hidden;
+    margin: 0px auto;
+    font: bold 14px/20px BrandonGrotesque, AvenirNext-Regular, Helvetica, Arial, sans-serif !important;
+}
+.relative-goods .goods-card h4 {
+    width: 210px;
+    height: 20px;
+    color: rgb(161, 161, 161);
+    word-wrap: normal;
+    word-break: break-word;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    padding: 0px 25px;
+    overflow: hidden;
+    margin: 0px auto;
+    font: 400 13px/20px BrandonGrotesque, AvenirNext-Regular, Helvetica, Arial, sans-serif !important;
+}
+.relative-goods .goods-card .real-price {
+    color: rgb(170, 20, 45);
+    font: 400 17px/24px "Microsoft YaHei", tahoma, arial;
+}
+.price-info {
+    text-align: center;
+    color: rgb(107, 102, 99);
+    height: 17px;
+    font-family: BrandonGrotesque, AvenirNext-Regular, Helvetica, Arial, sans-serif;
+}
+.line {
+    border-top: 1px solid #ccc;
+}
+.line {
+    width: 80px;
+    margin: 12px auto 4px;
+    border-top: 2px solid rgb(230, 230, 230);
+}
+.seller-info {
+    text-align: center;
+    color: rgb(161, 161, 161);
+    display: table;
+    margin: 0px auto;
+    padding: 0px 12px;
+    font: 400 13px/24px BrandonGrotesque, AvenirNext-Regular, Helvetica, Arial, sans-serif !important;
+}
+.relative-goods .goods-card .goods-img {
+    width: 232px;
+    height: 278px;
+    background-size: contain;
+    cursor: pointer;
+    margin: 0px auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/*商品描述区*/
+.content-description {
+    width: 1200px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    padding: 40px;
+}
+.content-description .content {
+    width: 890px;
+    float: left;
+}
+.content-description .content ul.content-ul {
+    width: 890px;
+    height: 48px;
+    background-color: rgb(240, 240, 240);
+    margin-bottom: 10px;
+}
+.content-description .content ul.content-ul li:first-child {
+    background-color: rgb(51, 51, 51);
+}
+.content-description .content ul.content-ul li {
+    width: 168px;
+    height: 48px;
+    float: left;
+    text-align: center;
+}
+.content-description .content ul.content-ul li:first-child a {
+    color: rgb(255, 255, 255);
+}
+.content-description .content ul.content-ul li a {
+    font: 400 14px/48px "Microsoft YaHei", tahoma, arial;
+}
+
+
+.content-description #gwd {
+    margin-bottom: 20px;
+    width: 870px;
+}
+.content-description #gwd, .content-description #gid {
+    float: left;
+    margin-left: 20px;
+    overflow: hidden;
+}
+.content-description .link {
+    width: 10px;
+    height: 0px;
+    position: relative;
+    top: -50px;
+}
+.content-description .title-cn {
+    display: inline-block;
+    color: rgb(51, 51, 51);
+    font: 400 18px "Microsoft YaHei", tahoma, arial;
+    margin: 20px 10px 20px 0px;
+}
+.content-description .title-en {
+    display: inline-block;
+    color: rgb(153, 153, 153);
+    font: 400 14px/19px "Microsoft YaHei", tahoma, arial;
+    margin: 20px 20px 20px 0px;
+}
+.content-description #gwd p, .content-description #gid p {
+    word-break: keep-all;
+    color: rgb(38, 38, 38);
+    font: 400 14px/21px "Microsoft YaHei", tahoma, arial;
+}
+/*商品图片*/
+.content-description #gid {
+    padding-bottom: 10px;
+    width: 850px;
+    border-top: 1px solid rgb(204, 204, 204);
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+.content-description #gwd, .content-description #gid {
+    float: left;
+    margin-left: 20px;
+    overflow: hidden;
+}
+.content-description #gid .img {
+    width: 850px;
+    height: 850px;
+    background-size: contain;
+    margin: 0px auto 20px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+/*热门推荐*/
+.content-description .hot-recommend {
+    width: 300px;
+    float: right;
+}
+.content-description .hot-recommend .title {
+    width: 300px;
+    height: 48px;
+    background-color: rgb(51, 51, 51);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font: 400 14px/48px "Microsoft YaHei", tahoma, arial;
+}
+.content-description .hot-recommend .goods-card {
+    width: 298px;
+    height: 510px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(204, 204, 204);
+    border-image: initial;
+}
+.content-description .hot-recommend .goods-card h3 {
+    width: 260px;
+    height: 25px;
+    color: rgb(51, 51, 51);
+    word-wrap: normal;
+    word-break: break-word;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    overflow: hidden;
+    margin: 0px auto;
+    font: bold 15px/25px BrandonGrotesque, AvenirNext-Regular, Helvetica, Arial, sans-serif !important;
+}
+.content-description .hot-recommend .goods-card h4 {
+    width: 260px;
+    height: 25px;
+    color: rgb(161, 161, 161);
+    word-wrap: normal;
+    word-break: break-word;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    padding: 0px 25px;
+    overflow: hidden;
+    margin: 0px auto;
+    font: 400 15px/25px BrandonGrotesque, AvenirNext-Regular, Helvetica, Arial, sans-serif !important;
+}
+.content-description .hot-recommend .goods-card .real-price {
+    color: rgb(208, 2, 27);
+    font: 400 17px/25px "Microsoft YaHei", tahoma, arial;
+}
+.price-info {
+    text-align: center;
+    color: rgb(107, 102, 99);
+    height: 17px;
+    font-family: BrandonGrotesque, AvenirNext-Regular, Helvetica, Arial, sans-serif;
+}
+.price-info .real, .price-info .original {
+    color: rgb(161, 161, 161);
+    display: inline-block;
+    font: 400 12px/16px BrandonGrotesque, AvenirNext-Regular, Helvetica, Arial, sans-serif !important;
+}
+.price-info .real {
+    margin-right: 5px;
+}
+.seller-info {
+    text-align: center;
+    color: rgb(161, 161, 161);
+    display: table;
+    margin: 0px auto;
+    padding: 0px 12px;
+    font: 400 13px/24px BrandonGrotesque, AvenirNext-Regular, Helvetica, Arial, sans-serif !important;
+}
+.content-description .hot-recommend .goods-card .goods-img {
+    width: 278px;
+    height: 351.899px;
+    background-size: contain;
+    cursor: pointer;
+    margin: 10px auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
