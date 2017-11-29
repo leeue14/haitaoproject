@@ -346,7 +346,76 @@ button, input, select, textarea {
     border-color: #666 !important;
     cursor: inherit !important
 }
+.out-wrap .navs .link:hover {
+    color: #b0b0b0;
+}
 
+.list a.item {
+    background: #fff;
+    margin-right: 15px;
+    float: left;
+    padding: 15px;
+    height: 350px !important;
+    width: 198px !important;
+    background-color: #fff !important;
+}
+.list .picture {
+    width: 148px;
+    height: 248px;
+    float: none;
+    display: block;
+}
+.list .brand {
+    text-align: center;
+    margin-top: 12.5px;
+    color: #333;
+    font: 800 13px/16px "Microsoft YaHei", tahoma, arial;
+}
+.text-elip {
+    word-wrap: normal;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.list .brand-t {
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.list .market, .list .seller {
+    text-align: center;
+    font: 400 12px/16px "Microsoft YaHei", tahoma, arial;
+    margin-top: 8px;
+    color: #b5b5b5;
+}
+.list .market {
+    color: #ff3433;
+    font-size: 14px;
+}
+.list .market span {
+    text-decoration: line-through;
+    color: #b5b5b5;
+    font: 400 12px/16px "Microsoft YaHei", tahoma, arial;
+}
+.list .market em {
+    margin-left: 3px;
+    width: 40px;
+    height: 17px;
+    font: 100 12px/16px "Microsoft YaHei", tahoma, arial;
+    background-color: #f46464;
+    color: #fff;
+    display: inline-block;
+}
+.soldout {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    margin-left: 130px;
+    margin-top: -355px;
+    opacity: .85;
+    z-index: 0;
+}
 
 /*版权信息css*/
 .pop-img {

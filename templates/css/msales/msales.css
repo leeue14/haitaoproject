@@ -1,0 +1,73 @@
+.page-top {
+    height: 155px;
+}
+.select {
+    width: 1200px;
+    height: 155px;
+}
+
+.floors {
+    padding: 25px 0 40px;
+    float: left;
+    width: 100%;
+}
+
+.floors .block {
+    height: 380px;
+    margin-top: 15px;
+}
+
+.floors .block .specials {
+    height: 100%;
+    margin-right: 15px;
+}
+.floors .block .special {
+    height: 380px;
+    width: 471px;
+    background: #fff;
+    margin-bottom: 15px;
+}
+.floors .block .special:last-child {
+    margin-bottom: 0;
+}
+
+.floors .block .countdown {
+    letter-spacing: 1px;
+    font: 100 18px/40px "Microsoft YaHei", tahoma, arial;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    background: rgba(0,0,0,.5);
+    position: relative;
+    top: 340px;
+    display: none;
+}
+
+/*右边图片展示区*/
+.floors .block .list {
+    position: relative;
+    width: 714px;
+    height: 100% !important;
+    overflow: hidden;
+}
+.out-wrap .block .prev {
+    background-image: url(../../images/firstpage/left-arrow-circle.png);
+    left: 5px;
+}
+.out-wrap .block .next {
+    background-image: url(../../images/firstpage/right-arrow-circle.png);
+    right: 5px;
+}
+.out-wrap .block .prev, .out-wrap .block .next {
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    width: 30px;
+    height: 30px;
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+    z-index: 2;
+}
+
+
