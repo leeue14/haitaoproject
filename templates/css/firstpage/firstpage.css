@@ -435,6 +435,13 @@
     background-position: 0 -75px;
     right: 2px;
 }
+.benifits-goods .index-amazon-wrap .index-amazon-main .clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
 
 .sn_slide_minus:hover {
     background-position: -30px 0;
@@ -588,7 +595,7 @@
 .qianggou-wap-content {
     margin: 0 auto;
     width: 100%;
-  /*  background: #f5f5f5;*/
+    /*  background: #f5f5f5;*/
 }
 .qianggougoods   a.count-down {
     float: left;
@@ -667,7 +674,7 @@
     left: 5px\0;
 }
 .qianggougoods .seckill-list-wrap a.prev {
-   /* left: -30px;*/
+    /* left: -30px;*/
 }
 .qianggougoods .seckill-list-wrap a.prev, .qianggougoods .seckill-list-wrap a.next {
     position: absolute;
@@ -956,7 +963,7 @@
     background: rgba(0,0,0,.5);
     position: relative;
     top: 340px;
-/*    display: none;*/
+    /*    display: none;*/
 }
 .floors .block .prev,.floors .block .next{
     position: absolute;
@@ -984,15 +991,15 @@
 }
 
 .floors .list .imgitem{
-     padding: 15px;
-     height: 350px !important;
-     width: 198px !important;
-     background-color: #fff !important;
+    padding: 15px;
+    height: 350px !important;
+    width: 198px !important;
+    background-color: #fff !important;
     margin-right: 10px;
     display: block;
-     float: left;
+    float: left;
 
- }
+}
 .floors .list .market span {
     text-decoration: line-through;
     color: #b5b5b5;
@@ -1012,7 +1019,7 @@
 
 /*第三层*/
 .floors .clothbox{
-   /* height: 695px;*/
+    /* height: 695px;*/
 }
 .floors .james{
     width: 228px;

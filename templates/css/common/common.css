@@ -315,14 +315,14 @@ button, input, select, textarea {
 a, a:hover {
     color: #666;
     text-decoration: none;
-}
+}/*
 .clearfix:after {
     content: ".";
     display: block;
     height: 0;
     clear: both;
     visibility: hidden;
-}
+}*/
 
 /*页码样式*/
 .pages {
@@ -425,6 +425,7 @@ a, a:hover {
     color: #b5b5b5;
     font: 400 12px/16px "Microsoft YaHei", tahoma, arial;
 }
+
 .list .market em {
     margin-left: 3px;
     width: 40px;
@@ -434,6 +435,7 @@ a, a:hover {
     color: #fff;
     display: inline-block;
 }
+
 .soldout {
     width: 70px;
     height: 70px;
@@ -445,6 +447,7 @@ a, a:hover {
 }
 
 /*版权信息css*/
+
 .pop-img {
     margin: 0 auto;
     padding: 40px 0;
