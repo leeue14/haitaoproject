@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    a:hover img {
+       /* -webkit-animation: blink 1s;*/
+        animation: blink 1s;
+    }
+    /*@keyframes blink {
+        to {
+            opacity:0.8;
+            filter:alpha(opacity=80); !* 针对 IE8 以及更早的版本 *!
+        }
+    }*/
+
+    @-webkit-keyframes blink{
+        0%{opacity:1}
+        50%{opacity:.7}
+        100%{opacity:1}
+    }
+    @keyframes blink{
+        0%{opacity:1}
+        50%{opacity:.7}
+        100%{opacity:1}
+    }
+
+
+
+
+</style>
+<body>
+<a href="#">
+    <img class="" src="templates/images/firstpage/brand_hover_img_1.jpg">
+</a>
+<p class="blink">翻我牌</p>
+</body>
+</html>
