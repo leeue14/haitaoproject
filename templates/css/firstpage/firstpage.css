@@ -1303,3 +1303,7 @@ a, img {
     background: #333;
     color: #fff;
 }
+/*模糊效果*/
+.out-wrap .navs .link:hover {
+    color: #b0b0b0;
+}
