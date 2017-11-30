@@ -493,12 +493,9 @@ a, a:hover {
         filter:alpha(opacity=80); !* 针对 IE8 以及更早的版本 *!
     }
 }*/
-a:hover img {
-    -webkit-animation: blink 1s;
-    animation: blink 1s;
-}
 
 
+/*商品详情页的模糊*/
 @-webkit-keyframes blink{
     0%{opacity:1}
     50%{opacity:.7}
@@ -510,12 +507,12 @@ a:hover img {
     100%{opacity:1}
 }
 
-.benifits-goods .picture:hover{
+.picture:hover{
     -webkit-animation: blink 1s;
     animation: blink 1s;
 }
 
-/*商品详情页的模糊*/
+
 .goods-img:hover{
     -webkit-animation: blink 1s;
     animation: blink 1s;
@@ -524,3 +521,12 @@ a:hover img {
     -webkit-animation: blink 1s;
     animation: blink 1s;
 }
+.pro-pic:hover{
+    -webkit-animation: blink 1s;
+    animation: blink 1s;
+}
+/*
+a:hover img {
+    -webkit-animation: blink 1s;
+    animation: blink 1s;
+}*/
