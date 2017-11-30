@@ -7,10 +7,12 @@
     <link rel="stylesheet" href="../../css/bases/base.css">
     <link rel="stylesheet" href="../../css/bases/common.css">
     <link rel="stylesheet" href="../../css/hearder/hearder.css">
-    <link rel="stylesheet" href="../../css/firstpage/firstpage.css">
+
     <link rel="stylesheet" href="../../css/footer/footer.css">
+    <link rel="stylesheet" href="../../css/common/common.css">
+    <link rel="stylesheet" href="../../css/firstpage/firstpage.css">
 </head>
-<body>
+<body >
 
 
 <!--<iframe class="iframecontent" frameborder=0 width="100%" height="100%" src="../header/index.html"
@@ -29,643 +31,448 @@
                 首页
             </a>
             <a href="#" class="link ">
-                官网直购搜索
+                商品搜索
             </a>
             <a href="#" class="link ">
                 官网大促
             </a>
-            <a href="#" class="link ">
+           <!-- <a href="#" class="link ">
                 商家
-            </a>
+            </a>-->
             <a href="#" class="link ">
                 品牌
             </a>
-            <a href="#" class="link ">
+           <!-- <a href="#" class="link ">
                 一键购
-            </a>
+            </a>-->
         </div><!--navs end-->
 
-        <!--商品二级菜单-->
-        <div class="cates-banner clearfix" id="banner">
-            <div class="abso banner">
-                <div class="sideBox">
+
+        <div class="cates-banners clearfix" id="banner">
+            <div class="abso banners">
+                <div class="slideBox" id="sildBox">
                     <div class="hd">
                         <ul id="numUl">
-                            <li style="background: orange;"></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li class="on"></li>
+                            <li class=""></li>
+                            <li class=""></li>
+                            <li class=""></li>
                         </ul>
                     </div><!--hd end-->
-
-                    <div class="scrollad">
-                        <ul id="uls">
-                            <li style="display: block;">
-                                <a href="#"><img src="../../images/firstpage/scrollad_bg1.jpg"></a>
+                    <div class="bd">
+                        <ul id="uls" style="position: relative; width: 1200px; height: 486px;">
+                            <li style="position: absolute; width: 1200px; left: 0px; top: 0px; display: block;">
+                                <a href="#" target="_blank">
+                                    <img src="../../images/firstpage/scrollad_bg1.jpg"></a>
                             </li>
-                            <li style="display: none;">
-                                <a href="#"><img src="../../images/firstpage/scrollad_bg2.jpg"></a>
+                            <li style="position: absolute; width: 1200px; left: 0px; top: 0px;display: none;">
+                                <a href="#" target="_blank">
+                                    <img src="../../images/firstpage/scrollad_bg2.jpg"></a>
                             </li>
-                            <li style="display: none;">
-                                <a href="#"><img src="../../images/firstpage/scrollad_bg3.jpg"></a>
+                            <li style="position: absolute; width: 1200px; left: 0px; top: 0px; display: none;">
+                                <a href="#" target="_blank">
+                                    <img src="../../images/firstpage/scrollad_bg3.jpg"></a>
                             </li>
-                            <li style="display: none;">
-                                <a href="#"><img src="../../images/firstpage/scrollad_bg4.jpg"></a>
-                            </li>
-                            <li style="display: none;">
-                                <a href="#"><img src="../../images/firstpage/scrollad_bg5.jpg"></a>
+                            <li style="position: absolute; width: 1200px; left: 0px; top: 0px; display: none;">
+                                <a href="#" target="_blank">
+                                    <img src="../../images/firstpage/scrollad_bg4.jpg"></a>
                             </li>
                         </ul>
-
-                        <a id="prev" class="clearfix icon prev" href="javascript:;"><img
-                                src="../../images/firstpage/left-arrow.png"></a>
-                        <a id="next" class="clearfix icon next" href="javascript:;"><img
-                                src="../../images/firstpage/right-arrow.png"></a>
-                    </div>
-
-                </div><!--sideBox end-->
+                    </div><!--bd end-->
+                    <a id="prev"  class="icon prev" href="javascript:;"><img src="../../images/firstpage/left-arrow.png"></a>
+                    <a id="next"  class="icon next" href="javascript:;"><img src="../../images/firstpage/right-arrow.png"></a>
+                </div><!--slideBox end-->
 
 
-            </div><!--abso banner end-->
-            <ul class="abso cates" id="cates">
+            </div><!--banners end-->
+            <ul class="abso cates j_cates" id="cates">
                 <li class="cate">
                     <div class="white"></div>
-                    <div class="clearfix cate-hd ">
+                    <div class="cate-hd">
                         <span class="icon icon-cloth"></span>
                         <a target="_blank" href="#">服饰</a>
                     </div>
-                    <ul class="clearfix cate-bd">
+                    <ul class="clearfix cate-bd ">
                         <li>
-                            <a href="#" target="_blank">男装T恤</a>
+                            <a target="_blank" href="#">男装T恤</a>
+                            <a class="slash">/</a>
+                        </li>
+                        <li> <a target="_blank" href="#">女装</a>
                             <a class="slash">/</a>
                         </li>
                         <li>
-                            <a href="#" target="_blank">女装</a>
-                            <a class="slash">/</a>
-                        </li>
-                        <li>
-                            <a href="#" target="_blank">运动服饰</a>
+                            <a target="_blank" href="#">运动服饰</a>
                         </li>
                     </ul>
-
-                    <!--移动到这上面才会显示-->
                     <div class="abso hover-boxs">
-                        <div class="hover-box" style="width: 100%;">
+                        <div class="hover-box">
                             <div class="cates-box fl">
                                 <div class="part">
                                     <div class="title">女装</div>
-                                    <div class="list" style="margin-top: 14px;">
-                                        <a href="#" class="hot">T恤</a>
-                                        <a href="#" class="hot">睡衣</a>
-                                        <a href="#" class="hot">内衣</a>
-                                        <a href="#" class="hot">卫衣/连帽衫</a>
-                                        <a href="#" class="hot">大衣/风衣</a>
-                                        <a href="#" class="hot">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#" class="hot">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#" class="hot">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#" class="hot">大衣/风衣</a>
-                                    </div>
-
-                                </div>
-                                <div class="part" style="margin-left: 72px">
-                                    <div class="title">男装</div>
-                                    <div class="list" style="margin-top: 14px;">
-                                        <a href="#" class="hot">T恤</a>
-                                        <a href="#" class="hot">睡衣</a>
-                                        <a href="#" class="hot">内衣</a>
-                                        <a href="#" class="hot">卫衣/连帽衫</a>
-                                        <a href="#" class="hot">大衣/风衣</a>
-                                        <a href="#" class="hot">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#" class="hot">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#" class="hot">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#" class="hot">大衣/风衣</a>
+                                    <div class="list">
+                                        <a target="_blank" href="#" class="hot">T恤</a>
+                                        <a target="_blank" href="#" class="hot">睡衣</a>
+                                        <a target="_blank" href="#" class="hot">内衣</a>
+                                        <a target="_blank" href="#" class="hot">卫衣/连帽衫</a>
+                                        <a target="_blank" href="#" class="">夹克/外套</a>
+                                        <a target="_blank" href="#" class="">家居服</a>
+                                        <a target="_blank" href="#" class="">连身衣</a>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="brands-box fr">
                                 <div class="part">
-                                    <div class="title">热卖大牌</div>
-                                    <div class="list" style="margin-top: 14px;">
-                                        <a target="_blank" href="#"
-                                           style="background-image: url('../../images/firstpage/Ralph_lauren.jpg');"
-                                           title="Ralph Lauren"></a>
-                                        <a target="_blank" href="#"
-                                           style="background-image: url('../../images/firstpage/Ralph_lauren.jpg');"
-                                           title="Ralph Lauren"></a>
-                                        <a target="_blank" href="#"
-                                           style="background-image: url('../../images/firstpage/Ralph_lauren.jpg');"
-                                           title="Ralph Lauren"></a>
-                                        <a target="_blank" href="#"
-                                           style="background-image: url('../../images/firstpage/Ralph_lauren.jpg');"
-                                           title="Ralph Lauren"></a>
-                                        <a target="_blank" href="#"
-                                           style="background-image: url('../../images/firstpage/Ralph_lauren.jpg');"
-                                           title="Ralph Lauren"></a>
-                                        <a target="_blank" href="#"
-                                           style="background-image: url('../../images/firstpage/Ralph_lauren.jpg');"
-                                           title="Ralph Lauren"></a>
-                                        <a target="_blank" href="#"
-                                           style="background-image: url('../../images/firstpage/Ralph_lauren.jpg');"
-                                           title="Ralph Lauren"></a>
-                                        <a target="_blank" href="#"
-                                           style="background-image: url('../../images/firstpage/Ralph_lauren.jpg');"
-                                           title="Ralph Lauren"></a>
-                                    </div>
-                                </div>
+                                    <div class="title">男装</div>
+                                    <div class="list">
+                                        <a target="_blank" href="#" class="hot">T恤/Polo</a>
+                                        <a target="_blank" href="#" class="">内衣裤</a>
+                                        <a target="_blank" href="#" class="">卫衣/连帽衫</a>
+                                        <a target="_blank" href="#" class="">衬衫/罩衫</a>
+                                        <a target="_blank" href="#" class="">大衣/风衣</a>
+                                        <a target="_blank" href="#" class="hot">牛仔裤</a>
+                                        <a target="_blank" href="#" class="">短裤</a>
+                                        <a target="_blank" href="#" class="">运动服</a>
+                                        <a target="_blank" href="#" class="">泳装</a>
+                                        <a target="_blank" href="#" class="">家居服</a>
+                                    </div><!--list end-->
+                                </div><!--part end-->
+                                <div class="part">
+                                    <div class="title">男装</div>
+                                    <div class="list">
+                                        <a target="_blank" href="#" class="hot">T恤/Polo</a>
+                                        <a target="_blank" href="#" class="">内衣裤</a>
+                                        <a target="_blank" href="#" class="">卫衣/连帽衫</a>
+                                        <a target="_blank" href="#" class="">衬衫/罩衫</a>
+                                        <a target="_blank" href="#" class="">西服/套装</a>
+                                        <a target="_blank" href="#" class="">夹克/外套</a>
+                                        <a target="_blank" href="#" class="">泳装</a>
+                                        <a target="_blank" href="#" class="">家居服</a>
+                                    </div><!--list end-->
+                                </div><!--part end-->
+                            </div><!--cates-box end-->
+                            <div class="brands-box fr">
+                                <div class="title">热卖大牌</div>
+                                <div class="list">
+                                    <a target="_blank" href="#" style="background-image: url('../../images/firstpage/Ralph_lauren.jpg');" title="Ralph Lauren"></a>
 
-                            </div>
-                        </div>
+                                    <a target="_blank" href="#" style="background-image: url('../../images/firstpage/Ralph_lauren.jpg');" title="Victoria's Secret"></a>
+                                    <a target="_blank" href="#" style="background-image: url('../../images/firstpage/Ralph_lauren.jpg');" title="Kenzo"></a>
+                                </div><!--list end-->
+                            </div><!--brands-box end-->
+                        </div><!--hover-box end-->
                     </div><!--hover-boxs end-->
-                </li>
+                </li><!--li end-->
                 <li class="cate">
                     <div class="white"></div>
-                    <div class="clearfix cate-hd ">
+                    <div class="cate-hd">
                         <span class="icon icon-shoe"></span>
                         <a target="_blank" href="#">鞋靴</a>
                     </div>
-                    <ul class="clearfix cate-bd">
+                    <ul class="clearfix cate-bd ">
                         <li>
-                            <a href="#" target="_blank">靴</a>
+                            <a target="_blank" href="#">鞋</a>
+                            <a class="slash">/</a>
+                        </li>
+                        <li> <a target="_blank" href="#">高跟鞋</a>
                             <a class="slash">/</a>
                         </li>
                         <li>
-                            <a href="#" target="_blank">高跟鞋</a>
-                            <a class="slash">/</a>
-                        </li>
-                        <li>
-                            <a href="#" target="_blank">运动鞋</a>
+                            <a target="_blank" href="#">运动鞋</a>
                         </li>
                     </ul>
-                    <!--移动到这上面才会显示-->
                     <div class="abso hover-boxs">
-                        <div class="hover-box" style="width: 100%;">
+                        <div class="hover-box">
                             <div class="cates-box fl">
                                 <div class="part">
-                                    <div class="title">女鞋</div>
-                                    <div class="list" style="margin-top: 14px;">
-                                        <a href="#" class="hot">T恤</a>
-                                        <a href="#" class="hot">睡衣</a>
-                                        <a href="#" class="hot">内衣</a>
-                                        <a href="#" class="hot">卫衣/连帽衫</a>
-                                        <a href="#" class="hot">大衣/风衣</a>
-                                        <a href="#" class="hot">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#" class="hot">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#" class="hot">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#" class="hot">大衣/风衣</a>
-                                    </div>
-
-                                </div>
-                                <div class="part" style="margin-left: 72px">
-                                    <div class="title">男鞋</div>
-                                    <div class="list" style="margin-top: 14px;">
-                                        <a href="#" class="hot">T恤</a>
-                                        <a href="#" class="hot">睡衣</a>
-                                        <a href="#" class="hot">内衣</a>
-                                        <a href="#" class="hot">卫衣/连帽衫</a>
-                                        <a href="#" class="hot">大衣/风衣</a>
-                                        <a href="#" class="hot">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#" class="hot">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#" class="hot">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#" class="hot">大衣/风衣</a>
+                                    <div class="title">女装</div>
+                                    <div class="list">
+                                        <a target="_blank" href="#" class="hot">T恤</a>
+                                        <a target="_blank" href="#" class="hot">睡衣</a>
+                                        <a target="_blank" href="#" class="hot">内衣</a>
+                                        <a target="_blank" href="#" class="hot">卫衣/连帽衫</a>
+                                        <a target="_blank" href="#" class="">夹克/外套</a>
+                                        <a target="_blank" href="#" class="">家居服</a>
+                                        <a target="_blank" href="#" class="">连身衣</a>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="brands-box fr">
                                 <div class="part">
-                                    <div class="title">热卖大牌</div>
-                                    <div class="list" style="margin-top: 14px;">
-                                        <a target="_blank" href="#"
-                                           style="background-image: url('../../images/firstpage/Ralph_lauren.jpg');"
-                                           title="Ralph Lauren"></a>
-                                        <a target="_blank" href="#"
-                                           style="background-image: url('../../images/firstpage/Ralph_lauren.jpg');"
-                                           title="Ralph Lauren"></a>
-                                        <a target="_blank" href="#"
-                                           style="background-image: url('../../images/firstpage/Ralph_lauren.jpg');"
-                                           title="Ralph Lauren"></a>
-                                        <a target="_blank" href="#"
-                                           style="background-image: url('../../images/firstpage/Ralph_lauren.jpg');"
-                                           title="Ralph Lauren"></a>
-                                        <a target="_blank" href="#"
-                                           style="background-image: url('../../images/firstpage/Ralph_lauren.jpg');"
-                                           title="Ralph Lauren"></a>
-                                        <a target="_blank" href="#"
-                                           style="background-image: url('../../images/firstpage/Ralph_lauren.jpg');"
-                                           title="Ralph Lauren"></a>
-                                        <a target="_blank" href="#"
-                                           style="background-image: url('../../images/firstpage/Ralph_lauren.jpg');"
-                                           title="Ralph Lauren"></a>
-                                        <a target="_blank" href="#"
-                                           style="background-image: url('../../images/firstpage/Ralph_lauren.jpg');"
-                                           title="Ralph Lauren"></a>
-                                    </div>
-                                </div>
+                                    <div class="title">男装</div>
+                                    <div class="list">
+                                        <a target="_blank" href="#" class="hot">T恤/Polo</a>
+                                        <a target="_blank" href="#" class="">内衣裤</a>
+                                        <a target="_blank" href="#" class="">卫衣/连帽衫</a>
+                                        <a target="_blank" href="#" class="">衬衫/罩衫</a>
+                                        <a target="_blank" href="#" class="">大衣/风衣</a>
+                                        <a target="_blank" href="#" class="hot">牛仔裤</a>
+                                        <a target="_blank" href="#" class="">短裤</a>
+                                        <a target="_blank" href="#" class="">运动服</a>
+                                        <a target="_blank" href="#" class="">泳装</a>
+                                        <a target="_blank" href="#" class="">家居服</a>
+                                    </div><!--list end-->
+                                </div><!--part end-->
+                                <div class="part">
+                                    <div class="title">男装</div>
+                                    <div class="list">
+                                        <a target="_blank" href="#" class="hot">T恤/Polo</a>
+                                        <a target="_blank" href="#" class="">内衣裤</a>
+                                        <a target="_blank" href="#" class="">卫衣/连帽衫</a>
+                                        <a target="_blank" href="#" class="">衬衫/罩衫</a>
+                                        <a target="_blank" href="#" class="">西服/套装</a>
+                                        <a target="_blank" href="#" class="">夹克/外套</a>
+                                        <a target="_blank" href="#" class="">泳装</a>
+                                        <a target="_blank" href="#" class="">家居服</a>
+                                    </div><!--list end-->
+                                </div><!--part end-->
+                            </div><!--cates-box end-->
+                            <div class="brands-box fr">
+                                <div class="title">热卖大牌</div>
+                                <div class="list">
+                                    <a target="_blank" href="#" style="background-image: url('../../images/firstpage/Ralph_lauren.jpg');" title="Ralph Lauren"></a>
 
-                            </div>
-                        </div>
+                                    <a target="_blank" href="#" style="background-image: url('../../images/firstpage/Ralph_lauren.jpg');" title="Victoria's Secret"></a>
+                                    <a target="_blank" href="#" style="background-image: url('../../images/firstpage/Ralph_lauren.jpg');" title="Kenzo"></a>
+                                </div><!--list end-->
+                            </div><!--brands-box end-->
+                        </div><!--hover-box end-->
                     </div><!--hover-boxs end-->
-                </li>
+                </li><!--li end-->
                 <li class="cate">
                     <div class="white"></div>
-                    <div class="clearfix cate-hd ">
+                    <div class="cate-hd">
                         <span class="icon icon-bag"></span>
                         <a target="_blank" href="#">包袋</a>
                     </div>
-                    <ul class="clearfix cate-bd">
+                    <ul class="clearfix cate-bd ">
                         <li>
-                            <a href="#" target="_blank">女包</a>
+                            <a target="_blank" href="#">女包</a>
+                            <a class="slash">/</a>
+                        </li>
+                        <li> <a target="_blank" href="#">男包</a>
                             <a class="slash">/</a>
                         </li>
                         <li>
-                            <a href="#" target="_blank">男包</a>
-                            <a class="slash">/</a>
-                        </li>
-                        <li>
-                            <a href="#" target="_blank">箱包</a>
+                            <a target="_blank" href="#">箱包</a>
                         </li>
                     </ul>
-                    <!--移动到这上面才会显示-->
                     <div class="abso hover-boxs">
-                        <div class="hover-box" style="width: 100%;">
+                        <div class="hover-box">
                             <div class="cates-box fl">
                                 <div class="part">
-                                    <div class="title">女包</div>
-                                    <div class="list" style="margin-top: 14px;">
-                                        <a href="#" class="hot">T恤</a>
-                                        <a href="#" class="hot">睡衣</a>
-                                        <a href="#" class="hot">内衣</a>
-                                        <a href="#" class="hot">卫衣/连帽衫</a>
-                                        <a href="#" class="hot">大衣/风衣</a>
-                                        <a href="#" class="hot">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#" class="hot">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#" class="hot">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#" class="hot">大衣/风衣</a>
-                                    </div>
-
-                                </div>
-                                <div class="part" style="margin-left: 72px">
-                                    <div class="title">男包</div>
-                                    <div class="list" style="margin-top: 14px;">
-                                        <a href="#" class="hot">T恤</a>
-                                        <a href="#" class="hot">睡衣</a>
-                                        <a href="#" class="hot">内衣</a>
-                                        <a href="#" class="hot">卫衣/连帽衫</a>
-                                        <a href="#" class="hot">大衣/风衣</a>
-                                        <a href="#" class="hot">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#" class="hot">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#" class="hot">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#" class="hot">大衣/风衣</a>
+                                    <div class="title">女装</div>
+                                    <div class="list">
+                                        <a target="_blank" href="#" class="hot">T恤</a>
+                                        <a target="_blank" href="#" class="hot">睡衣</a>
+                                        <a target="_blank" href="#" class="hot">内衣</a>
+                                        <a target="_blank" href="#" class="hot">卫衣/连帽衫</a>
+                                        <a target="_blank" href="#" class="">夹克/外套</a>
+                                        <a target="_blank" href="#" class="">家居服</a>
+                                        <a target="_blank" href="#" class="">连身衣</a>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="brands-box fr">
                                 <div class="part">
-                                    <div class="title">热卖大牌</div>
-                                    <div class="list" style="margin-top: 14px;">
-                                        <a target="_blank" href="#"
-                                           style="background-image: url('../../images/firstpage/Ralph_lauren.jpg');"
-                                           title="Ralph Lauren"></a>
-                                        <a target="_blank" href="#"
-                                           style="background-image: url('../../images/firstpage/Ralph_lauren.jpg');"
-                                           title="Ralph Lauren"></a>
-                                        <a target="_blank" href="#"
-                                           style="background-image: url('../../images/firstpage/Ralph_lauren.jpg');"
-                                           title="Ralph Lauren"></a>
-                                        <a target="_blank" href="#"
-                                           style="background-image: url('../../images/firstpage/Ralph_lauren.jpg');"
-                                           title="Ralph Lauren"></a>
-                                        <a target="_blank" href="#"
-                                           style="background-image: url('../../images/firstpage/Ralph_lauren.jpg');"
-                                           title="Ralph Lauren"></a>
-                                        <a target="_blank" href="#"
-                                           style="background-image: url('../../images/firstpage/Ralph_lauren.jpg');"
-                                           title="Ralph Lauren"></a>
-                                        <a target="_blank" href="#"
-                                           style="background-image: url('../../images/firstpage/Ralph_lauren.jpg');"
-                                           title="Ralph Lauren"></a>
-                                        <a target="_blank" href="#"
-                                           style="background-image: url('../../images/firstpage/Ralph_lauren.jpg');"
-                                           title="Ralph Lauren"></a>
-                                    </div>
-                                </div>
+                                    <div class="title">男装</div>
+                                    <div class="list">
+                                        <a target="_blank" href="#" class="hot">T恤/Polo</a>
+                                        <a target="_blank" href="#" class="">内衣裤</a>
+                                        <a target="_blank" href="#" class="">卫衣/连帽衫</a>
+                                        <a target="_blank" href="#" class="">衬衫/罩衫</a>
+                                        <a target="_blank" href="#" class="">大衣/风衣</a>
+                                        <a target="_blank" href="#" class="hot">牛仔裤</a>
+                                        <a target="_blank" href="#" class="">短裤</a>
+                                        <a target="_blank" href="#" class="">运动服</a>
+                                        <a target="_blank" href="#" class="">泳装</a>
+                                        <a target="_blank" href="#" class="">家居服</a>
+                                    </div><!--list end-->
+                                </div><!--part end-->
+                                <div class="part">
+                                    <div class="title">男装</div>
+                                    <div class="list">
+                                        <a target="_blank" href="#" class="hot">T恤/Polo</a>
+                                        <a target="_blank" href="#" class="">内衣裤</a>
+                                        <a target="_blank" href="#" class="">卫衣/连帽衫</a>
+                                        <a target="_blank" href="#" class="">衬衫/罩衫</a>
+                                        <a target="_blank" href="#" class="">西服/套装</a>
+                                        <a target="_blank" href="#" class="">夹克/外套</a>
+                                        <a target="_blank" href="#" class="">泳装</a>
+                                        <a target="_blank" href="#" class="">家居服</a>
+                                    </div><!--list end-->
+                                </div><!--part end-->
+                            </div><!--cates-box end-->
+                            <div class="brands-box fr">
+                                <div class="title">热卖大牌</div>
+                                <div class="list">
+                                    <a target="_blank" href="#" style="background-image: url('../../images/firstpage/Ralph_lauren.jpg');" title="Ralph Lauren"></a>
 
-                            </div>
-                        </div>
+                                    <a target="_blank" href="#" style="background-image: url('../../images/firstpage/Ralph_lauren.jpg');" title="Victoria's Secret"></a>
+                                    <a target="_blank" href="#" style="background-image: url('../../images/firstpage/Ralph_lauren.jpg');" title="Kenzo"></a>
+                                </div><!--list end-->
+                            </div><!--brands-box end-->
+                        </div><!--hover-box end-->
                     </div><!--hover-boxs end-->
-                </li>
+                </li><!--li end-->
                 <li class="cate">
                     <div class="white"></div>
-                    <div class="clearfix cate-hd ">
+                    <div class="cate-hd">
                         <span class="icon icon-lip"></span>
-                        <a target="_blank" href="#">护肤美装</a>
+                        <a target="_blank" href="#">护肤美妆</a>
                     </div>
-                    <ul class="clearfix cate-bd">
+                    <ul class="clearfix cate-bd ">
                         <li>
-                            <a href="#" target="_blank">眼霜</a>
+                            <a target="_blank" href="#">眼霜</a>
+                            <a class="slash">/</a>
+                        </li>
+                        <li> <a target="_blank" href="#">精华</a>
                             <a class="slash">/</a>
                         </li>
                         <li>
-                            <a href="#" target="_blank">精华</a>
-                            <a class="slash">/</a>
-                        </li>
-                        <li>
-                            <a href="#" target="_blank">防晒霜</a>
+                            <a target="_blank" href="#">防晒霜</a>
                         </li>
                     </ul>
-                    <!--移动到这上面才会显示-->
                     <div class="abso hover-boxs">
-                        <div class="hover-box" style="width: 100%;">
+                        <div class="hover-box">
                             <div class="cates-box fl">
                                 <div class="part">
-                                    <div class="title">美妆</div>
-                                    <div class="list" style="margin-top: 14px;">
-                                        <a href="#" class="hot">T恤</a>
-                                        <a href="#" class="hot">睡衣</a>
-                                        <a href="#" class="hot">内衣</a>
-                                        <a href="#" class="hot">卫衣/连帽衫</a>
-                                        <a href="#" class="hot">大衣/风衣</a>
-                                        <a href="#" class="hot">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#" class="hot">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#" class="hot">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#" class="hot">大衣/风衣</a>
-                                    </div>
-
-                                </div>
-                                <div class="part" style="margin-left: 72px">
-                                    <div class="title">身体护理</div>
-                                    <div class="list" style="margin-top: 14px;">
-                                        <a href="#" class="hot">T恤</a>
-                                        <a href="#" class="hot">睡衣</a>
-                                        <a href="#" class="hot">内衣</a>
-                                        <a href="#" class="hot">卫衣/连帽衫</a>
-                                        <a href="#" class="hot">大衣/风衣</a>
-                                        <a href="#" class="hot">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#" class="hot">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#" class="hot">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#" class="hot">大衣/风衣</a>
+                                    <div class="title">女装</div>
+                                    <div class="list">
+                                        <a target="_blank" href="#" class="hot">T恤</a>
+                                        <a target="_blank" href="#" class="hot">睡衣</a>
+                                        <a target="_blank" href="#" class="hot">内衣</a>
+                                        <a target="_blank" href="#" class="hot">卫衣/连帽衫</a>
+                                        <a target="_blank" href="#" class="">夹克/外套</a>
+                                        <a target="_blank" href="#" class="">家居服</a>
+                                        <a target="_blank" href="#" class="">连身衣</a>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="brands-box fr">
                                 <div class="part">
-                                    <div class="title">热卖大牌</div>
-                                    <div class="list" style="margin-top: 14px;">
-                                        <a target="_blank" href="#"
-                                           style="background-image: url('../../images/firstpage/Ralph_lauren.jpg');"
-                                           title="Ralph Lauren"></a>
-                                        <a target="_blank" href="#"
-                                           style="background-image: url('../../images/firstpage/Ralph_lauren.jpg');"
-                                           title="Ralph Lauren"></a>
-                                        <a target="_blank" href="#"
-                                           style="background-image: url('../../images/firstpage/Ralph_lauren.jpg');"
-                                           title="Ralph Lauren"></a>
-                                        <a target="_blank" href="#"
-                                           style="background-image: url('../../images/firstpage/Ralph_lauren.jpg');"
-                                           title="Ralph Lauren"></a>
-                                        <a target="_blank" href="#"
-                                           style="background-image: url('../../images/firstpage/Ralph_lauren.jpg');"
-                                           title="Ralph Lauren"></a>
-                                        <a target="_blank" href="#"
-                                           style="background-image: url('../../images/firstpage/Ralph_lauren.jpg');"
-                                           title="Ralph Lauren"></a>
-                                        <a target="_blank" href="#"
-                                           style="background-image: url('../../images/firstpage/Ralph_lauren.jpg');"
-                                           title="Ralph Lauren"></a>
-                                        <a target="_blank" href="#"
-                                           style="background-image: url('../../images/firstpage/Ralph_lauren.jpg');"
-                                           title="Ralph Lauren"></a>
-                                    </div>
-                                </div>
+                                    <div class="title">男装</div>
+                                    <div class="list">
+                                        <a target="_blank" href="#" class="hot">T恤/Polo</a>
+                                        <a target="_blank" href="#" class="">内衣裤</a>
+                                        <a target="_blank" href="#" class="">卫衣/连帽衫</a>
+                                        <a target="_blank" href="#" class="">衬衫/罩衫</a>
+                                        <a target="_blank" href="#" class="">大衣/风衣</a>
+                                        <a target="_blank" href="#" class="hot">牛仔裤</a>
+                                        <a target="_blank" href="#" class="">短裤</a>
+                                        <a target="_blank" href="#" class="">运动服</a>
+                                        <a target="_blank" href="#" class="">泳装</a>
+                                        <a target="_blank" href="#" class="">家居服</a>
+                                    </div><!--list end-->
+                                </div><!--part end-->
+                                <div class="part">
+                                    <div class="title">男装</div>
+                                    <div class="list">
+                                        <a target="_blank" href="#" class="hot">T恤/Polo</a>
+                                        <a target="_blank" href="#" class="">内衣裤</a>
+                                        <a target="_blank" href="#" class="">卫衣/连帽衫</a>
+                                        <a target="_blank" href="#" class="">衬衫/罩衫</a>
+                                        <a target="_blank" href="#" class="">西服/套装</a>
+                                        <a target="_blank" href="#" class="">夹克/外套</a>
+                                        <a target="_blank" href="#" class="">泳装</a>
+                                        <a target="_blank" href="#" class="">家居服</a>
+                                    </div><!--list end-->
+                                </div><!--part end-->
+                            </div><!--cates-box end-->
+                            <div class="brands-box fr">
+                                <div class="title">热卖大牌</div>
+                                <div class="list">
+                                    <a target="_blank" href="#" style="background-image: url('../../images/firstpage/Ralph_lauren.jpg');" title="Ralph Lauren"></a>
 
-                            </div>
-                        </div>
+                                    <a target="_blank" href="#" style="background-image: url('../../images/firstpage/Ralph_lauren.jpg');" title="Victoria's Secret"></a>
+                                    <a target="_blank" href="#" style="background-image: url('../../images/firstpage/Ralph_lauren.jpg');" title="Kenzo"></a>
+                                </div><!--list end-->
+                            </div><!--brands-box end-->
+                        </div><!--hover-box end-->
                     </div><!--hover-boxs end-->
-                </li>
-                <li class=" clearfix cate b-bottom0">
+                </li><!--li end-->
+                <li class="cate">
                     <div class="white"></div>
-                    <div class="clearfix cate-hd ">
+                    <div class="cate-hd">
                         <span class="icon icon-watch"></span>
                         <a target="_blank" href="#">手表配饰</a>
                     </div>
-                    <ul class="clearfix cate-bd">
+                    <ul class="clearfix cate-bd ">
                         <li>
-                            <a href="#" target="_blank">男表</a>
+                            <a target="_blank" href="#">男表</a>
+                            <a class="slash">/</a>
+                        </li>
+                        <li> <a target="_blank" href="#">女表</a>
                             <a class="slash">/</a>
                         </li>
                         <li>
-                            <a href="#" target="_blank">女表</a>
-                            <a class="slash">/</a>
-                        </li>
-                        <li>
-                            <a href="#" target="_blank">首饰配件</a>
+                            <a target="_blank" href="#">配件首饰</a>
                         </li>
                     </ul>
-                    <!--移动到这上面才会显示-->
                     <div class="abso hover-boxs">
-                        <div class="hover-box" style="width: 100%;">
+                        <div class="hover-box">
                             <div class="cates-box fl">
                                 <div class="part">
-                                    <div class="title">男表</div>
-                                    <div class="list" style="margin-top: 14px;">
-                                        <a href="#" class="hot">T恤</a>
-                                        <a href="#" class="hot">睡衣</a>
-                                        <a href="#" class="hot">内衣</a>
-                                        <a href="#" class="hot">卫衣/连帽衫</a>
-                                        <a href="#" class="hot">大衣/风衣</a>
-                                        <a href="#" class="hot">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#" class="hot">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#" class="hot">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#" class="hot">大衣/风衣</a>
-                                    </div>
-
-                                </div>
-                                <div class="part" style="margin-left: 72px">
-                                    <div class="title">女表</div>
-                                    <div class="list" style="margin-top: 14px;">
-                                        <a href="#" class="hot">T恤</a>
-                                        <a href="#" class="hot">睡衣</a>
-                                        <a href="#" class="hot">内衣</a>
-                                        <a href="#" class="hot">卫衣/连帽衫</a>
-                                        <a href="#" class="hot">大衣/风衣</a>
-                                        <a href="#" class="hot">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#" class="hot">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#" class="hot">大衣/风衣</a>
-                                        <a href="#">大衣/风衣</a>
-                                        <a href="#" class="hot">大衣/风衣</a>
+                                    <div class="title">女装</div>
+                                    <div class="list">
+                                        <a target="_blank" href="#" class="hot">T恤</a>
+                                        <a target="_blank" href="#" class="hot">睡衣</a>
+                                        <a target="_blank" href="#" class="hot">内衣</a>
+                                        <a target="_blank" href="#" class="hot">卫衣/连帽衫</a>
+                                        <a target="_blank" href="#" class="">夹克/外套</a>
+                                        <a target="_blank" href="#" class="">家居服</a>
+                                        <a target="_blank" href="#" class="">连身衣</a>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="brands-box fr">
                                 <div class="part">
-                                    <div class="title">热卖大牌</div>
-                                    <div class="list" style="margin-top: 14px;">
-                                        <a target="_blank" href="#"
-                                           style="background-image: url('../../images/firstpage/Ralph_lauren.jpg');"
-                                           title="Ralph Lauren"></a>
-                                        <a target="_blank" href="#"
-                                           style="background-image: url('../../images/firstpage/Ralph_lauren.jpg');"
-                                           title="Ralph Lauren"></a>
-                                        <a target="_blank" href="#"
-                                           style="background-image: url('../../images/firstpage/Ralph_lauren.jpg');"
-                                           title="Ralph Lauren"></a>
-                                        <a target="_blank" href="#"
-                                           style="background-image: url('../../images/firstpage/Ralph_lauren.jpg');"
-                                           title="Ralph Lauren"></a>
-                                        <a target="_blank" href="#"
-                                           style="background-image: url('../../images/firstpage/Ralph_lauren.jpg');"
-                                           title="Ralph Lauren"></a>
-                                        <a target="_blank" href="#"
-                                           style="background-image: url('../../images/firstpage/Ralph_lauren.jpg');"
-                                           title="Ralph Lauren"></a>
-                                        <a target="_blank" href="#"
-                                           style="background-image: url('../../images/firstpage/Ralph_lauren.jpg');"
-                                           title="Ralph Lauren"></a>
-                                        <a target="_blank" href="#"
-                                           style="background-image: url('../../images/firstpage/Ralph_lauren.jpg');"
-                                           title="Ralph Lauren"></a>
-                                    </div>
-                                </div>
+                                    <div class="title">男装</div>
+                                    <div class="list">
+                                        <a target="_blank" href="#" class="hot">T恤/Polo</a>
+                                        <a target="_blank" href="#" class="">内衣裤</a>
+                                        <a target="_blank" href="#" class="">卫衣/连帽衫</a>
+                                        <a target="_blank" href="#" class="">衬衫/罩衫</a>
+                                        <a target="_blank" href="#" class="">大衣/风衣</a>
+                                        <a target="_blank" href="#" class="hot">牛仔裤</a>
+                                        <a target="_blank" href="#" class="">短裤</a>
+                                        <a target="_blank" href="#" class="">运动服</a>
+                                        <a target="_blank" href="#" class="">泳装</a>
+                                        <a target="_blank" href="#" class="">家居服</a>
+                                    </div><!--list end-->
+                                </div><!--part end-->
+                                <div class="part">
+                                    <div class="title">男装</div>
+                                    <div class="list">
+                                        <a target="_blank" href="#" class="hot">T恤/Polo</a>
+                                        <a target="_blank" href="#" class="">内衣裤</a>
+                                        <a target="_blank" href="#" class="">卫衣/连帽衫</a>
+                                        <a target="_blank" href="#" class="">衬衫/罩衫</a>
+                                        <a target="_blank" href="#" class="">西服/套装</a>
+                                        <a target="_blank" href="#" class="">夹克/外套</a>
+                                        <a target="_blank" href="#" class="">泳装</a>
+                                        <a target="_blank" href="#" class="">家居服</a>
+                                    </div><!--list end-->
+                                </div><!--part end-->
+                            </div><!--cates-box end-->
+                            <div class="brands-box fr">
+                                <div class="title">热卖大牌</div>
+                                <div class="list">
+                                    <a target="_blank" href="#" style="background-image: url('../../images/firstpage/Ralph_lauren.jpg');" title="Ralph Lauren"></a>
 
-                            </div>
-                        </div>
+                                    <a target="_blank" href="#" style="background-image: url('../../images/firstpage/Ralph_lauren.jpg');" title="Victoria's Secret"></a>
+                                    <a target="_blank" href="#" style="background-image: url('../../images/firstpage/Ralph_lauren.jpg');" title="Kenzo"></a>
+                                </div><!--list end-->
+                            </div><!--brands-box end-->
+                        </div><!--hover-box end-->
                     </div><!--hover-boxs end-->
-                </li>
-            </ul><!--abso cates-->
-            <!--adso banner-->
-        </div><!--cates-banner -->
+                </li><!--li end-->
+            </ul>
+        </div><!--cates-banners end-->
 
-        <div class="pop-img">
+
+
+
+
+       <!-- <div class="pop-img clearfix">
             <div class="item">
                 <div class="icon">
-                    正
+                    品
                 </div>
                 <div>
                     <div class="title">
-                        官网直购
+                        品质保证
                     </div>
-                    <span>海外官网发货，100%正品</span>
-                </div>
-            </div>
-            <div class="item">
-                <div class="icon">
-                    ￥
-                </div>
-                <div>
-                    <div class="title">
-                        实时同价
-                    </div>
-                    <span>实时同步海外官网价格及折扣</span>
-                </div>
-            </div>
-            <div class="item">
-                <div class="icon">
-                    量
-                </div>
-                <div>
-                    <div class="title">
-                        海量商品
-                    </div>
-                    <span>全球千万商品，一站购齐</span>
+                    <span>质量优先，价格实惠</span>
                 </div>
             </div>
             <div class="item">
@@ -674,38 +481,130 @@
                 </div>
                 <div>
                     <div class="title">
-                        一键海淘
+                        正品保障
                     </div>
-                    <span>支付宝，微信一键下单</span>
+                    <span>正品行货 放心选购</span>
                 </div>
             </div>
-        </div>
 
-        <div class="more-goods">
-            <a href="#" target="_blank" class="icon">
-                <img src="../../images/firstpage/Dutyfree.jpg" width="285" height="230">
-            </a>
-            <a href="#" target="_blank" class="icon">
-                <img src="../../images/firstpage/超值单排.jpg" width="285" height="230">
-            </a>
-            <a href="#" target="_blank" class="icon">
-                <img src="../../images/firstpage/官网打折.jpg" width="285" height="230">
-            </a>
-            <a href="#" target="_blank" class="icon" style="margin-right: 0px;">
-                <img src="../../images/firstpage/weixin.png" width="285" height="230">
-            </a>
-        </div>
+            <div class="item">
+                <div class="icon">
+                    海
+                </div>
+                <div>
+                    <div class="title">
+                        实时同步
+                    </div>
+                    <span>实时同步最新商品</span>
+                </div>
+            </div>
+            <div class="item">
+                <div class="icon">
+                    付
+                </div>
+                <div>
+                    <div class="title">
+                        一键下单
+                    </div>
+                    <span>支持支付宝微信，下单无忧</span>
+                </div>
+            </div>
+        </div>&lt;!&ndash;pop-img end&ndash;&gt;-->
+
+
     </div><!--specify end-->
 
 
+    <!--<div class="qianggou-wap-content ">
+        <div class="specify">
+            <div class="qianggougoods clearfix" style="margin-top: 20px;border: 1px solid red;" id="qianggouMod">
+                <a href="#" class="count-down">
+                    <p class="count-down-tips">本场剩余</p>
+                    <div class="count-time">
+                        <span class="clock-time time-hour">00</span>
+                        <i>:</i>
+                        <span class="clock-time time-minit">44</span>
+                        <i>:</i>
+                        <span class="clock-time time-second">04</span>
+                    </div>
+                    <p class="view-more">查看更多<i> &gt;</i></p>
+                </a>
+                <div class="seckill-list-wrap seckill-all-pro">
+                    <a href="javascript:;" class="hd-iconfont prev "></a>
+                    <div class="seckill-list">
+                        <ul class="clearfix" style="margin-left: 0px;">
+                            <li class="prod">
+                                <div class="dotted-line"></div>
+                                <a href="#" target="_blank " title="蒙牛 纯牛奶 PURE MILK 250ml*16盒 礼盒装" class="clearfix">
+                                    <div class="pro-detail">
+                                        <p class="pro-name">蒙牛 纯牛奶 PURE MILK 250ml*16盒 礼盒装</p>
+
+                                        <p class="pro-price" >¥<em>42</em></p>
+                                        <p class="reference-price">参考价：¥<span>76</span></p>
+                                    </div>
+                                    <img src="../../images/firstpage/qianggou_good_1.jpg" alt="蒙牛 纯牛奶 PURE MILK 250ml*16盒 礼盒装" class="pro-pic">
+                                    <div class="marking-label">已售82%</div>
+                                </a>
+
+                            </li>
+                            <li class="prod">
+                                <div class="dotted-line"></div>
+                                <a href="#" target="_blank " title="蒙牛 纯牛奶 PURE MILK 250ml*16盒 礼盒装" class="clearfix">
+                                    <div class="pro-detail">
+                                        <p class="pro-name">蒙牛 纯牛奶 PURE MILK 250ml*16盒 礼盒装</p>
+
+                                        <p class="pro-price" >¥<em>42</em></p>
+                                        <p class="reference-price">参考价：¥<span>76</span></p>
+                                    </div>
+                                    <img src="../../images/firstpage/qianggou_good_1.jpg" alt="蒙牛 纯牛奶 PURE MILK 250ml*16盒 礼盒装" class="pro-pic">
+                                    <div class="marking-label">已售82%</div>
+                                </a>
+
+                            </li>
+                            <li class="prod">
+                                <div class="dotted-line"></div>
+                                <a href="#" target="_blank " title="蒙牛 纯牛奶 PURE MILK 250ml*16盒 礼盒装" class="clearfix">
+                                    <div class="pro-detail">
+                                        <p class="pro-name">蒙牛 纯牛奶 PURE MILK 250ml*16盒 礼盒装</p>
+
+                                        <p class="pro-price" >¥<em>42</em></p>
+                                        <p class="reference-price">参考价：¥<span>76</span></p>
+                                    </div>
+                                    <img src="../../images/firstpage/qianggou_good_1.jpg" alt="蒙牛 纯牛奶 PURE MILK 250ml*16盒 礼盒装" class="pro-pic">
+                                    <div class="marking-label">已售82%</div>
+                                </a>
+
+                            </li>
+                            <li class="prod">
+                                <div class="dotted-line"></div>
+                                <a href="#" target="_blank " title="蒙牛 纯牛奶 PURE MILK 250ml*16盒 礼盒装" class="clearfix">
+                                    <div class="pro-detail">
+                                        <p class="pro-name">蒙牛 纯牛奶 PURE MILK 250ml*16盒 礼盒装</p>
+
+                                        <p class="pro-price" >¥<em>42</em></p>
+                                        <p class="reference-price">参考价：¥<span>76</span></p>
+                                    </div>
+                                    <img src="../../images/firstpage/qianggou_good_1.jpg" alt="蒙牛 纯牛奶 PURE MILK 250ml*16盒 礼盒装" class="pro-pic">
+                                    <div class="marking-label">已售82%</div>
+                                </a>
+
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>&lt;!&ndash;qianggougoodsend&ndash;&gt;
+        </div>
+    </div>-->
     <!--服饰-->
     <div class="floors">
         <div class="floors specify selected-items clearfix">
-            <div class="benifits-goods  clearfix" id="1F">
-                <div class="title">超值单品</div>
+           <!-- <div class="benifits-goods  clearfix" id="1F">
+                <div class="title"></div>
                 <div class="list" style="position: relative;">
                     <a class="item" target="_blank" href="#" style=" margin-top: 0px;">
-                        <!-- <img class="abso tag" src="../../images/firstpage/bf.png">-->
+                        &lt;!&ndash; <img class="abso tag" src="../../images/firstpage/bf.png">&ndash;&gt;
                         <div class="picture icon"
                              style="background-image: url('../../images/firstpage/good1.jpg'); width: 198px; height: 248px;">
                         </div>
@@ -715,7 +614,7 @@
                         <div class="seller text-elip" title="Foreo">美国 Foreo 官网发货</div>
                     </a>
                     <a class="item" target="_blank" href="#" style=" margin-top: 0px;">
-                        <!-- <img class="abso tag" src="../../images/firstpage/bf.png">-->
+                        &lt;!&ndash; <img class="abso tag" src="../../images/firstpage/bf.png">&ndash;&gt;
                         <div class="picture icon"
                              style="background-image: url('../../images/firstpage/good1.jpg'); width: 198px; height: 248px;">
                         </div>
@@ -726,7 +625,7 @@
                     </a>
 
                     <a class="item" target="_blank" href="#" style=" margin-top: 0px;">
-                        <!-- <img class="abso tag" src="../../images/firstpage/bf.png">-->
+                        &lt;!&ndash; <img class="abso tag" src="../../images/firstpage/bf.png">&ndash;&gt;
                         <div class="picture icon"
                              style="background-image: url('../../images/firstpage/good1.jpg'); width: 198px; height: 248px;">
                         </div>
@@ -736,7 +635,7 @@
                         <div class="seller text-elip" title="Foreo">美国 Foreo 官网发货</div>
                     </a>
                     <a class="item" target="_blank" href="#" style=" margin-top: 0px;">
-                        <!-- <img class="abso tag" src="../../images/firstpage/bf.png">-->
+                        &lt;!&ndash; <img class="abso tag" src="../../images/firstpage/bf.png">&ndash;&gt;
                         <div class="picture icon"
                              style="background-image: url('../../images/firstpage/good1.jpg'); width: 198px; height: 248px;">
                         </div>
@@ -746,7 +645,7 @@
                         <div class="seller text-elip" title="Foreo">美国 Foreo 官网发货</div>
                     </a>
                     <a class="item" target="_blank" href="#" style="margin-right: 0px;margin-top: 0px;">
-                        <!-- <img class="abso tag" src="../../images/firstpage/bf.png">-->
+                        &lt;!&ndash; <img class="abso tag" src="../../images/firstpage/bf.png">&ndash;&gt;
                         <div class="picture icon"
                              style="background-image: url('../../images/firstpage/good1.jpg'); width: 198px; height: 248px;">
                         </div>
@@ -757,9 +656,9 @@
                     </a>
 
 
-                    <!--这个是第二行了-->
+                    &lt;!&ndash;这个是第二行了&ndash;&gt;
                     <a class="item" target="_blank" href="#">
-                        <!-- <img class="abso tag" src="../../images/firstpage/bf.png">-->
+                        &lt;!&ndash; <img class="abso tag" src="../../images/firstpage/bf.png">&ndash;&gt;
                         <div class="picture icon"
                              style="background-image: url('../../images/firstpage/good1.jpg'); width: 198px; height: 248px;">
                         </div>
@@ -769,7 +668,7 @@
                         <div class="seller text-elip" title="Foreo">美国 Foreo 官网发货</div>
                     </a>
                     <a class="item" target="_blank" href="#">
-                        <!-- <img class="abso tag" src="../../images/firstpage/bf.png">-->
+                        &lt;!&ndash; <img class="abso tag" src="../../images/firstpage/bf.png">&ndash;&gt;
                         <div class="picture icon"
                              style="background-image: url('../../images/firstpage/good1.jpg'); width: 198px; height: 248px;">
                         </div>
@@ -780,7 +679,7 @@
                     </a>
 
                     <a class="item" target="_blank" href="#">
-                        <!-- <img class="abso tag" src="../../images/firstpage/bf.png">-->
+                        &lt;!&ndash; <img class="abso tag" src="../../images/firstpage/bf.png">&ndash;&gt;
                         <div class="picture icon"
                              style="background-image: url('../../images/firstpage/good1.jpg'); width: 198px; height: 248px;">
                         </div>
@@ -790,7 +689,7 @@
                         <div class="seller text-elip" title="Foreo">美国 Foreo 官网发货</div>
                     </a>
                     <a class="item" target="_blank" href="#">
-                        <!-- <img class="abso tag" src="../../images/firstpage/bf.png">-->
+                        &lt;!&ndash; <img class="abso tag" src="../../images/firstpage/bf.png">&ndash;&gt;
                         <div class="picture icon"
                              style="background-image: url('../../images/firstpage/good1.jpg'); width: 198px; height: 248px;">
                         </div>
@@ -800,7 +699,7 @@
                         <div class="seller text-elip" title="Foreo">美国 Foreo 官网发货</div>
                     </a>
                     <a class="item" target="_blank" href="#" style="margin-right: 0px">
-                        <!-- <img class="abso tag" src="../../images/firstpage/bf.png">-->
+                        &lt;!&ndash; <img class="abso tag" src="../../images/firstpage/bf.png">&ndash;&gt;
                         <div class="picture icon"
                              style="background-image: url('../../images/firstpage/good1.jpg'); width: 198px; height: 248px;">
                         </div>
@@ -810,9 +709,9 @@
                         <div class="seller text-elip" title="Foreo">美国 Foreo 官网发货</div>
                     </a>
 
-                    <!--这个是第三行-->
+                    &lt;!&ndash;这个是第三行&ndash;&gt;
                     <a class="item" target="_blank" href="#">
-                        <!-- <img class="abso tag" src="../../images/firstpage/bf.png">-->
+                        &lt;!&ndash; <img class="abso tag" src="../../images/firstpage/bf.png">&ndash;&gt;
                         <div class="picture icon"
                              style="background-image: url('../../images/firstpage/good1.jpg'); width: 198px; height: 248px;">
                         </div>
@@ -822,7 +721,7 @@
                         <div class="seller text-elip" title="Foreo">美国 Foreo 官网发货</div>
                     </a>
                     <a class="item" target="_blank" href="#">
-                        <!-- <img class="abso tag" src="../../images/firstpage/bf.png">-->
+                        &lt;!&ndash; <img class="abso tag" src="../../images/firstpage/bf.png">&ndash;&gt;
                         <div class="picture icon"
                              style="background-image: url('../../images/firstpage/good1.jpg'); width: 198px; height: 248px;">
                         </div>
@@ -833,7 +732,7 @@
                     </a>
 
                     <a class="item" target="_blank" href="#">
-                        <!-- <img class="abso tag" src="../../images/firstpage/bf.png">-->
+                        &lt;!&ndash; <img class="abso tag" src="../../images/firstpage/bf.png">&ndash;&gt;
                         <div class="picture icon"
                              style="background-image: url('../../images/firstpage/good1.jpg'); width: 198px; height: 248px;">
                         </div>
@@ -843,7 +742,7 @@
                         <div class="seller text-elip" title="Foreo">美国 Foreo 官网发货</div>
                     </a>
                     <a class="item" target="_blank" href="#">
-                        <!-- <img class="abso tag" src="../../images/firstpage/bf.png">-->
+                        &lt;!&ndash; <img class="abso tag" src="../../images/firstpage/bf.png">&ndash;&gt;
                         <div class="picture icon"
                              style="background-image: url('../../images/firstpage/good1.jpg'); width: 198px; height: 248px;">
                         </div>
@@ -853,7 +752,7 @@
                         <div class="seller text-elip" title="Foreo">美国 Foreo 官网发货</div>
                     </a>
                     <a class="item" target="_blank" href="#" style="margin-right: 0px">
-                        <!-- <img class="abso tag" src="../../images/firstpage/bf.png">-->
+                        &lt;!&ndash; <img class="abso tag" src="../../images/firstpage/bf.png">&ndash;&gt;
                         <div class="picture icon"
                              style="background-image: url('../../images/firstpage/good1.jpg'); width: 198px; height: 248px;">
                         </div>
@@ -862,9 +761,9 @@
                         <div class="market text-elip">¥ 1433</div>
                         <div class="seller text-elip" title="Foreo">美国 Foreo 官网发货</div>
                     </a>
-                    <!--第四行-->
+                    &lt;!&ndash;第四行&ndash;&gt;
                     <a class="item" target="_blank" href="#">
-                        <!-- <img class="abso tag" src="../../images/firstpage/bf.png">-->
+                        &lt;!&ndash; <img class="abso tag" src="../../images/firstpage/bf.png">&ndash;&gt;
                         <div class="picture icon"
                              style="background-image: url('../../images/firstpage/good1.jpg'); width: 198px; height: 248px;">
                         </div>
@@ -874,7 +773,7 @@
                         <div class="seller text-elip" title="Foreo">美国 Foreo 官网发货</div>
                     </a>
                     <a class="item" target="_blank" href="#">
-                        <!-- <img class="abso tag" src="../../images/firstpage/bf.png">-->
+                        &lt;!&ndash; <img class="abso tag" src="../../images/firstpage/bf.png">&ndash;&gt;
                         <div class="picture icon"
                              style="background-image: url('../../images/firstpage/good1.jpg'); width: 198px; height: 248px;">
                         </div>
@@ -885,7 +784,7 @@
                     </a>
 
                     <a class="item" target="_blank" href="#">
-                        <!-- <img class="abso tag" src="../../images/firstpage/bf.png">-->
+                        &lt;!&ndash; <img class="abso tag" src="../../images/firstpage/bf.png">&ndash;&gt;
                         <div class="picture icon"
                              style="background-image: url('../../images/firstpage/good1.jpg'); width: 198px; height: 248px;">
                         </div>
@@ -895,7 +794,7 @@
                         <div class="seller text-elip" title="Foreo">美国 Foreo 官网发货</div>
                     </a>
                     <a class="item" target="_blank" href="#">
-                        <!-- <img class="abso tag" src="../../images/firstpage/bf.png">-->
+                        &lt;!&ndash; <img class="abso tag" src="../../images/firstpage/bf.png">&ndash;&gt;
                         <div class="picture icon"
                              style="background-image: url('../../images/firstpage/good1.jpg'); width: 198px; height: 248px;">
                         </div>
@@ -905,7 +804,7 @@
                         <div class="seller text-elip" title="Foreo">美国 Foreo 官网发货</div>
                     </a>
                     <a class="item" target="_blank" href="#" style="margin-right: 0px">
-                        <!-- <img class="abso tag" src="../../images/firstpage/bf.png">-->
+                        &lt;!&ndash; <img class="abso tag" src="../../images/firstpage/bf.png">&ndash;&gt;
                         <div class="picture icon"
                              style="background-image: url('../../images/firstpage/good1.jpg'); width: 198px; height: 248px;">
                         </div>
@@ -914,10 +813,10 @@
                         <div class="market text-elip">¥ 1433</div>
                         <div class="seller text-elip" title="Foreo">美国 Foreo 官网发货</div>
                     </a>
-                    <!--第五行-->
+                    &lt;!&ndash;第五行&ndash;&gt;
 
                     <a class="item" target="_blank" href="#">
-                        <!-- <img class="abso tag" src="../../images/firstpage/bf.png">-->
+                        &lt;!&ndash; <img class="abso tag" src="../../images/firstpage/bf.png">&ndash;&gt;
                         <div class="picture icon"
                              style="background-image: url('../../images/firstpage/good1.jpg'); width: 198px; height: 248px;">
                         </div>
@@ -927,7 +826,7 @@
                         <div class="seller text-elip" title="Foreo">美国 Foreo 官网发货</div>
                     </a>
                     <a class="item" target="_blank" href="#">
-                        <!-- <img class="abso tag" src="../../images/firstpage/bf.png">-->
+                        &lt;!&ndash; <img class="abso tag" src="../../images/firstpage/bf.png">&ndash;&gt;
                         <div class="picture icon"
                              style="background-image: url('../../images/firstpage/good1.jpg'); width: 198px; height: 248px;">
                         </div>
@@ -938,7 +837,7 @@
                     </a>
 
                     <a class="item" target="_blank" href="#">
-                        <!-- <img class="abso tag" src="../../images/firstpage/bf.png">-->
+                        &lt;!&ndash; <img class="abso tag" src="../../images/firstpage/bf.png">&ndash;&gt;
                         <div class="picture icon"
                              style="background-image: url('../../images/firstpage/good1.jpg'); width: 198px; height: 248px;">
                         </div>
@@ -948,7 +847,7 @@
                         <div class="seller text-elip" title="Foreo">美国 Foreo 官网发货</div>
                     </a>
                     <a class="item" target="_blank" href="#">
-                        <!-- <img class="abso tag" src="../../images/firstpage/bf.png">-->
+                        &lt;!&ndash; <img class="abso tag" src="../../images/firstpage/bf.png">&ndash;&gt;
                         <div class="picture icon"
                              style="background-image: url('../../images/firstpage/good1.jpg'); width: 198px; height: 248px;">
                         </div>
@@ -958,7 +857,7 @@
                         <div class="seller text-elip" title="Foreo">美国 Foreo 官网发货</div>
                     </a>
                     <a class="item" target="_blank" href="#" style="margin-right: 0px">
-                        <!-- <img class="abso tag" src="../../images/firstpage/bf.png">-->
+                        &lt;!&ndash; <img class="abso tag" src="../../images/firstpage/bf.png">&ndash;&gt;
                         <div class="picture icon"
                              style="background-image: url('../../images/firstpage/good1.jpg'); width: 198px; height: 248px;">
                         </div>
@@ -967,7 +866,192 @@
                         <div class="market text-elip">¥ 1433</div>
                         <div class="seller text-elip" title="Foreo">美国 Foreo 官网发货</div>
                     </a>
-                </div><!--list 结束-->
+                </div>&lt;!&ndash;list 结束&ndash;&gt;
+            </div>&lt;!&ndash;1F结束&ndash;&gt;-->
+
+
+            <div class="qianggougoods clearfix" style="" id="qianggouMod">
+                <a href="#" class="count-down">
+                    <p class="count-down-tips">本场剩余</p>
+                    <div class="count-time">
+                        <span class="clock-time time-hour">00</span>
+                        <i>:</i>
+                        <span class="clock-time time-minit">44</span>
+                        <i>:</i>
+                        <span class="clock-time time-second">04</span>
+                    </div>
+                    <p class="view-more">查看更多<i> &gt;</i></p>
+                </a>
+                <div class="seckill-list-wrap seckill-all-pro">
+                    <a href="javascript:;" class="hd-iconfont prev "></a>
+                    <div class="seckill-list">
+                        <ul class="clearfix" style="margin-left: 0px;">
+                            <li class="prod">
+                                <div class="dotted-line"></div>
+                                <a href="#" target="_blank " title="蒙牛 纯牛奶 PURE MILK 250ml*16盒 礼盒装" class="clearfix">
+                                    <div class="pro-detail">
+                                        <p class="pro-name">蒙牛 纯牛奶 PURE MILK 250ml*16盒 礼盒装</p>
+
+                                        <p class="pro-price" >¥<em>42</em></p>
+                                        <p class="reference-price">参考价：¥<span>76</span></p>
+                                    </div>
+                                    <img src="../../images/firstpage/qianggou_good_1.jpg" alt="蒙牛 纯牛奶 PURE MILK 250ml*16盒 礼盒装" class="pro-pic">
+                                    <div class="marking-label">已售82%</div>
+                                </a>
+
+                            </li>
+                            <li class="prod">
+                                <div class="dotted-line"></div>
+                                <a href="#" target="_blank " title="蒙牛 纯牛奶 PURE MILK 250ml*16盒 礼盒装" class="clearfix">
+                                    <div class="pro-detail">
+                                        <p class="pro-name">蒙牛 纯牛奶 PURE MILK 250ml*16盒 礼盒装</p>
+
+                                        <p class="pro-price" >¥<em>42</em></p>
+                                        <p class="reference-price">参考价：¥<span>76</span></p>
+                                    </div>
+                                    <img src="../../images/firstpage/qianggou_good_1.jpg" alt="蒙牛 纯牛奶 PURE MILK 250ml*16盒 礼盒装" class="pro-pic">
+                                    <div class="marking-label">已售82%</div>
+                                </a>
+
+                            </li>
+                            <li class="prod">
+                                <div class="dotted-line"></div>
+                                <a href="#" target="_blank " title="蒙牛 纯牛奶 PURE MILK 250ml*16盒 礼盒装" class="clearfix">
+                                    <div class="pro-detail">
+                                        <p class="pro-name">蒙牛 纯牛奶 PURE MILK 250ml*16盒 礼盒装</p>
+
+                                        <p class="pro-price" >¥<em>42</em></p>
+                                        <p class="reference-price">参考价：¥<span>76</span></p>
+                                    </div>
+                                    <img src="../../images/firstpage/qianggou_good_1.jpg" alt="蒙牛 纯牛奶 PURE MILK 250ml*16盒 礼盒装" class="pro-pic">
+                                    <div class="marking-label">已售82%</div>
+                                </a>
+
+                            </li>
+                            <li class="prod">
+                                <div class="dotted-line"></div>
+                                <a href="#" target="_blank " title="蒙牛 纯牛奶 PURE MILK 250ml*16盒 礼盒装" class="clearfix">
+                                    <div class="pro-detail">
+                                        <p class="pro-name">蒙牛 纯牛奶 PURE MILK 250ml*16盒 礼盒装</p>
+
+                                        <p class="pro-price" >¥<em>42</em></p>
+                                        <p class="reference-price">参考价：¥<span>76</span></p>
+                                    </div>
+                                    <img src="../../images/firstpage/qianggou_good_1.jpg" alt="蒙牛 纯牛奶 PURE MILK 250ml*16盒 礼盒装" class="pro-pic">
+                                    <div class="marking-label">已售82%</div>
+                                </a>
+
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div><!--qianggougoodsend-->
+
+
+            <div class="benifits-goods  clearfix" id="1F">
+                <div class="index-amazon-wrap">
+                    <h3 class="sn-h3">
+                        <span><a href="#" target="_blank">超值单品</a></span>
+                        <ul class="sn-tab-title clearfix">
+                            <li class="">热门</li>
+                            <li class="">美妆</li>
+                            <li class="cur">鞋靴</li>
+                            <li class="">包袋</li>
+                            <li class="">服饰</li>
+                            <li class="">配饰</li>
+                            <li class="">男士</li>
+                            <p class="cur-show" style="left: 116px; width: 28px;">
+                            <span></span>
+                            </p>
+                        </ul>
+                        <a href="#" target="_blank" title="查看更多">更多&gt;&gt;</a>
+                    </h3>
+                    <div class="index-amazon-main shopbuy" id="'st">
+                        <div class="sn-main-item clearfix slider_gw_1" id="sm-main-item">
+                            <a class="sn_slide_minus" href="javascript:void(0)" style="display: inline;"></a>
+                            <a class="sn_slide_plus" href="javascript:void(0)" style="display: inline;"></a>
+                            <ul class="clearfix" style="width: 4800px; left: 0px;" >
+                                <li class="clearfix">
+                                    <a class="item" target="_blank" href="#">
+                                        <img class="tag" src="../../images/firstpage/hot_sale.png">
+                                        <div class="pic-box">
+                                        <img class="picture icon shantaolazy"
+                                             src="../../images/firstpage/hot_sale_good1.jpg" alt="迷你唇彩四件套+化妆包" style="display: inline;">
+                                        </div>
+                                        <div class="shopname text-elip">Elizabeth Arden/雅顿</div>
+                                        <div class="brand text-elip">迷你唇彩四件套+化妆包</div>
+                                        <div class="market text-elip">
+                                            ￥90
+                                            <span>&nbsp;¥ 1001&nbsp;</span>
+                                            <em>7.8折</em>
+                                        </div>
+
+                                     <!--   <div class="seller text-elip" title="Amazon">美国 Amazon 官网发货 </div>-->
+                                    </a>
+                                    <a class="item" target="_blank" href="#">
+                                        <img class="tag" src="../../images/firstpage/hot_sale.png">
+                                        <div class="pic-box">
+                                            <img class="picture icon shantaolazy"
+                                                 src="../../images/firstpage/hot_sale_good1.jpg" alt="迷你唇彩四件套+化妆包" style="display: inline;">
+                                        </div>
+                                        <div class="shopname text-elip">Elizabeth Arden/雅顿</div>
+                                        <div class="brand text-elip">迷你唇彩四件套+化妆包</div>
+                                        <div class="market text-elip">¥ 90 </div>
+                                        <!--   <div class="seller text-elip" title="Amazon">美国 Amazon 官网发货 </div>-->
+                                    </a>
+                                    <a class="item" target="_blank" href="#">
+                                        <img class="tag" src="../../images/firstpage/hot_sale.png">
+                                        <div class="pic-box">
+                                            <img class="picture icon shantaolazy"
+                                                 src="../../images/firstpage/hot_sale_good1.jpg" alt="迷你唇彩四件套+化妆包" style="display: inline;">
+                                        </div>
+                                        <div class="shopname text-elip">Elizabeth Arden/雅顿</div>
+                                        <div class="brand text-elip">迷你唇彩四件套+化妆包</div>
+                                        <div class="market text-elip">¥ 90 </div>
+                                        <!--   <div class="seller text-elip" title="Amazon">美国 Amazon 官网发货 </div>-->
+                                    </a>
+                                    <a class="item" target="_blank" href="#">
+                                        <img class="tag" src="../../images/firstpage/hot_sale.png">
+                                        <div class="pic-box">
+                                            <img class="picture icon shantaolazy"
+                                                 src="../../images/firstpage/hot_sale_good1.jpg" alt="迷你唇彩四件套+化妆包" style="display: inline;">
+                                        </div>
+                                        <div class="shopname text-elip">Elizabeth Arden/雅顿</div>
+                                        <div class="brand text-elip">迷你唇彩四件套+化妆包</div>
+                                        <div class="market text-elip">¥ 90 </div>
+                                        <!--   <div class="seller text-elip" title="Amazon">美国 Amazon 官网发货 </div>-->
+                                    </a>
+                                    <a class="item" target="_blank" href="#">
+                                        <img class="tag" src="../../images/firstpage/hot_sale.png">
+                                        <div class="pic-box">
+                                            <img class="picture icon shantaolazy"
+                                                 src="../../images/firstpage/hot_sale_good1.jpg" alt="迷你唇彩四件套+化妆包" style="display: inline;">
+                                        </div>
+                                        <div class="shopname text-elip">Elizabeth Arden/雅顿</div>
+                                        <div class="brand text-elip">迷你唇彩四件套+化妆包</div>
+                                        <div class="market text-elip">¥ 90 </div>
+                                        <!--   <div class="seller text-elip" title="Amazon">美国 Amazon 官网发货 </div>-->
+                                    </a>
+                                    <a class="item" target="_blank" href="#">
+                                        <img class="tag" src="../../images/firstpage/hot_sale.png">
+                                        <div class="pic-box">
+                                            <img class="picture icon shantaolazy"
+                                                 src="../../images/firstpage/hot_sale_good1.jpg" alt="迷你唇彩四件套+化妆包" style="display: inline;">
+                                        </div>
+                                        <div class="shopname text-elip">Elizabeth Arden/雅顿</div>
+                                        <div class="brand text-elip">迷你唇彩四件套+化妆包</div>
+                                        <div class="market text-elip">¥ 90 </div>
+                                        <!--   <div class="seller text-elip" title="Amazon">美国 Amazon 官网发货 </div>-->
+                                    </a>
+                                </li>
+
+                            </ul>
+
+                        </div><!--sn-main-item end-->
+                    </div><!--index-amazon-main end-->
+                </div><!--index-amazon-wrap end-->
             </div><!--1F结束-->
 
             <!--    </div>&lt;!&ndash;specify  结束&ndash;&gt;-->
@@ -1049,16 +1133,16 @@
 
 
                 <div class="block clearfix">
-                    <div class="specials fl">
+                    <div class="specials fr" style="margin-left: 15px;margin-right: 0px;">
                         <a class="icon specials" href="#" target="_blank" style="background-image: url('../../images/firstpage/Kerastase－外页.jpg');
-                        width: 471px;height: 380px;">
+                        width: 471px;height: 380px;margin-right: 0px;margin-left: 15px;">
                             <div class="countdown">
                                 距离结束<span class="time">02天10时04分10秒</span>
                             </div>
                         </a>
 
                     </div>
-                    <div class="list fl">
+                    <div class="list fr">
                         <a class="icon prev" href="javascript:;"></a>
                         <a class="icon next" href="javascript:;"></a>
                         <div class="imgitems" style="width: 999px;/*margin-left: -5589px;*/">
@@ -1189,16 +1273,16 @@
                     </div>
                 </div><!--block end-->
                 <div class="block clearfix">
-                    <div class="specials fl">
+                    <div class="specials fr" style="margin-left: 15px;margin-right: 0px;">
                         <a class="icon specials" href="#" target="_blank" style="background-image: url('../../images/firstpage/Kerastase－外页.jpg');
-                        width: 471px;height: 380px;">
+                        width: 471px;height: 380px;margin-right: 0px;margin-left: 15px;">
                             <div class="countdown">
                                 距离结束<span class="time">02天10时04分10秒</span>
                             </div>
                         </a>
 
                     </div>
-                    <div class="list fl">
+                    <div class="list fr">
                         <a class="icon prev" href="javascript:;"></a>
                         <a class="icon next" href="javascript:;"></a>
                         <div class="imgitems" style="width: 999px;/*margin-left: -5589px;*/">
@@ -1257,6 +1341,8 @@
                         </div>
                     </div>
                 </div><!--block end-->
+
+
                 <div class="block clearfix">
                     <div class="specials fl">
                         <a class="icon specials" href="#" target="_blank" style="background-image: url('../../images/firstpage/Kerastase－外页.jpg');
@@ -1327,16 +1413,16 @@
                     </div>
                 </div><!--block end-->
                 <div class="block clearfix">
-                    <div class="specials fl">
+                    <div class="specials fr" style="margin-left: 15px;margin-right: 0px;">
                         <a class="icon specials" href="#" target="_blank" style="background-image: url('../../images/firstpage/Kerastase－外页.jpg');
-                        width: 471px;height: 380px;">
+                        width: 471px;height: 380px;margin-right: 0px;margin-left: 15px;">
                             <div class="countdown">
                                 距离结束<span class="time">02天10时04分10秒</span>
                             </div>
                         </a>
 
                     </div>
-                    <div class="list fl">
+                    <div class="list fr">
                         <a class="icon prev" href="javascript:;"></a>
                         <a class="icon next" href="javascript:;"></a>
                         <div class="imgitems" style="width: 999px;/*margin-left: -5589px;*/">
@@ -1395,6 +1481,8 @@
                         </div>
                     </div>
                 </div><!--block end-->
+
+
                 <div class="block clearfix">
                     <div class="specials fl">
                         <a class="icon specials" href="#" target="_blank" style="background-image: url('../../images/firstpage/Kerastase－外页.jpg');
@@ -1465,6 +1553,77 @@
                     </div>
                 </div><!--block end-->
                 <div class="block clearfix">
+                    <div class="specials fr" style="margin-left: 15px;margin-right: 0px;">
+                        <a class="icon specials" href="#" target="_blank" style="background-image: url('../../images/firstpage/Kerastase－外页.jpg');
+                        width: 471px;height: 380px;margin-right: 0px;margin-left: 15px;">
+                            <div class="countdown">
+                                距离结束<span class="time">02天10时04分10秒</span>
+                            </div>
+                        </a>
+
+                    </div>
+                    <div class="list fr">
+                        <a class="icon prev" href="javascript:;"></a>
+                        <a class="icon next" href="javascript:;"></a>
+                        <div class="imgitems" style="width: 999px;/*margin-left: -5589px;*/">
+                            <a class="imgitem" href="#" target="_blank">
+                                <div class="picture icon" style="background-image: url('../../images/firstpage/good555.jpg');height: 248px;
+                                width: 198px;">
+                                </div>
+                                <div class="brand text-elip" title="Kerastase/卡诗">Kerastase/卡诗</div>
+                                <div class="brand text-elip brand-t"
+                                     title="强韧修护洗发水 250ml Kérastase Resistance Bain Force Architecte 250ml">
+                                    强韧修护洗发水 250ml Kérastase Resistance Bain Force Architecte 250ml
+                                </div>
+                                <div class="market text-elip">¥ 101 <span>&nbsp;¥174&nbsp;</span><em>6.4折</em></div>
+                                <div class="seller text-elip" title="Lookfantastic">英国 Lookfantastic 官网发货</div>
+
+                            </a>
+                            <a class="imgitem" href="#" target="_blank">
+                                <div class="picture icon" style="background-image: url('../../images/firstpage/good555.jpg');height: 248px;
+                                width: 198px;">
+                                </div>
+                                <div class="brand text-elip" title="Kerastase/卡诗">Kerastase/卡诗</div>
+                                <div class="brand text-elip brand-t"
+                                     title="强韧修护洗发水 250ml Kérastase Resistance Bain Force Architecte 250ml">
+                                    强韧修护洗发水 250ml Kérastase Resistance Bain Force Architecte 250ml
+                                </div>
+                                <div class="market text-elip">¥ 101 <span>&nbsp;¥174&nbsp;</span><em>6.4折</em></div>
+                                <div class="seller text-elip" title="Lookfantastic">英国 Lookfantastic 官网发货</div>
+
+                            </a>
+                            <a class="imgitem" href="#" target="_blank">
+                                <div class="picture icon" style="background-image: url('../../images/firstpage/good555.jpg');height: 248px;
+                                width: 198px;">
+                                </div>
+                                <div class="brand text-elip" title="Kerastase/卡诗">Kerastase/卡诗</div>
+                                <div class="brand text-elip brand-t"
+                                     title="强韧修护洗发水 250ml Kérastase Resistance Bain Force Architecte 250ml">
+                                    强韧修护洗发水 250ml Kérastase Resistance Bain Force Architecte 250ml
+                                </div>
+                                <div class="market text-elip">¥ 101 <span>&nbsp;¥174&nbsp;</span><em>6.4折</em></div>
+                                <div class="seller text-elip" title="Lookfantastic">英国 Lookfantastic 官网发货</div>
+
+                            </a>
+                            <a class="imgitem" href="#" target="_blank">
+                                <div class="picture icon" style="background-image: url('../../images/firstpage/good555.jpg');height: 248px;
+                                width: 198px;">
+                                </div>
+                                <div class="brand text-elip" title="Kerastase/卡诗">444Kerastase/卡诗</div>
+                                <div class="brand text-elip brand-t"
+                                     title="强韧修护洗发水 250ml Kérastase Resistance Bain Force Architecte 250ml">
+                                    强韧修护洗发水 250ml Kérastase Resistance Bain Force Architecte 250ml
+                                </div>
+                                <div class="market text-elip">¥ 101 <span>&nbsp;¥174&nbsp;</span><em>6.4折</em></div>
+                                <div class="seller text-elip" title="Lookfantastic">英国 Lookfantastic 官网发货</div>
+
+                            </a>
+                        </div>
+                    </div>
+                </div><!--block end-->
+
+
+                <div class="block clearfix">
                     <div class="specials fl">
                         <a class="icon specials" href="#" target="_blank" style="background-image: url('../../images/firstpage/Kerastase－外页.jpg');
                         width: 471px;height: 380px;">
@@ -1533,6 +1692,7 @@
                         </div>
                     </div>
                 </div><!--block end-->
+
             </div><!--benifits-goods end  2F结束-->
 
 
@@ -2222,7 +2382,7 @@
         </li>
     </ul>
 
-    <div class="statement clearfix">© 2011-2017 合肥魅加网络科技有限公司 沪ICP备13007891号</div>
+    <div class="statement clearfix">© 2011-2017 XXXXX网络科技有限公司 备11021445号</div>
 </div>
 
 

@@ -277,6 +277,14 @@
 .out-wrap .brands-box a:nth-child(odd) {
     margin-left: 0;
 }
+
+.out-wrap .cates li.cate:hover, .out-wrap .cates li.cate.hover {
+    border-bottom: 1px solid transparent;
+    width: 223px;
+    z-index: 100;
+    background-color: #fff;
+    box-shadow: 0 0px 4px 0px rgba(68, 68, 68, 0.4);
+}
 textarea, input {
     background: none;
     -webkit-border-radius: 0;
@@ -302,6 +310,17 @@ address, em, i, b {
 button, input, select, textarea {
     font: 16px/1.5 Helvetica,Arial;
     outline: none;
+}
+a, a:hover {
+    color: #666;
+    text-decoration: none;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
 }
 
 /*页码样式*/
@@ -462,5 +481,6 @@ button, input, select, textarea {
     display: inline-block;
     float: left;
 }
+
 
 

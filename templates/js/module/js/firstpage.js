@@ -27,7 +27,7 @@ function changeImg(index) {
         aNUmLis[j].style.background = '#aaaaaa';
     }
     aLis[index].style.display = 'block';
-    aNUmLis[index].style.background = 'orange';
+    aNUmLis[index].style.background = '#fff';
 }
 
 
@@ -59,7 +59,7 @@ oPrev.onclick = function () {
 timer = setInterval(function () {
     oNext.onclick();
     /!*直接点击下一步*!/
-}, 1000);//每隔0.5秒就会执行这个函数代码
+}, 3000);//每隔0.5秒就会执行这个函数代码
 
 /!*清除定时器*!/
 
@@ -71,7 +71,7 @@ banner.onmouseout = function () {
     timer = setInterval(function () {
         oNext.onclick();
         /!*直接点击下一步*!/
-    }, 2000);//每隔0.5秒就会执行这个函数代码
+    }, 3000);//每隔0.5秒就会执行这个函数代码
 }
 
 /*子菜单添加事件*/
