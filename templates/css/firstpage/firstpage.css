@@ -583,7 +583,7 @@
 /*抢购模块*/
 .qianggougoods{
     /*height: 98px;*/
-    margin-top: 10px;
+    padding-top: 40px;
 }
 .qianggou-wap-content {
     margin: 0 auto;
@@ -694,7 +694,15 @@
     -webkit-text-stroke-width: .2px;
     -moz-osx-font-smoothing: grayscale;
 }
-
+.qianggougoods .seckill-list-wrap a.prev {
+    background-image: url(../../images/firstpage/left-arrow-circle.png);
+    left: 5px;
+}
+.qianggougoods .seckill-list-wrap a.next {
+    background-image: url(../../images/firstpage/right-arrow-circle.png);
+    right: 5px;
+}
+/*, .qianggougoods .seckill-list-wrap a.next*/
 .qianggougoods .seckill-all-pro .seckill-list {
     width: 993px;
 }
@@ -1004,7 +1012,7 @@
 
 /*第三层*/
 .floors .clothbox{
-    height: 695px;
+   /* height: 695px;*/
 }
 .floors .james{
     width: 228px;
@@ -1114,4 +1122,177 @@
     display: block;
     float: left;
 
+}
+
+/*品牌专场*/
+.brands-content .hotSale-item {
+    float: left;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    width: 490px;
+    height: 300px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background: #fff;
+}
+.brands-content .hotSale-item {
+    width: 570px;
+    height: 350px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.brands-content .hotSale-item .hotSale-brand-img {
+    width: 570px;
+    height: 350px;
+}
+.brands-content .hotSale-item .hotSale-info {
+    bottom: 25px;
+}
+.brands-content .hotSale-item .hotSale-info {
+    position: absolute;
+    bottom: 20px;
+    width: 320px;
+    height: 100px;
+    left: 50%;
+    margin-left: -160px;
+    background: #fff;
+    background: rgba(255,255,255,.9);
+    border-radius: 4px;
+    line-height: 1.2;
+}
+.brands-content .hotSale-item .hotSale-logo-img {
+    width: 100px;
+    height: 50px;
+    margin: 6px 0 3px;
+}
+.brands-content .hotSale-item .hotSale-name {
+    font-size: 14px;
+    color: #333;
+    font-weight: 700;
+    margin: 0 55px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.brands-content .hotSale-item .hotSale-pms {
+    margin: 0 55px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #e63d28;
+}
+.brands-content .hotSale-item:hover .hotSale-pms {
+    color: #333;
+}
+.trans300 {
+    -webkit-transition: .3s linear;
+    transition: .3s linear;
+}
+.brands-content .hotSale-item .hotSale-hover {
+    pointer-events: none;
+    opacity: 0;
+    width: 450px;
+    height: 260px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #fff;
+    background-position: center 100px;
+    border-radius: 4px;
+    overflow: hidden;
+    filter: alpha(opacity=0);
+}
+.brands-content .hotSale-item .hotSale-hover {
+    width: 520px;
+    height: 300px;
+    top: 25px;
+    left: 25px;
+}
+.brands-content .hotSale-item:hover .hotSale-hover {
+    opacity: 1;
+    pointer-events: auto;
+    filter: alpha(opacity=100);/*鼠标移动就展示这个页面*/
+}
+.brands-content .hotSale-item .hotSale-hover .hotSale-pro-list {
+    margin-top: 14px;
+    padding-left: 30px;
+    height: 184px;
+    border-bottom: 1px dotted #333;
+}
+.brands-content .hotSale-item .hotSale-hover .hotSale-pro-list {
+    padding-left: 34px;
+    margin-top: 16px;
+    height: 218px;
+}
+
+.brands-content .hotSale-item .hotSale-hover .hotSale-pro-item {
+    float: left;
+    margin-right: 16px;
+    width: 121px;
+    height: 83px;
+}
+.brands-content .hotSale-item .hotSale-hover .hotSale-pro-item {
+    width: 140px;
+    height: 217px;
+}
+a, img {
+    vertical-align: top;
+}
+.brands-content  .hotSale-item .hotSale-hover .hotSale-pro-img {
+    width: 140px;
+    height: 177px;
+    margin-right: 16px;
+}
+.brands-content  .hotSale-item .hotSale-hover .hotSale-pro-price {
+    line-height: 30px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #333;
+}
+.brands-content  .hotSale-item .hotSale-hover .hotSale-logo-img {
+    margin-left: 34px;
+}
+.brands-content  .hotSale-item .hotSale-hover .hotSale-logo-img {
+    float: left;
+    margin-left: 29px;
+    margin-right: 20px;
+}
+.brands-content  .hotSale-item .hotSale-logo-img {
+    width: 100px;
+    height: 50px;
+    margin: 6px 0 3px;
+}
+
+.brands-content  .hotSale-item .enter-btn {
+    display: none;
+    margin-top: 18px;
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+    width: 117px;
+    height: 22px;
+    border: 1px solid #333;
+    color: #333;
+    text-align: center;
+    line-height: 22px;
+    background: #fff;
+    border-radius: 2px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.brands-content  .hotSale-item .enter-btn {
+    height: 26px;
+    line-height: 26px;
+    width: 138px;
+    bottom: 20px;
+}
+
+.brands-content .hotSale-item:hover .enter-btn {
+    display: block;
+}
+.brands-content .hotSale-item .enter-btn:hover {
+    background: #333;
+    color: #fff;
 }

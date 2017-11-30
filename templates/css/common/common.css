@@ -3,6 +3,7 @@
 .specify {
     margin: 0 auto;
     width: 1200px;
+    min-width: 1200px;
 }
 
 .out-wrap .navs {
