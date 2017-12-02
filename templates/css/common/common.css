@@ -530,3 +530,39 @@ a:hover img {
     -webkit-animation: blink 1s;
     animation: blink 1s;
 }*/
+/*客服资源*/
+.kf-wrap {
+    position: absolute;/*相对父元素*/
+    z-index: 999;
+}
+.kf-support-btn {
+    color: #fff;
+    font-size: 15px;
+    position: fixed;
+    z-index: 99999;
+    cursor: pointer;
+    box-sizing: initial;
+    background: rgb(50, 50, 50);
+    bottom: 0px;
+    right: 30px;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px 0 45px;
+    min-width: 120px;
+    border-radius: 5px 5px 0 0;
+    font-size: 16px!important;
+}
+.kf-support-btn img {
+    vertical-align: middle;
+    width: 18px;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    margin-top: -9px;
+}
+.kf-support-btn span {
+    font: 400 14px/40px "Microsoft YaHei", tahoma, arial !important;
+}
+
+/*左侧导航栏*/

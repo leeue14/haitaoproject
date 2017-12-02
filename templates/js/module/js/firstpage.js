@@ -104,3 +104,45 @@ for (var i = 0; i < aCatesLi.length; i++) {
     }
 }
 
+
+window.onload = function () {
+    onMoverBanner(); /*移动显示菜单*/
+}
+
+function onMoverBanner(){
+    var oAllin = document.getElementById('allIn');
+    var banner = document.getElementById('banner');
+    oAllin.onmouseout = function () {
+        banner.style.display = 'none';
+    }
+    /*子菜单添加事件*/
+    var oCates = document.getElementById('cates');
+    var aCatesLi = oCates.children;
+
+    var aHoverBox = document.getElementsByClassName('hover-boxs');
+    /*获取到隐藏框*/
+
+    var aWhite = oCates.getElementsByClassName('white');
+
+    /* alert();*/
+    for (var i = 0; i < aCatesLi.length; i++) {
+        aCatesLi[i].index = i;
+        aCatesLi[i].onmousemove = function () {
+            for(var j = 0; j < aHoverBox.length; j++) {
+                aHoverBox[j].style.visibility = 'hidden';
+                aWhite[j].style.display = 'none';
+            }
+            aHoverBox[this.index].style.visibility = 'visible';
+            aWhite[this.index].style.display = 'block';
+            banner.style.display = 'block';
+        }
+    }
+    oAllin.onmousemove = function () {
+
+        banner.style.display = 'block';
+        aHoverBox[0].style.visibility = 'visible';
+
+    }/*移进去会显示*/
+    /*for --end*/
+}/*onMoverBanner end*/
+

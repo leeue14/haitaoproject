@@ -2,14 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>官网大促</title>
+    <title>抢购专题</title>
     <link rel="stylesheet" href="../../css/bases/rest.css">
     <link rel="stylesheet" href="../../css/bases/base.css">
     <link rel="stylesheet" href="../../css/bases/common.css">
     <link rel="stylesheet" href="../../css/hearder/hearder.css">
+
     <link rel="stylesheet" href="../../css/common/common.css">
     <link rel="stylesheet" href="../../css/footer/footer.css">
-    <link rel="stylesheet" href="../../css/msales/msales.css">
+    <link rel="stylesheet" href="../../css/paincpage/paincpage.css">
+
 </head>
 <body>
 
@@ -17,12 +19,12 @@
 <!--<iframe class="iframecontent" frameborder=0 width="100%" height="100%" src="../header/index.html"
         style="min-width: 1200px;clear: both;"></iframe>-->
 
-<iframe class="iframecontent" frameborder=0 width="100%" scrolling="no" src="../header/index.html"
+<iframe id="iframecontent" class="iframecontent" frameborder=0 width="100%" scrolling="no" src="../header/index.html"
         style="min-width: 1200px;min-height: 249px;"></iframe>
 
 <!--中间的内容开始-->
 <div class="clearfix out-wrap ">
-    <div class="specify">
+    <div id="specify" class="specify" >
         <div class="navs clearfix">
             <div class="all-in" id="allIn">
                 <span class="icon icon-func"></span>全部商品分类
@@ -577,7 +579,7 @@
             <a href="#" class="link ">
                 首页
             </a>
-            <a href="#" class="link active">
+            <a href="#" class="link ">
                 商品搜索
             </a>
             <a href="#" class="link ">
@@ -596,366 +598,652 @@
 
     </div><!--specify end-->
 
+    <div id="vip-banner" class="vip-banner vip-icon-c"
+         style="margin-top: 4px;background-image: url('../../images/panicpage/jpg.jpg');background-color: transparent;">
+        <div class="left-time-wrap" style="color: #ff2039;width: 426px;">
+            <span class="seconds">20</span>
+            <span class="minutes">40</span>
+            <span class="hours">13</span>
+            <span class="days">10</span>
+        </div><!--left-time-wrap end-->
+    </div><!--vip-banner end-->
+    <div id="vip-pink" class="clearfix vip-pink " style="background-image: url('../../images/panicpage/pink_1.jpg'); background-repeat: no-repeat;
+    background-color: #04064d;background-position: top;">
+        <div class="vip-number-coupons">
+            <div class="title vip-icon" style="background-image:url('');"></div>
+            <div class="coupon-list">
 
-    <div class="specify page-top">
-        <img class="fl select clearfix" src="../../images/msales/sales.jpg">
-    </div>
+                <a class="coupon vip-icon" data-id="" style="background-image:url('../../images/panicpage/优惠券1.png')" tabindex="-1">
+                    <!-- <span class="btn">点击领取</span> -->
+                </a>
 
-    <div class="bg-f5-to-f0 floors">
-        <div class="specify special-offers">
-            <div class="block clearfix">
-                <div class="specials fl">
-                    <a class="icon special" target="_blank" title="【全年最低】NuFACE 微电流美容仪线上7.5折+额外7.5折！"
-                       style="background-image: url('../../images/msales/外页_1.jpg');width: 471px;height: 380px;">
-                        <div class="countdown j_countdown" style="display: block">
-                            距离结束
-                            <span class="time">14时50分14秒</span>
+                <a class="coupon vip-icon" data-id="" style="background-image:url('../../images/panicpage/优惠券2.png')" tabindex="-1">
+                    <!-- <span class="btn">点击领取</span> -->
+                </a>
+
+                <a class="coupon vip-icon" data-id="" style="background-image:url('../../images/panicpage/优惠券3.png')" tabindex="-1">
+                    <!-- <span class="btn">点击领取</span> -->
+                </a>
+
+                <a class="coupon vip-icon" data-id="1136" style="background-image:url('../../images/panicpage/包邮贴税卷.png')" tabindex="-1">
+                    <!-- <span class="btn">点击领取</span> -->
+                </a>
+
+                <a class="coupon vip-icon" data-id="1137" style="background-image:url('../../images/panicpage/30.png')" tabindex="-1" >
+                    <!-- <span class="btn">点击领取</span> -->
+                </a>
+
+                <a class="coupon vip-icon" data-id="1138" style="background-image:url('../../images/panicpage/60.png')" tabindex="-1" >
+                    <!-- <span class="btn">点击领取</span> -->
+                </a>
+
+                <a class="coupon vip-icon" data-id="1139" style="background-image:url('../../images/panicpage/90.png')" tabindex="-1" >
+                    <!-- <span class="btn">点击领取</span> -->
+                </a>
+
+                <a class="coupon vip-icon" data-id="1140" style="background-image:url('../../images/panicpage/60-2.png')" tabindex="-1" >
+                    <!-- <span class="btn">点击领取</span> -->
+                </a>
+
+                <a class="coupon vip-icon" data-id="1141" style="background-image:url('../../images/panicpage/90-2.png')" tabindex="-1">
+                    <!-- <span class="btn">点击领取</span> -->
+                </a>
+
+                <a class="coupon vip-icon" data-id="1143" style="background-image:url('../../images/panicpage/100.png')" tabindex="-1" >
+                    <!-- <span class="btn">点击领取</span> -->
+                </a>
+
+                <a class="coupon vip-icon" data-id="1144" style="background-image:url('../../images/panicpage/120.png')" tabindex="-1" href="https://my.55haitao.com/login">
+                    <!-- <span class="btn">点击领取</span> -->
+                </a>
+
+                <a class="coupon vip-icon" data-id="1145" style="background-image:url('../../images/panicpage/120-2.png')" tabindex="-1" href="https://my.55haitao.com/login">
+                    <!-- <span class="btn">点击领取</span> -->
+                </a>
+
+            </div><!--coupon-list end-->
+        </div> <!--vip-number-coupons end-->
+    </div><!--vip-pink end-->
+    <div id="vip-purple"class="vip-purple" style="">
+        <div id="floor1" class="vip-rebate vip-icon-c"  style="background-image:url('../../images/panicpage/cm_03.jpg');background-color:#04064d;">
+            <div class="title vip-icon" style="background-image:url('');"></div>
+            <div class="list">
+
+                <a class="elem" >
+                    <div class="elem-img vip-icon" style="background-image:url('../../images/panicpage/6ca7c1ee3b8liykujyhtgrf34ae6_副本.png')"></div>
+                    <div class="elem-content">
+                        <div class="elem-title text-elip">Pony</div>
+                        <div class="elem-desc text-elip">【保税仓发货】PONY 樱花浪漫口红 #02 4.5g</div>
+                        <div class="price-block">
+                            <span class="extra cm">限时抢购价&nbsp;:</span><span class="elem-unit">¥</span>
+                            <span class="elem-real-price">32</span>
+                            <span class="elem-discount" style="display: block;"></span>
                         </div>
-                    </a>
-                </div><!--specials end-->
-                <div class="list fl">
-                    <a class="icon prev" href="javascript:;"></a>
-                    <a class="icon next" href="special/1013/0" data-url="special/1013/0" target="_blank"></a>
-                    <div style="width: 1200px;">
-                        <a class="item" target="_blank" href="#">
-                            <div class="picture icon"
-                                  style="background-image: url('../../images/msales/good_1.jpg');width: 198px;height: 248px;">
-
-                            </div>
-                            <div class="brand text-elip" title="Nuface">Nuface</div>
-                            <div class="brand text-elip brand-t" title="标准版微电流美容仪5件套装
- NuFACE Trinity Infinite Glow Complete Microcurrent and Hydration Collection (Worth $443)">标准版微电流美容仪5件套装
-                                NuFACE Trinity Infinite Glow Complete Microcurrent and Hydration Collection (Worth $443)</div>
-                            <div class="market text-elip">¥ 1317 <span>&nbsp;¥2340&nbsp;</span><em>7.5折</em> </div>
-                            <div class="seller text-elip" title="Skinstore">美国 Skinstore 官网发货</div>
-                            <img class="soldout" src="../../images/msales/soldout.png">
-
-                        </a><!--一个图片展示结束-->
-                        <a class="item" target="_blank" href="#">
-                            <div class="picture icon"
-                                 style="background-image: url('../../images/msales/good_1.jpg');width: 198px;height: 248px;">
-
-                            </div>
-                            <div class="brand text-elip" title="Nuface">Nuface</div>
-                            <div class="brand text-elip brand-t" title="标准版微电流美容仪5件套装
- NuFACE Trinity Infinite Glow Complete Microcurrent and Hydration Collection (Worth $443)">标准版微电流美容仪5件套装
-                                NuFACE Trinity Infinite Glow Complete Microcurrent and Hydration Collection (Worth $443)</div>
-                            <div class="market text-elip">¥ 1317 <span>&nbsp;¥2340&nbsp;</span><em>7.5折</em> </div>
-                            <div class="seller text-elip" title="Skinstore">美国 Skinstore 官网发货</div>
-
-                        </a><!--一个图片展示结束-->
-                        <a class="item" target="_blank" href="#">
-                            <div class="picture icon"
-                                 style="background-image: url('../../images/msales/good_1.jpg');width: 198px;height: 248px;">
-
-                            </div>
-                            <div class="brand text-elip" title="Nuface">Nuface</div>
-                            <div class="brand text-elip brand-t" title="标准版微电流美容仪5件套装
- NuFACE Trinity Infinite Glow Complete Microcurrent and Hydration Collection (Worth $443)">标准版微电流美容仪5件套装
-                                NuFACE Trinity Infinite Glow Complete Microcurrent and Hydration Collection (Worth $443)</div>
-                            <div class="market text-elip">¥ 1317 <span>&nbsp;¥2340&nbsp;</span><em>7.5折</em> </div>
-                            <div class="seller text-elip" title="Skinstore">美国 Skinstore 官网发货</div>
-
-                        </a><!--一个图片展示结束-->
-                        <a class="item" target="_blank" href="#">
-                            <div class="picture icon"
-                                 style="background-image: url('../../images/msales/good_1.jpg');width: 198px;height: 248px;">
-
-                            </div>
-                            <div class="brand text-elip" title="Nuface">Nuface</div>
-                            <div class="brand text-elip brand-t" title="标准版微电流美容仪5件套装
- NuFACE Trinity Infinite Glow Complete Microcurrent and Hydration Collection (Worth $443)">标准版微电流美容仪5件套装
-                                NuFACE Trinity Infinite Glow Complete Microcurrent and Hydration Collection (Worth $443)</div>
-                            <div class="market text-elip">¥ 1317 <span>&nbsp;¥2340&nbsp;</span><em>7.5折</em> </div>
-                            <div class="seller text-elip" title="Skinstore">美国 Skinstore 官网发货</div>
-
-                        </a><!--一个图片展示结束-->
+                        <span class="link-btn">立即抢购</span>
                     </div>
-                </div><!--list end-->
-            </div><!--block end-->
-            <div class="block clearfix">
-                <div class="specials fl">
-                    <a class="icon special" target="_blank" title="【全年最低】NuFACE 微电流美容仪线上7.5折+额外7.5折！"
-                       style="background-image: url('../../images/msales/外页_1.jpg');width: 471px;height: 380px;">
-                        <div class="countdown j_countdown" style="display: block">
-                            距离结束
-                            <span class="time">14时50分14秒</span>
+                </a><!--一个商品 end-->
+                <a class="elem" >
+                    <div class="elem-img vip-icon" style="background-image:url('../../images/panicpage/6ca7c1ee3b8liykujyhtgrf34ae6_副本.png')"></div>
+                    <div class="elem-content">
+                        <div class="elem-title text-elip">Pony</div>
+                        <div class="elem-desc text-elip">【保税仓发货】PONY 樱花浪漫口红 #02 4.5g</div>
+                        <div class="price-block">
+                            <span class="extra cm">限时抢购价&nbsp;:</span><span class="elem-unit">¥</span>
+                            <span class="elem-real-price">32</span>
+                            <span class="elem-discount" style="display: block;"></span>
                         </div>
-                    </a>
-                </div><!--specials end-->
-                <div class="list fl">
-                    <a class="icon prev" href="javascript:;"></a>
-                    <a class="icon next" href="special/1013/0" data-url="special/1013/0" target="_blank"></a>
-                    <div style="width: 1200px;">
-                        <a class="item" target="_blank" href="#">
-                            <div class="picture icon"
-                                 style="background-image: url('../../images/msales/good_1.jpg');width: 198px;height: 248px;">
-
-                            </div>
-                            <div class="brand text-elip" title="Nuface">Nuface</div>
-                            <div class="brand text-elip brand-t" title="标准版微电流美容仪5件套装
- NuFACE Trinity Infinite Glow Complete Microcurrent and Hydration Collection (Worth $443)">标准版微电流美容仪5件套装
-                                NuFACE Trinity Infinite Glow Complete Microcurrent and Hydration Collection (Worth $443)</div>
-                            <div class="market text-elip">¥ 1317 <span>&nbsp;¥2340&nbsp;</span><em>7.5折</em> </div>
-                            <div class="seller text-elip" title="Skinstore">美国 Skinstore 官网发货</div>
-
-                        </a><!--一个图片展示结束-->
-                        <a class="item" target="_blank" href="#">
-                            <div class="picture icon"
-                                 style="background-image: url('../../images/msales/good_1.jpg');width: 198px;height: 248px;">
-
-                            </div>
-                            <div class="brand text-elip" title="Nuface">Nuface</div>
-                            <div class="brand text-elip brand-t" title="标准版微电流美容仪5件套装
- NuFACE Trinity Infinite Glow Complete Microcurrent and Hydration Collection (Worth $443)">标准版微电流美容仪5件套装
-                                NuFACE Trinity Infinite Glow Complete Microcurrent and Hydration Collection (Worth $443)</div>
-                            <div class="market text-elip">¥ 1317 <span>&nbsp;¥2340&nbsp;</span><em>7.5折</em> </div>
-                            <div class="seller text-elip" title="Skinstore">美国 Skinstore 官网发货</div>
-
-                        </a><!--一个图片展示结束-->
-                        <a class="item" target="_blank" href="#">
-                            <div class="picture icon"
-                                 style="background-image: url('../../images/msales/good_1.jpg');width: 198px;height: 248px;">
-
-                            </div>
-                            <div class="brand text-elip" title="Nuface">Nuface</div>
-                            <div class="brand text-elip brand-t" title="标准版微电流美容仪5件套装
- NuFACE Trinity Infinite Glow Complete Microcurrent and Hydration Collection (Worth $443)">标准版微电流美容仪5件套装
-                                NuFACE Trinity Infinite Glow Complete Microcurrent and Hydration Collection (Worth $443)</div>
-                            <div class="market text-elip">¥ 1317 <span>&nbsp;¥2340&nbsp;</span><em>7.5折</em> </div>
-                            <div class="seller text-elip" title="Skinstore">美国 Skinstore 官网发货</div>
-
-                        </a><!--一个图片展示结束-->
-                        <a class="item" target="_blank" href="#">
-                            <div class="picture icon"
-                                 style="background-image: url('../../images/msales/good_1.jpg');width: 198px;height: 248px;">
-
-                            </div>
-                            <div class="brand text-elip" title="Nuface">Nuface</div>
-                            <div class="brand text-elip brand-t" title="标准版微电流美容仪5件套装
- NuFACE Trinity Infinite Glow Complete Microcurrent and Hydration Collection (Worth $443)">标准版微电流美容仪5件套装
-                                NuFACE Trinity Infinite Glow Complete Microcurrent and Hydration Collection (Worth $443)</div>
-                            <div class="market text-elip">¥ 1317 <span>&nbsp;¥2340&nbsp;</span><em>7.5折</em> </div>
-                            <div class="seller text-elip" title="Skinstore">美国 Skinstore 官网发货</div>
-
-                        </a><!--一个图片展示结束-->
+                        <span class="link-btn">立即抢购</span>
                     </div>
-                </div><!--list end-->
-            </div><!--block end-->
-            <div class="block clearfix">
-                <div class="specials fl">
-                    <a class="icon special" target="_blank" title="【全年最低】NuFACE 微电流美容仪线上7.5折+额外7.5折！"
-                       style="background-image: url('../../images/msales/外页_1.jpg');width: 471px;height: 380px;">
-                        <div class="countdown j_countdown" style="display: block">
-                            距离结束
-                            <span class="time">14时50分14秒</span>
+                </a><!--一个商品 end-->
+                <a class="elem" >
+                    <div class="elem-img vip-icon" style="background-image:url('../../images/panicpage/6ca7c1ee3b8liykujyhtgrf34ae6_副本.png')"></div>
+                    <div class="elem-content">
+                        <div class="elem-title text-elip">Pony</div>
+                        <div class="elem-desc text-elip">【保税仓发货】PONY 樱花浪漫口红 #02 4.5g</div>
+                        <div class="price-block">
+                            <span class="extra cm">限时抢购价&nbsp;:</span><span class="elem-unit">¥</span>
+                            <span class="elem-real-price">32</span>
+                            <span class="elem-discount" style="display: block;"></span>
                         </div>
-                    </a>
-                </div><!--specials end-->
-                <div class="list fl">
-                    <a class="icon prev" href="javascript:;"></a>
-                    <a class="icon next" href="special/1013/0" data-url="special/1013/0" target="_blank"></a>
-                    <div style="width: 1200px;">
-                        <a class="item" target="_blank" href="#">
-                            <div class="picture icon"
-                                 style="background-image: url('../../images/msales/good_1.jpg');width: 198px;height: 248px;">
-
-                            </div>
-                            <div class="brand text-elip" title="Nuface">Nuface</div>
-                            <div class="brand text-elip brand-t" title="标准版微电流美容仪5件套装
- NuFACE Trinity Infinite Glow Complete Microcurrent and Hydration Collection (Worth $443)">标准版微电流美容仪5件套装
-                                NuFACE Trinity Infinite Glow Complete Microcurrent and Hydration Collection (Worth $443)</div>
-                            <div class="market text-elip">¥ 1317 <span>&nbsp;¥2340&nbsp;</span><em>7.5折</em> </div>
-                            <div class="seller text-elip" title="Skinstore">美国 Skinstore 官网发货</div>
-
-                        </a><!--一个图片展示结束-->
-                        <a class="item" target="_blank" href="#">
-                            <div class="picture icon"
-                                 style="background-image: url('../../images/msales/good_1.jpg');width: 198px;height: 248px;">
-
-                            </div>
-                            <div class="brand text-elip" title="Nuface">Nuface</div>
-                            <div class="brand text-elip brand-t" title="标准版微电流美容仪5件套装
- NuFACE Trinity Infinite Glow Complete Microcurrent and Hydration Collection (Worth $443)">标准版微电流美容仪5件套装
-                                NuFACE Trinity Infinite Glow Complete Microcurrent and Hydration Collection (Worth $443)</div>
-                            <div class="market text-elip">¥ 1317 <span>&nbsp;¥2340&nbsp;</span><em>7.5折</em> </div>
-                            <div class="seller text-elip" title="Skinstore">美国 Skinstore 官网发货</div>
-
-                        </a><!--一个图片展示结束-->
-                        <a class="item" target="_blank" href="#">
-                            <div class="picture icon"
-                                 style="background-image: url('../../images/msales/good_1.jpg');width: 198px;height: 248px;">
-
-                            </div>
-                            <div class="brand text-elip" title="Nuface">Nuface</div>
-                            <div class="brand text-elip brand-t" title="标准版微电流美容仪5件套装
- NuFACE Trinity Infinite Glow Complete Microcurrent and Hydration Collection (Worth $443)">标准版微电流美容仪5件套装
-                                NuFACE Trinity Infinite Glow Complete Microcurrent and Hydration Collection (Worth $443)</div>
-                            <div class="market text-elip">¥ 1317 <span>&nbsp;¥2340&nbsp;</span><em>7.5折</em> </div>
-                            <div class="seller text-elip" title="Skinstore">美国 Skinstore 官网发货</div>
-
-                        </a><!--一个图片展示结束-->
-                        <a class="item" target="_blank" href="#">
-                            <div class="picture icon"
-                                 style="background-image: url('../../images/msales/good_1.jpg');width: 198px;height: 248px;">
-
-                            </div>
-                            <div class="brand text-elip" title="Nuface">Nuface</div>
-                            <div class="brand text-elip brand-t" title="标准版微电流美容仪5件套装
- NuFACE Trinity Infinite Glow Complete Microcurrent and Hydration Collection (Worth $443)">标准版微电流美容仪5件套装
-                                NuFACE Trinity Infinite Glow Complete Microcurrent and Hydration Collection (Worth $443)</div>
-                            <div class="market text-elip">¥ 1317 <span>&nbsp;¥2340&nbsp;</span><em>7.5折</em> </div>
-                            <div class="seller text-elip" title="Skinstore">美国 Skinstore 官网发货</div>
-
-                        </a><!--一个图片展示结束-->
+                        <span class="link-btn">立即抢购</span>
                     </div>
-                </div><!--list end-->
-            </div><!--block end-->
-            <div class="block clearfix">
-                <div class="specials fl">
-                    <a class="icon special" target="_blank" title="【全年最低】NuFACE 微电流美容仪线上7.5折+额外7.5折！"
-                       style="background-image: url('../../images/msales/外页_1.jpg');width: 471px;height: 380px;">
-                        <div class="countdown j_countdown" style="display: block">
-                            距离结束
-                            <span class="time">14时50分14秒</span>
+                </a><!--一个商品 end-->
+                <a class="elem" >
+                    <div class="elem-img vip-icon" style="background-image:url('../../images/panicpage/6ca7c1ee3b8liykujyhtgrf34ae6_副本.png')"></div>
+                    <div class="elem-content">
+                        <div class="elem-title text-elip">Pony</div>
+                        <div class="elem-desc text-elip">【保税仓发货】PONY 樱花浪漫口红 #02 4.5g</div>
+                        <div class="price-block">
+                            <span class="extra cm">限时抢购价&nbsp;:</span><span class="elem-unit">¥</span>
+                            <span class="elem-real-price">32</span>
+                            <span class="elem-discount" style="display: block;"></span>
                         </div>
-                    </a>
-                </div><!--specials end-->
-                <div class="list fl">
-                    <a class="icon prev" href="javascript:;"></a>
-                    <a class="icon next" href="special/1013/0" data-url="special/1013/0" target="_blank"></a>
-                    <div style="width: 1200px;">
-                        <a class="item" target="_blank" href="#">
-                            <div class="picture icon"
-                                 style="background-image: url('../../images/msales/good_1.jpg');width: 198px;height: 248px;">
-
-                            </div>
-                            <div class="brand text-elip" title="Nuface">Nuface</div>
-                            <div class="brand text-elip brand-t" title="标准版微电流美容仪5件套装
- NuFACE Trinity Infinite Glow Complete Microcurrent and Hydration Collection (Worth $443)">标准版微电流美容仪5件套装
-                                NuFACE Trinity Infinite Glow Complete Microcurrent and Hydration Collection (Worth $443)</div>
-                            <div class="market text-elip">¥ 1317 <span>&nbsp;¥2340&nbsp;</span><em>7.5折</em> </div>
-                            <div class="seller text-elip" title="Skinstore">美国 Skinstore 官网发货</div>
-
-                        </a><!--一个图片展示结束-->
-                        <a class="item" target="_blank" href="#">
-                            <div class="picture icon"
-                                 style="background-image: url('../../images/msales/good_1.jpg');width: 198px;height: 248px;">
-
-                            </div>
-                            <div class="brand text-elip" title="Nuface">Nuface</div>
-                            <div class="brand text-elip brand-t" title="标准版微电流美容仪5件套装
- NuFACE Trinity Infinite Glow Complete Microcurrent and Hydration Collection (Worth $443)">标准版微电流美容仪5件套装
-                                NuFACE Trinity Infinite Glow Complete Microcurrent and Hydration Collection (Worth $443)</div>
-                            <div class="market text-elip">¥ 1317 <span>&nbsp;¥2340&nbsp;</span><em>7.5折</em> </div>
-                            <div class="seller text-elip" title="Skinstore">美国 Skinstore 官网发货</div>
-
-                        </a><!--一个图片展示结束-->
-                        <a class="item" target="_blank" href="#">
-                            <div class="picture icon"
-                                 style="background-image: url('../../images/msales/good_1.jpg');width: 198px;height: 248px;">
-
-                            </div>
-                            <div class="brand text-elip" title="Nuface">Nuface</div>
-                            <div class="brand text-elip brand-t" title="标准版微电流美容仪5件套装
- NuFACE Trinity Infinite Glow Complete Microcurrent and Hydration Collection (Worth $443)">标准版微电流美容仪5件套装
-                                NuFACE Trinity Infinite Glow Complete Microcurrent and Hydration Collection (Worth $443)</div>
-                            <div class="market text-elip">¥ 1317 <span>&nbsp;¥2340&nbsp;</span><em>7.5折</em> </div>
-                            <div class="seller text-elip" title="Skinstore">美国 Skinstore 官网发货</div>
-
-                        </a><!--一个图片展示结束-->
-                        <a class="item" target="_blank" href="#">
-                            <div class="picture icon"
-                                 style="background-image: url('../../images/msales/good_1.jpg');width: 198px;height: 248px;">
-
-                            </div>
-                            <div class="brand text-elip" title="Nuface">Nuface</div>
-                            <div class="brand text-elip brand-t" title="标准版微电流美容仪5件套装
- NuFACE Trinity Infinite Glow Complete Microcurrent and Hydration Collection (Worth $443)">标准版微电流美容仪5件套装
-                                NuFACE Trinity Infinite Glow Complete Microcurrent and Hydration Collection (Worth $443)</div>
-                            <div class="market text-elip">¥ 1317 <span>&nbsp;¥2340&nbsp;</span><em>7.5折</em> </div>
-                            <div class="seller text-elip" title="Skinstore">美国 Skinstore 官网发货</div>
-
-                        </a><!--一个图片展示结束-->
+                        <span class="link-btn">立即抢购</span>
                     </div>
-                </div><!--list end-->
-            </div><!--block end-->
-            <div class="block clearfix">
-                <div class="specials fl">
-                    <a class="icon special" target="_blank" title="【全年最低】NuFACE 微电流美容仪线上7.5折+额外7.5折！"
-                       style="background-image: url('../../images/msales/外页_1.jpg');width: 471px;height: 380px;">
-                        <div class="countdown j_countdown" style="display: block">
-                            距离结束
-                            <span class="time">14时50分14秒</span>
+                </a><!--一个商品 end-->
+
+            </div><!--list end-->
+        </div><!-- vip-rebate end-->
+        <div id="floor2" class="vip-prompt vip-icon-c" style="background-image:url('../../images/panicpage/2017-cm_04.jpg');background-color:#04064d;">
+            <div class="title vip-icon" style="background-image:url('');"></div>
+            <div class="list">
+
+                <a class="elem vip-icon" style="background-image:url('http://searchimg.b0.upaiyun.com/cateOptImg/74/michael-kors-分会场pc.jpg')" target="_blank" href="http://mall.55haitao.com/mallhome/special/990/0?parentNode=vipweekpage-30_prompt_0">
+
+                </a>
+
+                <a class="elem vip-icon" style="background-image:url('http://searchimg.b0.upaiyun.com/cateOptImg/74/katespade分会场pc.jpg')" target="_blank" href="http://mall.55haitao.com/mallhome/special/989/0?parentNode=vipweekpage-30_prompt_1">
+
+                </a>
+
+                <a class="elem vip-icon" style="background-image:url('http://searchimg.b0.upaiyun.com/cateOptImg/74/puma分会场pc.jpg')" target="_blank" href="http://mall.55haitao.com/mallhome/special/986/0?parentNode=vipweekpage-30_prompt_2">
+
+                </a>
+
+                <a class="elem vip-icon" style="background-image:url('http://searchimg.b0.upaiyun.com/cateOptImg/74/Rebecca-Minkoff分会场pc.jpg')" target="_blank" href="http://mall.55haitao.com/mallhome/special/991/0?parentNode=vipweekpage-30_prompt_3">
+
+                </a>
+
+                <a class="elem vip-icon" style="background-image:url('http://searchimg.b0.upaiyun.com/cateOptImg/74/Origins分会场pc.jpg')" target="_blank" href="http://mall.55haitao.com/mallhome/special/992/0?parentNode=vipweekpage-30_prompt_4">
+
+                </a>
+
+                <a class="elem vip-icon" style="background-image:url('http://searchimg.b0.upaiyun.com/cateOptImg/74/Skinstore分会场pc.jpg')" target="_blank" href="http://mall.55haitao.com/mallhome/special/993/0?parentNode=vipweekpage-30_prompt_5">
+
+                </a>
+
+                <a class="elem vip-icon" style="background-image:url('http://searchimg.b0.upaiyun.com/cateOptImg/74/Peter-Thomas-Roth分会场pc.jpg')" target="_blank" href="http://mall.55haitao.com/mallhome/special/988/0?parentNode=vipweekpage-30_prompt_6">
+
+                </a>
+
+                <a class="elem vip-icon" style="background-image:url('http://searchimg.b0.upaiyun.com/cateOptImg/74/lookfantastic分会场pc.jpg')" target="_blank" href="http://mall.55haitao.com/mallhome/special/994/0?parentNode=vipweekpage-30_prompt_7">
+
+                </a>
+
+            </div>
+        </div><!--vip-prompt end-->
+        <div id="floor3" class="vip-rebate vip-elem-rebate vip-icon-c"  style="background-image:url('../../images/panicpage/2017-cm_05.jpg');background-color:#04064d;">
+            <div class="title vip-icon" style="background-image:url('');"></div>
+            <div class="list">
+                <a class="elem" >
+                    <div class="elem-img vip-icon" style="background-image:url('../../images/panicpage/3e2d3VSFEAE325e6482c3f2_副本.jpg')"></div>
+                    <div class="elem-content">
+                        <div class="elem-title text-elip">Pony</div>
+                        <div class="elem-desc text-elip">【保税仓发货】PONY 樱花浪漫口红 #02 4.5g</div>
+                        <div class="price-block">
+                            <span class="extra cm">限时抢购价&nbsp;:</span><span class="elem-unit">¥</span>
+                            <span class="elem-real-price">32</span>
+
+                            <span class="elem-discount" style="">7.0折</span>
                         </div>
-                    </a>
-                </div><!--specials end-->
-                <div class="list fl">
-                    <a class="icon prev" href="javascript:;"></a>
-                    <a class="icon next" href="special/1013/0" data-url="special/1013/0" target="_blank"></a>
-                    <div style="width: 1200px;">
-                        <a class="item" target="_blank" href="#">
-                            <div class="picture icon"
-                                 style="background-image: url('../../images/msales/good_1.jpg');width: 198px;height: 248px;">
-
-                            </div>
-                            <div class="brand text-elip" title="Nuface">Nuface</div>
-                            <div class="brand text-elip brand-t" title="标准版微电流美容仪5件套装
- NuFACE Trinity Infinite Glow Complete Microcurrent and Hydration Collection (Worth $443)">标准版微电流美容仪5件套装
-                                NuFACE Trinity Infinite Glow Complete Microcurrent and Hydration Collection (Worth $443)</div>
-                            <div class="market text-elip">¥ 1317 <span>&nbsp;¥2340&nbsp;</span><em>7.5折</em> </div>
-                            <div class="seller text-elip" title="Skinstore">美国 Skinstore 官网发货</div>
-
-                        </a><!--一个图片展示结束-->
-                        <a class="item" target="_blank" href="#">
-                            <div class="picture icon"
-                                 style="background-image: url('../../images/msales/good_1.jpg');width: 198px;height: 248px;">
-
-                            </div>
-                            <div class="brand text-elip" title="Nuface">Nuface</div>
-                            <div class="brand text-elip brand-t" title="标准版微电流美容仪5件套装
- NuFACE Trinity Infinite Glow Complete Microcurrent and Hydration Collection (Worth $443)">标准版微电流美容仪5件套装
-                                NuFACE Trinity Infinite Glow Complete Microcurrent and Hydration Collection (Worth $443)</div>
-                            <div class="market text-elip">¥ 1317 <span>&nbsp;¥2340&nbsp;</span><em>7.5折</em> </div>
-                            <div class="seller text-elip" title="Skinstore">美国 Skinstore 官网发货</div>
-
-                        </a><!--一个图片展示结束-->
-                        <a class="item" target="_blank" href="#">
-                            <div class="picture icon"
-                                 style="background-image: url('../../images/msales/good_1.jpg');width: 198px;height: 248px;">
-
-                            </div>
-                            <div class="brand text-elip" title="Nuface">Nuface</div>
-                            <div class="brand text-elip brand-t" title="标准版微电流美容仪5件套装
- NuFACE Trinity Infinite Glow Complete Microcurrent and Hydration Collection (Worth $443)">标准版微电流美容仪5件套装
-                                NuFACE Trinity Infinite Glow Complete Microcurrent and Hydration Collection (Worth $443)</div>
-                            <div class="market text-elip">¥ 1317 <span>&nbsp;¥2340&nbsp;</span><em>7.5折</em> </div>
-                            <div class="seller text-elip" title="Skinstore">美国 Skinstore 官网发货</div>
-
-                        </a><!--一个图片展示结束-->
-                        <a class="item" target="_blank" href="#">
-                            <div class="picture icon"
-                                 style="background-image: url('../../images/msales/good_1.jpg');width: 198px;height: 248px;">
-
-                            </div>
-                            <div class="brand text-elip" title="Nuface">Nuface</div>
-                            <div class="brand text-elip brand-t" title="标准版微电流美容仪5件套装
- NuFACE Trinity Infinite Glow Complete Microcurrent and Hydration Collection (Worth $443)">标准版微电流美容仪5件套装
-                                NuFACE Trinity Infinite Glow Complete Microcurrent and Hydration Collection (Worth $443)</div>
-                            <div class="market text-elip">¥ 1317 <span>&nbsp;¥2340&nbsp;</span><em>7.5折</em> </div>
-                            <div class="seller text-elip" title="Skinstore">美国 Skinstore 官网发货</div>
-
-                        </a><!--一个图片展示结束-->
+                        <span class="link-btn">立即抢购</span>
                     </div>
-                </div><!--list end-->
-            </div><!--block end-->
-        </div><!--specialgood-offers end -->
-    </div><!--bg-f5-to-f0 end-->
+                </a><!--一个商品 end-->
+                <a class="elem" >
+                    <div class="elem-img vip-icon" style="background-image:url('../../images/panicpage/6ca7c1ee3b8liykujyhtgrf34ae6_副本.png')"></div>
+                    <div class="elem-content">
+                        <div class="elem-title text-elip">Pony</div>
+                        <div class="elem-desc text-elip">【保税仓发货】PONY 樱花浪漫口红 #02 4.5g</div>
+                        <div class="price-block">
+                            <span class="extra cm">限时抢购价&nbsp;:</span><span class="elem-unit">¥</span>
+                            <span class="elem-real-price">32</span>
+                            <span class="elem-discount" style="display: block;"></span>
+                        </div>
+                        <span class="link-btn">立即抢购</span>
+                    </div>
+                </a><!--一个商品 end-->
+                <a class="elem" >
+                    <div class="elem-img vip-icon" style="background-image:url('../../images/panicpage/6ca7c1ee3b8liykujyhtgrf34ae6_副本.png')"></div>
+                    <div class="elem-content">
+                        <div class="elem-title text-elip">Pony</div>
+                        <div class="elem-desc text-elip">【保税仓发货】PONY 樱花浪漫口红 #02 4.5g</div>
+                        <div class="price-block">
+                            <span class="extra cm">限时抢购价&nbsp;:</span><span class="elem-unit">¥</span>
+                            <span class="elem-real-price">32</span>
+                            <span class="elem-discount" style="display: block;"></span>
+                        </div>
+                        <span class="link-btn">立即抢购</span>
+                    </div>
+                </a><!--一个商品 end-->
+                <a class="elem" >
+                    <div class="elem-img vip-icon" style="background-image:url('../../images/panicpage/6ca7c1ee3b8liykujyhtgrf34ae6_副本.png')"></div>
+                    <div class="elem-content">
+                        <div class="elem-title text-elip">Pony</div>
+                        <div class="elem-desc text-elip">【保税仓发货】PONY 樱花浪漫口红 #02 4.5g</div>
+                        <div class="price-block">
+                            <span class="extra cm">限时抢购价&nbsp;:</span><span class="elem-unit">¥</span>
+                            <span class="elem-real-price">32</span>
+                            <span class="elem-discount" style="display: block;"></span>
+                        </div>
+                        <span class="link-btn">立即抢购</span>
+                    </div>
+                </a><!--一个商品 end-->
+                <a class="elem" >
+                    <div class="elem-img vip-icon" style="background-image:url('../../images/panicpage/6ca7c1ee3b8liykujyhtgrf34ae6_副本.png')"></div>
+                    <div class="elem-content">
+                        <div class="elem-title text-elip">Pony</div>
+                        <div class="elem-desc text-elip">【保税仓发货】PONY 樱花浪漫口红 #02 4.5g</div>
+                        <div class="price-block">
+                            <span class="extra cm">限时抢购价&nbsp;:</span><span class="elem-unit">¥</span>
+                            <span class="elem-real-price">32</span>
+                            <span class="elem-discount" style="display: block;"></span>
+                        </div>
+                        <span class="link-btn">立即抢购</span>
+                    </div>
+                </a><!--一个商品 end-->
+                <a class="elem" >
+                    <div class="elem-img vip-icon" style="background-image:url('../../images/panicpage/6ca7c1ee3b8liykujyhtgrf34ae6_副本.png')"></div>
+                    <div class="elem-content">
+                        <div class="elem-title text-elip">Pony</div>
+                        <div class="elem-desc text-elip">【保税仓发货】PONY 樱花浪漫口红 #02 4.5g</div>
+                        <div class="price-block">
+                            <span class="extra cm">限时抢购价&nbsp;:</span><span class="elem-unit">¥</span>
+                            <span class="elem-real-price">32</span>
+                            <span class="elem-discount" style="display: block;"></span>
+                        </div>
+                        <span class="link-btn">立即抢购</span>
+                    </div>
+                </a><!--一个商品 end-->
+                <a class="elem" >
+                    <div class="elem-img vip-icon" style="background-image:url('../../images/panicpage/6ca7c1ee3b8liykujyhtgrf34ae6_副本.png')"></div>
+                    <div class="elem-content">
+                        <div class="elem-title text-elip">Pony</div>
+                        <div class="elem-desc text-elip">【保税仓发货】PONY 樱花浪漫口红 #02 4.5g</div>
+                        <div class="price-block">
+                            <span class="extra cm">限时抢购价&nbsp;:</span><span class="elem-unit">¥</span>
+                            <span class="elem-real-price">32</span>
+                            <span class="elem-discount" style="display: block;"></span>
+                        </div>
+                        <span class="link-btn">立即抢购</span>
+                    </div>
+                </a><!--一个商品 end-->
+                <a class="elem" >
+                    <div class="elem-img vip-icon" style="background-image:url('../../images/panicpage/6ca7c1ee3b8liykujyhtgrf34ae6_副本.png')"></div>
+                    <div class="elem-content">
+                        <div class="elem-title text-elip">Pony</div>
+                        <div class="elem-desc text-elip">【保税仓发货】PONY 樱花浪漫口红 #02 4.5g</div>
+                        <div class="price-block">
+                            <span class="extra cm">限时抢购价&nbsp;:</span><span class="elem-unit">¥</span>
+                            <span class="elem-real-price">32</span>
+                            <span class="elem-discount" style="display: block;"></span>
+                        </div>
+                        <span class="link-btn">立即抢购</span>
+                    </div>
+                </a><!--一个商品 end-->
+
+            </div><!--list end-->
+        </div><!-- vip-rebate end-->
+        <div id="floor4" class="vip-rebate vip-elem-rebate vip-icon-c"style="background-image:url('../../images/panicpage/2017-cm_06.jpg');background-color:#04064d;">
+            <div class="title vip-icon" style="background-image:url('');"></div>
+            <div class="list">
+                <a class="elem" >
+                    <div class="elem-img vip-icon" style="background-image:url('../../images/panicpage/3e2d3VSFEAE325e6482c3f2_副本.jpg')"></div>
+                    <div class="elem-content">
+                        <div class="elem-title text-elip">Pony</div>
+                        <div class="elem-desc text-elip">【保税仓发货】PONY 樱花浪漫口红 #02 4.5g</div>
+                        <div class="price-block">
+                            <span class="extra cm">限时抢购价&nbsp;:</span><span class="elem-unit">¥</span>
+                            <span class="elem-real-price">32</span>
+
+                            <span class="elem-discount" style="">7.0折</span>
+                        </div>
+                        <span class="link-btn">立即抢购</span>
+                    </div>
+                </a><!--一个商品 end-->
+                <a class="elem" >
+                    <div class="elem-img vip-icon" style="background-image:url('../../images/panicpage/6ca7c1ee3b8liykujyhtgrf34ae6_副本.png')"></div>
+                    <div class="elem-content">
+                        <div class="elem-title text-elip">Pony</div>
+                        <div class="elem-desc text-elip">【保税仓发货】PONY 樱花浪漫口红 #02 4.5g</div>
+                        <div class="price-block">
+                            <span class="extra cm">限时抢购价&nbsp;:</span><span class="elem-unit">¥</span>
+                            <span class="elem-real-price">32</span>
+                            <span class="elem-discount" style="display: block;"></span>
+                        </div>
+                        <span class="link-btn">立即抢购</span>
+                    </div>
+                </a><!--一个商品 end-->
+                <a class="elem" >
+                    <div class="elem-img vip-icon" style="background-image:url('../../images/panicpage/6ca7c1ee3b8liykujyhtgrf34ae6_副本.png')"></div>
+                    <div class="elem-content">
+                        <div class="elem-title text-elip">Pony</div>
+                        <div class="elem-desc text-elip">【保税仓发货】PONY 樱花浪漫口红 #02 4.5g</div>
+                        <div class="price-block">
+                            <span class="extra cm">限时抢购价&nbsp;:</span><span class="elem-unit">¥</span>
+                            <span class="elem-real-price">32</span>
+                            <span class="elem-discount" style="display: block;"></span>
+                        </div>
+                        <span class="link-btn">立即抢购</span>
+                    </div>
+                </a><!--一个商品 end-->
+                <a class="elem" >
+                    <div class="elem-img vip-icon" style="background-image:url('../../images/panicpage/6ca7c1ee3b8liykujyhtgrf34ae6_副本.png')"></div>
+                    <div class="elem-content">
+                        <div class="elem-title text-elip">Pony</div>
+                        <div class="elem-desc text-elip">【保税仓发货】PONY 樱花浪漫口红 #02 4.5g</div>
+                        <div class="price-block">
+                            <span class="extra cm">限时抢购价&nbsp;:</span><span class="elem-unit">¥</span>
+                            <span class="elem-real-price">32</span>
+                            <span class="elem-discount" style="display: block;"></span>
+                        </div>
+                        <span class="link-btn">立即抢购</span>
+                    </div>
+                </a><!--一个商品 end-->
+                <a class="elem" >
+                    <div class="elem-img vip-icon" style="background-image:url('../../images/panicpage/6ca7c1ee3b8liykujyhtgrf34ae6_副本.png')"></div>
+                    <div class="elem-content">
+                        <div class="elem-title text-elip">Pony</div>
+                        <div class="elem-desc text-elip">【保税仓发货】PONY 樱花浪漫口红 #02 4.5g</div>
+                        <div class="price-block">
+                            <span class="extra cm">限时抢购价&nbsp;:</span><span class="elem-unit">¥</span>
+                            <span class="elem-real-price">32</span>
+                            <span class="elem-discount" style="display: block;"></span>
+                        </div>
+                        <span class="link-btn">立即抢购</span>
+                    </div>
+                </a><!--一个商品 end-->
+                <a class="elem" >
+                    <div class="elem-img vip-icon" style="background-image:url('../../images/panicpage/6ca7c1ee3b8liykujyhtgrf34ae6_副本.png')"></div>
+                    <div class="elem-content">
+                        <div class="elem-title text-elip">Pony</div>
+                        <div class="elem-desc text-elip">【保税仓发货】PONY 樱花浪漫口红 #02 4.5g</div>
+                        <div class="price-block">
+                            <span class="extra cm">限时抢购价&nbsp;:</span><span class="elem-unit">¥</span>
+                            <span class="elem-real-price">32</span>
+                            <span class="elem-discount" style="display: block;"></span>
+                        </div>
+                        <span class="link-btn">立即抢购</span>
+                    </div>
+                </a><!--一个商品 end-->
+                <a class="elem" >
+                    <div class="elem-img vip-icon" style="background-image:url('../../images/panicpage/6ca7c1ee3b8liykujyhtgrf34ae6_副本.png')"></div>
+                    <div class="elem-content">
+                        <div class="elem-title text-elip">Pony</div>
+                        <div class="elem-desc text-elip">【保税仓发货】PONY 樱花浪漫口红 #02 4.5g</div>
+                        <div class="price-block">
+                            <span class="extra cm">限时抢购价&nbsp;:</span><span class="elem-unit">¥</span>
+                            <span class="elem-real-price">32</span>
+                            <span class="elem-discount" style="display: block;"></span>
+                        </div>
+                        <span class="link-btn">立即抢购</span>
+                    </div>
+                </a><!--一个商品 end-->
+                <a class="elem" >
+                    <div class="elem-img vip-icon" style="background-image:url('../../images/panicpage/6ca7c1ee3b8liykujyhtgrf34ae6_副本.png')"></div>
+                    <div class="elem-content">
+                        <div class="elem-title text-elip">Pony</div>
+                        <div class="elem-desc text-elip">【保税仓发货】PONY 樱花浪漫口红 #02 4.5g</div>
+                        <div class="price-block">
+                            <span class="extra cm">限时抢购价&nbsp;:</span><span class="elem-unit">¥</span>
+                            <span class="elem-real-price">32</span>
+                            <span class="elem-discount" style="display: block;"></span>
+                        </div>
+                        <span class="link-btn">立即抢购</span>
+                    </div>
+                </a><!--一个商品 end-->
+
+            </div><!--list end-->
+        </div><!-- vip-rebate end-->
+        <div id="floor5" class="vip-rebate vip-elem-rebate vip-icon-c"  style="background-image:url('../../images/panicpage/2017-cm_07.jpg');background-color:#04064d;">
+            <div class="title vip-icon" style="background-image:url('');"></div>
+            <div class="list">
+                <a class="elem" >
+                    <div class="elem-img vip-icon" style="background-image:url('../../images/panicpage/3e2d3VSFEAE325e6482c3f2_副本.jpg')"></div>
+                    <div class="elem-content">
+                        <div class="elem-title text-elip">Pony</div>
+                        <div class="elem-desc text-elip">【保税仓发货】PONY 樱花浪漫口红 #02 4.5g</div>
+                        <div class="price-block">
+                            <span class="extra cm">限时抢购价&nbsp;:</span><span class="elem-unit">¥</span>
+                            <span class="elem-real-price">32</span>
+
+                            <span class="elem-discount" style="">7.0折</span>
+                        </div>
+                        <span class="link-btn">立即抢购</span>
+                    </div>
+                </a><!--一个商品 end-->
+                <a class="elem" >
+                    <div class="elem-img vip-icon" style="background-image:url('../../images/panicpage/6ca7c1ee3b8liykujyhtgrf34ae6_副本.png')"></div>
+                    <div class="elem-content">
+                        <div class="elem-title text-elip">Pony</div>
+                        <div class="elem-desc text-elip">【保税仓发货】PONY 樱花浪漫口红 #02 4.5g</div>
+                        <div class="price-block">
+                            <span class="extra cm">限时抢购价&nbsp;:</span><span class="elem-unit">¥</span>
+                            <span class="elem-real-price">32</span>
+                            <span class="elem-discount" style="display: block;"></span>
+                        </div>
+                        <span class="link-btn">立即抢购</span>
+                    </div>
+                </a><!--一个商品 end-->
+                <a class="elem" >
+                    <div class="elem-img vip-icon" style="background-image:url('../../images/panicpage/6ca7c1ee3b8liykujyhtgrf34ae6_副本.png')"></div>
+                    <div class="elem-content">
+                        <div class="elem-title text-elip">Pony</div>
+                        <div class="elem-desc text-elip">【保税仓发货】PONY 樱花浪漫口红 #02 4.5g</div>
+                        <div class="price-block">
+                            <span class="extra cm">限时抢购价&nbsp;:</span><span class="elem-unit">¥</span>
+                            <span class="elem-real-price">32</span>
+                            <span class="elem-discount" style="display: block;"></span>
+                        </div>
+                        <span class="link-btn">立即抢购</span>
+                    </div>
+                </a><!--一个商品 end-->
+                <a class="elem" >
+                    <div class="elem-img vip-icon" style="background-image:url('../../images/panicpage/6ca7c1ee3b8liykujyhtgrf34ae6_副本.png')"></div>
+                    <div class="elem-content">
+                        <div class="elem-title text-elip">Pony</div>
+                        <div class="elem-desc text-elip">【保税仓发货】PONY 樱花浪漫口红 #02 4.5g</div>
+                        <div class="price-block">
+                            <span class="extra cm">限时抢购价&nbsp;:</span><span class="elem-unit">¥</span>
+                            <span class="elem-real-price">32</span>
+                            <span class="elem-discount" style="display: block;"></span>
+                        </div>
+                        <span class="link-btn">立即抢购</span>
+                    </div>
+                </a><!--一个商品 end-->
+                <a class="elem" >
+                    <div class="elem-img vip-icon" style="background-image:url('../../images/panicpage/6ca7c1ee3b8liykujyhtgrf34ae6_副本.png')"></div>
+                    <div class="elem-content">
+                        <div class="elem-title text-elip">Pony</div>
+                        <div class="elem-desc text-elip">【保税仓发货】PONY 樱花浪漫口红 #02 4.5g</div>
+                        <div class="price-block">
+                            <span class="extra cm">限时抢购价&nbsp;:</span><span class="elem-unit">¥</span>
+                            <span class="elem-real-price">32</span>
+                            <span class="elem-discount" style="display: block;"></span>
+                        </div>
+                        <span class="link-btn">立即抢购</span>
+                    </div>
+                </a><!--一个商品 end-->
+                <a class="elem" >
+                    <div class="elem-img vip-icon" style="background-image:url('../../images/panicpage/6ca7c1ee3b8liykujyhtgrf34ae6_副本.png')"></div>
+                    <div class="elem-content">
+                        <div class="elem-title text-elip">Pony</div>
+                        <div class="elem-desc text-elip">【保税仓发货】PONY 樱花浪漫口红 #02 4.5g</div>
+                        <div class="price-block">
+                            <span class="extra cm">限时抢购价&nbsp;:</span><span class="elem-unit">¥</span>
+                            <span class="elem-real-price">32</span>
+                            <span class="elem-discount" style="display: block;"></span>
+                        </div>
+                        <span class="link-btn">立即抢购</span>
+                    </div>
+                </a><!--一个商品 end-->
+                <a class="elem" >
+                    <div class="elem-img vip-icon" style="background-image:url('../../images/panicpage/6ca7c1ee3b8liykujyhtgrf34ae6_副本.png')"></div>
+                    <div class="elem-content">
+                        <div class="elem-title text-elip">Pony</div>
+                        <div class="elem-desc text-elip">【保税仓发货】PONY 樱花浪漫口红 #02 4.5g</div>
+                        <div class="price-block">
+                            <span class="extra cm">限时抢购价&nbsp;:</span><span class="elem-unit">¥</span>
+                            <span class="elem-real-price">32</span>
+                            <span class="elem-discount" style="display: block;"></span>
+                        </div>
+                        <span class="link-btn">立即抢购</span>
+                    </div>
+                </a><!--一个商品 end-->
+                <a class="elem" >
+                    <div class="elem-img vip-icon" style="background-image:url('../../images/panicpage/6ca7c1ee3b8liykujyhtgrf34ae6_副本.png')"></div>
+                    <div class="elem-content">
+                        <div class="elem-title text-elip">Pony</div>
+                        <div class="elem-desc text-elip">【保税仓发货】PONY 樱花浪漫口红 #02 4.5g</div>
+                        <div class="price-block">
+                            <span class="extra cm">限时抢购价&nbsp;:</span><span class="elem-unit">¥</span>
+                            <span class="elem-real-price">32</span>
+                            <span class="elem-discount" style="display: block;"></span>
+                        </div>
+                        <span class="link-btn">立即抢购</span>
+                    </div>
+                </a><!--一个商品 end-->
+
+            </div><!--list end-->
+        </div><!-- vip-rebate end-->
+        <div id="floor6" class="vip-rebate vip-elem-rebate vip-icon-c"  style="background-image:url('../../images/panicpage/2017-cm_08.jpg');background-color:#04064d;">
+            <div class="title vip-icon" style="background-image:url('');"></div>
+            <div class="list">
+                <a class="elem" >
+                    <div class="elem-img vip-icon" style="background-image:url('../../images/panicpage/3e2d3VSFEAE325e6482c3f2_副本.jpg')"></div>
+                    <div class="elem-content">
+                        <div class="elem-title text-elip">Pony</div>
+                        <div class="elem-desc text-elip">【保税仓发货】PONY 樱花浪漫口红 #02 4.5g</div>
+                        <div class="price-block">
+                            <span class="extra cm">限时抢购价&nbsp;:</span><span class="elem-unit">¥</span>
+                            <span class="elem-real-price">32</span>
+
+                            <span class="elem-discount" style="">7.0折</span>
+                        </div>
+                        <span class="link-btn">立即抢购</span>
+                    </div>
+                </a><!--一个商品 end-->
+                <a class="elem" >
+                    <div class="elem-img vip-icon" style="background-image:url('../../images/panicpage/6ca7c1ee3b8liykujyhtgrf34ae6_副本.png')"></div>
+                    <div class="elem-content">
+                        <div class="elem-title text-elip">Pony</div>
+                        <div class="elem-desc text-elip">【保税仓发货】PONY 樱花浪漫口红 #02 4.5g</div>
+                        <div class="price-block">
+                            <span class="extra cm">限时抢购价&nbsp;:</span><span class="elem-unit">¥</span>
+                            <span class="elem-real-price">32</span>
+                            <span class="elem-discount" style="display: block;"></span>
+                        </div>
+                        <span class="link-btn">立即抢购</span>
+                    </div>
+                </a><!--一个商品 end-->
+                <a class="elem" >
+                    <div class="elem-img vip-icon" style="background-image:url('../../images/panicpage/6ca7c1ee3b8liykujyhtgrf34ae6_副本.png')"></div>
+                    <div class="elem-content">
+                        <div class="elem-title text-elip">Pony</div>
+                        <div class="elem-desc text-elip">【保税仓发货】PONY 樱花浪漫口红 #02 4.5g</div>
+                        <div class="price-block">
+                            <span class="extra cm">限时抢购价&nbsp;:</span><span class="elem-unit">¥</span>
+                            <span class="elem-real-price">32</span>
+                            <span class="elem-discount" style="display: block;"></span>
+                        </div>
+                        <span class="link-btn">立即抢购</span>
+                    </div>
+                </a><!--一个商品 end-->
+                <a class="elem" >
+                    <div class="elem-img vip-icon" style="background-image:url('../../images/panicpage/6ca7c1ee3b8liykujyhtgrf34ae6_副本.png')"></div>
+                    <div class="elem-content">
+                        <div class="elem-title text-elip">Pony</div>
+                        <div class="elem-desc text-elip">【保税仓发货】PONY 樱花浪漫口红 #02 4.5g</div>
+                        <div class="price-block">
+                            <span class="extra cm">限时抢购价&nbsp;:</span><span class="elem-unit">¥</span>
+                            <span class="elem-real-price">32</span>
+                            <span class="elem-discount" style="display: block;"></span>
+                        </div>
+                        <span class="link-btn">立即抢购</span>
+                    </div>
+                </a><!--一个商品 end-->
+                <a class="elem" >
+                    <div class="elem-img vip-icon" style="background-image:url('../../images/panicpage/6ca7c1ee3b8liykujyhtgrf34ae6_副本.png')"></div>
+                    <div class="elem-content">
+                        <div class="elem-title text-elip">Pony</div>
+                        <div class="elem-desc text-elip">【保税仓发货】PONY 樱花浪漫口红 #02 4.5g</div>
+                        <div class="price-block">
+                            <span class="extra cm">限时抢购价&nbsp;:</span><span class="elem-unit">¥</span>
+                            <span class="elem-real-price">32</span>
+                            <span class="elem-discount" style="display: block;"></span>
+                        </div>
+                        <span class="link-btn">立即抢购</span>
+                    </div>
+                </a><!--一个商品 end-->
+                <a class="elem" >
+                    <div class="elem-img vip-icon" style="background-image:url('../../images/panicpage/6ca7c1ee3b8liykujyhtgrf34ae6_副本.png')"></div>
+                    <div class="elem-content">
+                        <div class="elem-title text-elip">Pony</div>
+                        <div class="elem-desc text-elip">【保税仓发货】PONY 樱花浪漫口红 #02 4.5g</div>
+                        <div class="price-block">
+                            <span class="extra cm">限时抢购价&nbsp;:</span><span class="elem-unit">¥</span>
+                            <span class="elem-real-price">32</span>
+                            <span class="elem-discount" style="display: block;"></span>
+                        </div>
+                        <span class="link-btn">立即抢购</span>
+                    </div>
+                </a><!--一个商品 end-->
+                <a class="elem" >
+                    <div class="elem-img vip-icon" style="background-image:url('../../images/panicpage/6ca7c1ee3b8liykujyhtgrf34ae6_副本.png')"></div>
+                    <div class="elem-content">
+                        <div class="elem-title text-elip">Pony</div>
+                        <div class="elem-desc text-elip">【保税仓发货】PONY 樱花浪漫口红 #02 4.5g</div>
+                        <div class="price-block">
+                            <span class="extra cm">限时抢购价&nbsp;:</span><span class="elem-unit">¥</span>
+                            <span class="elem-real-price">32</span>
+                            <span class="elem-discount" style="display: block;"></span>
+                        </div>
+                        <span class="link-btn">立即抢购</span>
+                    </div>
+                </a><!--一个商品 end-->
+                <a class="elem" >
+                    <div class="elem-img vip-icon" style="background-image:url('../../images/panicpage/6ca7c1ee3b8liykujyhtgrf34ae6_副本.png')"></div>
+                    <div class="elem-content">
+                        <div class="elem-title text-elip">Pony</div>
+                        <div class="elem-desc text-elip">【保税仓发货】PONY 樱花浪漫口红 #02 4.5g</div>
+                        <div class="price-block">
+                            <span class="extra cm">限时抢购价&nbsp;:</span><span class="elem-unit">¥</span>
+                            <span class="elem-real-price">32</span>
+                            <span class="elem-discount" style="display: block;"></span>
+                        </div>
+                        <span class="link-btn">立即抢购</span>
+                    </div>
+                </a><!--一个商品 end-->
+
+            </div><!--list end-->
+        </div><!-- vip-rebate end-->
+
+
+    </div><!--vip-purple end-->
 
 
 
 </div><!--out-wrap end-->
+<!--左侧导航栏-->
+<div id="side-bar" style="margin-top: -239px; display: none;">
+    <div id="lift" class="lift">
+        <div class="lift-header" style="background-image:url('http://searchimg.b0.upaiyun.com/cateOptImg/19/17-cm-side-title.png');"></div>
+        <a class="floor selected" href="#floor1">限时抢购</a>
+        <a class="floor" href="#floor2">商家会场</a>
 
+
+        <a class="floor" href="#floor3">独家折扣</a>
+
+        <a class="floor " href="#floor4">爆款专区</a>
+
+        <a class="floor" href="#floor5">新品热卖</a>
+
+        <a class="floor" href="#floor6">明星同款</a>
+
+
+        <div class="block">
+            <div class="qrcode vip-icon"></div>
+            <div class="mobile">手机下单更方便<br>关注官方微信领1080元大礼包</div>
+            <div class="enter">扫描进入</div>
+        </div>
+    </div>
+    <div class="to-top">TOP</div>
+</div>
+<div class="kf-wrap">
+    <a class="kf-support-btn" onclick="NTKF.im_openInPageChat('kf_9566_1493358830761')">
+        <img src="../../images/panicpage/kf5-sbox-icon3.png" alt="">
+        <span>客服咨询</span>
+    </a>
+</div>
 <!--版权信息代码-->
 <div class="new-footer clearfix" >
     <div class="pop-img">
@@ -1037,53 +1325,17 @@
     <div class="statement clearfix">© 2011-2017 XXXXX网络科技有限公司 备11021445号</div>
 </div>
 
+<!--<a class="floor selected" href="#floor2" >限时抢购</a>-->
+
+
+
+
 
 <!--<iframe class="iframecontent"  frameborder=0 width="100%" src="../footer/index.html" style="min-width: 1200px;min-height: 309px;margin-bottom: 0px;">-->
+<script type="text/javascript" src="../../js/module/js/panicpage.js"></script>
 <script>
-    var oAllin = document.getElementById('allIn');
-    var banner = document.getElementById('banner');
-    oAllin.onmousemove = function () {
-        banner.style.display = 'block';
-        aHoverBox[0].style.visibility = 'visible';
-    }
-    /*移进去会显示*/
-
-    oAllin.onmouseout = function () {
-        banner.style.display = 'none';
-    }
-    /*子菜单添加事件*/
-    var oCates = document.getElementById('cates');
-    var aCatesLi = oCates.children;
-
-    var aHoverBox = document.getElementsByClassName('hover-boxs');
-    /*获取到隐藏框*/
-
-    var aWhite = oCates.getElementsByClassName('white');
-
-    /* alert();*/
-    for (var i = 0; i < aCatesLi.length; i++) {
-        aCatesLi[i].index = i;
-        aCatesLi[i].onmousemove = function () {
-            for (var j = 0; j < aHoverBox.length; j++) {
-                aHoverBox[j].style.visibility = 'hidden';
-                aWhite[j].style.display = 'none';
-            }
-            aHoverBox[this.index].style.visibility = 'visible';
-            aWhite[this.index].style.display = 'block';
-            banner.style.display = 'block';
-        }
-
-        aCatesLi[i].onmouseout = function () {
-            for (var j = 0; j < aHoverBox.length; j++) {
-                /*aHoverBox[j].style.visibility = 'hidden';
-                 aWhite[j].style.display = 'none';
-                 banner.style.display = 'none';*/
-                aHoverBox[j].style.color = "#fff";
-            }
 
 
-        }
-    }
 
 
 </script>

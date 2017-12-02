@@ -1,0 +1,374 @@
+/*专题投部分*/
+.vip-banner {
+    position: relative;
+    background-image: url(../images/VIPweek/banner.png);
+    background-size: auto 400px;
+    background-color: #330515;
+    height: 400px;
+}
+.vip-icon-c {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.left-time-wrap {
+    position: absolute;
+    top: 331px;
+    left: 50%;
+    margin-left: -218px;
+    width: 436px;
+    color: #ff8b0f;
+    font-size: 22px;
+    font-weight: 100;
+    line-height: 1;
+}
+.left-time-wrap span {
+    float: right;
+}
+.left-time-wrap .hours {
+    margin-left: 42px;
+}
+.left-time-wrap .minutes {
+    margin-left: 44px;
+}
+.left-time-wrap .seconds {
+    margin-left: 45px;
+}
+
+/*第二部分*/
+.vip-pink {
+
+    background-color: #da2f50;
+}
+
+.vip-number-coupons, .vip-coupons {
+    margin: 0 auto;
+    padding: 39px 45px 37px;
+    /* height: 352px; */
+    /* width: 810px; */
+    /* width: 890px; */
+   /* width: 873px;*/
+}
+.vip-number-coupons {
+    width: 1000px;
+    overflow: hidden;
+}
+
+.vip-number-coupons .title, .vip-coupons .title {
+    background-image: url(../images/VIPweek/coupons-title.png);
+    background-size: auto 112px;
+    /*height: 112px;*/
+}
+.vip-number-coupons .title {
+    height: 67px;
+}
+.vip-number-coupons .coupon, .vip-coupons .coupon {
+    float: left;
+    position: relative;
+    display: inline-block;
+    margin-left: 11px;
+    width: 210px;
+    /* width: 190px; */
+    /* height: 90px; */
+    height: 120px;
+    cursor: pointer;
+}
+.vip-number-coupons .coupon {
+    width: 222px;
+    height: 150px;
+    margin-left: 31px;
+}
+.vip-number-coupons .coupon:nth-child(4), .vip-number-coupons .coupon:nth-child(5), .vip-number-coupons .coupon:nth-child(6), .vip-number-coupons .coupon:nth-child(7) {
+    margin-top: 6px;
+    width: 247px;
+    height: 86px;
+    margin-left: 4px;
+}
+.vip-number-coupons .coupon:nth-child(8), .vip-number-coupons .coupon:nth-child(9), .vip-number-coupons .coupon:nth-child(10), .vip-number-coupons .coupon:nth-child(11), .vip-number-coupons .coupon:nth-child(12) {
+    margin-top: 6px;
+    width: 196px;
+    height: 109px;
+    margin-left: 5px;
+}
+
+
+.vip-number-coupons .coupon:nth-child(1), .vip-number-coupons .coupon:nth-child(2), .vip-number-coupons .coupon:nth-child(3) {
+    width: 328px;
+    height: 114px;
+    margin-left: 8px;
+}
+.vip-number-coupons .coupon:nth-child(1), .vip-number-coupons .coupon:nth-child(4), .vip-number-coupons .coupon:nth-child(8) {
+    margin-left: 0;
+}
+
+.vip-icon {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+/*第三部分*/
+.vip-purple {
+    background-color: #ab1147;
+}
+.vip-rebate .title {
+    margin: 17px auto 30px;
+    height: 89px;
+    background-size: auto 71px;
+}
+.vip-rebate {
+    overflow: hidden;
+}
+.vip-rebate .title {
+    background-image: url(../images/VIPweek/rebate-title.png);
+    margin: 17px auto 30px;
+    height: 89px;
+    background-size: auto 71px;
+}
+.vip-rebate .list {
+    /* width: 904px; */
+    width: 992px;
+    overflow: hidden;
+    padding-left: 7px;
+    margin: 0 auto;
+}
+.vip-rebate .elem {
+    float: left;
+    /* width: 219px; */
+    width: 240px;
+    height: 310px;
+    /* border: solid 1px #d8d8d8; */
+    margin: 8px 8px 0 0;
+    background-color: #fff;
+}
+.list > a.elem {
+    -webkit-transition: all .5s ease 0s;
+    -moz-transition: all .5s ease 0s;
+    -o-transition: all .5s ease 0s;
+    transition: all .5s ease 0s;
+}
+.vip-rebate .elem-img {
+    width: 100%;
+    height: 180px;
+    /* height: 212px; */
+}
+.vip-rebate .elem-content {
+    width: 200px;
+    /* width: 219px; */
+    height: 80px;
+    padding: 0 20px;
+}
+.vip-rebate .elem-title {
+    /* margin-bottom: 1px; */
+    color: #000;
+    font: bold 16px/28px "Microsoft YaHei", tahoma, arial, sans-serif;
+    text-align: center;
+}
+.vip-rebate .elem-desc {
+    color: #000 !important;
+    text-align: center;
+}
+.vip-rebate .price-block {
+    text-align: center;
+}
+.vip-rebate .extra {
+    /* float: left; */
+    font: bold 16px/20px "Microsoft YaHei", tahoma, arial, sans-serif;
+}
+.vip-rebate .extra.cm {
+    font: bold 14px/1 "Microsoft YaHei", tahoma, arial, sans-serif;
+    padding-top: 4px;
+}
+.vip-rebate .elem-unit {
+    /* float: left; */
+    margin-top: 1px;
+    color: #da2f50;
+    font: bold 16px/20px "Microsoft YaHei", tahoma, arial, sans-serif;
+}
+.vip-rebate .elem-real-price {
+    /* float: left; */
+    color: #da2f50;
+    font: bold 16px/20px "Microsoft YaHei", tahoma, arial, sans-serif;
+}
+.vip-rebate .elem-discount {
+    border-color: #FF243C;
+}
+
+
+.vip-rebate .elem-real-price, .vip-rebate .elem-discount, .vip-rebate .extra, .vip-rebate .elem-unit {
+    color: #FF243C;
+}
+.link-btn {
+    display: block;
+    margin: 0 auto;
+    background-color: #da2f50;
+    color: #fff;
+    font: 400 18px/30px "Microsoft YaHei", tahoma, arial, sans-serif;
+    letter-spacing: 2.81;
+    text-align: center;
+}
+.vip-rebate .link-btn {
+    background-color: #FF243C;
+}
+.vip-rebate .link-btn {
+    margin-top: 12px;
+}
+
+
+/*第四部分*/
+.vip-prompt {
+    /* height: 446px; */
+    /* width: 912px; */
+    /* padding-left: 7px; */
+    margin: 0 auto;
+    overflow: hidden;
+}
+.vip-prompt .title {
+    padding: 33px 0 29px;
+    margin: 0 auto;
+    height: 43px;
+    background-size: auto 59px;
+   /* background-image: url(../images/VIPweek/prompt-title.png);*/
+}
+.vip-prompt .list {
+    margin: 0 auto;
+    /* width: 905px; */
+    width: 990px;
+    height: 318px;
+    padding-left: 5px;
+}
+.vip-prompt .elem {
+    float: left;
+    /* width: 445px; */
+    width: 488px;
+    height: 214px;
+    margin: 5px 5px 0 0;
+    border: solid 1px #d8d8d8;
+    background-color: #fff;
+}
+
+/*第五部分*/
+.vip-elem-rebate .title {
+    height: 55px;
+}
+.list > a.elem {
+    -webkit-transition: all .5s ease 0s;
+    -moz-transition: all .5s ease 0s;
+    -o-transition: all .5s ease 0s;
+    transition: all .5s ease 0s;
+}
+.vip-elem-rebate .elem {
+    position: relative;
+}
+.vip-elem-rebate .price-block {
+    text-align: left;
+}
+.vip-rebate .elem-img {
+    width: 100%;
+    height: 180px;
+    /* height: 212px; */
+}
+.vip-elem-rebate .elem-discount {
+    float: right;
+    display: inline-block;
+    color: #da2f50;
+    font: 400 16px/20px "Microsoft YaHei", tahoma, arial, sans-serif;
+    border: solid 1px #da2f50;
+    border-radius: 2px;
+    padding: 0 7px;
+}
+.vip-rebate .elem-discount {
+    border-color: #FF243C;
+}
+.vip-purple .vip-icon-c:last-child {
+    padding-bottom: 45px;
+}
+/*左侧导航栏*/
+#side-bar {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* margin-left: 500px; */
+    margin-left: 550px;
+    /* height: 552px; */
+    /* width: 110px; */
+    width: 105px;
+}
+#side-bar .lift {
+    position: relative;
+    min-height: 24px;
+    /* width: 82px; */
+    width: 77px;
+    border: double 4px #fff;
+    padding: 83px 10px 28px;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: auto 82px;
+}
+
+#side-bar .lift-header {
+    position: absolute;
+    top: -22px;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 199px;
+    height: 101px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#side-bar .floor {
+    display: block;
+    border-bottom: dotted 1px #fff;
+    font: 400 12px/24px "Microsoft YaHei", tahoma, arial, sans-serif;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+#side-bar .block {
+    position: relative;
+}
+#side-bar .qrcode {
+    background-image: url('../../images/gooddetail/qrcode.png');
+    margin: 14px 0;
+    height: 77px;
+    width: 77px;
+}
+#side-bar .mobile {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 174px;
+    color: #fff;
+    background-color: #f5158f;
+    padding: 6px 0;
+    font: 400 13px/24px "Microsoft YaHei", tahoma, arial, sans-serif;
+    text-align: center;
+}
+#side-bar .enter {
+    padding-top: 24px;
+    text-align: center;
+    color: #fff;
+    font: 400 12px/24px "Microsoft YaHei", tahoma, arial, sans-serif;
+}
+#side-bar .floor:first-of-type, #side-bar .floor:first-child {
+    border-top: dotted 1px #fff;
+}
+#side-bar .to-top {
+    /* color: transparent; */
+}
+#side-bar .to-top {
+    font: 400 15px/55px "Microsoft YaHei", tahoma, arial, sans-serif;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+#side-bar .lift .floor:hover, #side-bar .lift .selected {
+    color: #faf584;
+}
+
