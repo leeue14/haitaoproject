@@ -29,6 +29,7 @@
     border-bottom: 4px solid transparent;
     color: #333;
     font: 400 17px/52px "Microsoft YaHei", tahoma, arial, sans-serif !important;
+
 }
 
 .out-wrap .navs .link.active {
@@ -50,6 +51,7 @@
 .abso {
     position: absolute !important;
 }
+
 
 /*菜单*/
 .out-wrap .cates-banners {
@@ -404,12 +406,24 @@
 .benifits-goods .index-amazon-main.shopbuy {
     height: 382px;
 }
+.benifits-goods .index-amazon-main.shopbuy:hover .sn_slide_plus{
+    display: inline;
+}
+.benifits-goods .index-amazon-main.shopbuy:hover .sn_slide_minus{
+    display: inline;
+}
 .index-amazon-main {
     width: 1200px;
     height: 314px;
     overflow: hidden;
     margin-top: 10px;
+}
+.index-amazon-main {
     position: relative;
+    width: 1200px;
+    height: 314px;
+    overflow: hidden;
+    margin-top: 10px;
 }
 .sn-main-item {
     width: 1200px;
@@ -430,10 +444,12 @@
 .sn_slide_minus {
     background-position: 0 0;
     left: 0;
+    display: none;
 }
 .sn_slide_plus {
     background-position: 0 -75px;
     right: 2px;
+    display: none;
 }
 .benifits-goods .index-amazon-wrap .index-amazon-main .clearfix:after {
     content: ".";
@@ -455,6 +471,7 @@
     width: 10000px;
     left: 0px;
     top: 0px;
+    transition: .5s;/*添加动画效果*/
 }
 .sn-main-item>ul>li {
     float: left;
@@ -701,17 +718,24 @@
     -webkit-text-stroke-width: .2px;
     -moz-osx-font-smoothing: grayscale;
 }
+
 .qianggougoods .seckill-list-wrap a.prev {
     background-image: url(../../images/firstpage/left-arrow-circle.png);
     left: 5px;
+    visibility: hidden;
 }
 .qianggougoods .seckill-list-wrap a.next {
     background-image: url(../../images/firstpage/right-arrow-circle.png);
     right: 5px;
+   visibility: hidden;
+}
+.qianggougoods .seckill-list-wrap:hover a.prev,.qianggougoods .seckill-list-wrap:hover a.next{
+    visibility:visible;
 }
 /*, .qianggougoods .seckill-list-wrap a.next*/
 .qianggougoods .seckill-all-pro .seckill-list {
     width: 993px;
+
 }
 .qianggougoods .seckill-list {
     position: relative;
@@ -726,6 +750,7 @@
     top: 0;
     left: 0;
     width: 99999px;
+    transition: .5s;
 }
 .qianggougoods .seckill-all-pro .seckill-list li {
     width: 255px;
@@ -980,6 +1005,9 @@
     width: 699px;
     height: 100% !important;
     overflow: hidden;
+}
+.imgitems{
+    transition: .5s;
 }
 .floors .block .prev {
     background-image: url(../../images/firstpage/left-arrow-circle.png);
