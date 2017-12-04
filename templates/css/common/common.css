@@ -212,6 +212,9 @@
     max-height: 485px;
     overflow: hidden;
 }
+.out-wrap .all-in:hover .icon-fold {
+    background-image: url(../../images/gooddetail/icon-unfold.png);
+}
 
 .out-wrap .cates-box .part:nth-child(odd) {
     margin-left: 0;

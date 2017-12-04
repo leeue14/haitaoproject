@@ -67,6 +67,13 @@ body .out-wrap {
     overflow: hidden;
     margin: 0px auto;
 }
+.gallery-thumb-wrapper li:hover {/*显示阴影框*/
+    border: 1px solid #ccc;
+}
+.relative-goods .goods-card:hover {/*有动态效果*/
+    box-shadow: 0 2px 5px 2px #e6e6e6;
+    top: -2px;
+}
 .gallery-thumb-wrapper ul {
     position: absolute;/*相对父亲定位*/
     background-color: rgb(255, 255, 255);
@@ -100,6 +107,7 @@ body .out-wrap {
     border-style: solid;
     border-color: rgb(230, 230, 230);
     border-image: initial;
+    cursor: pointer;
 }
 .gallery-thumb .prev {
     left: 0px;
@@ -943,4 +951,35 @@ body .out-wrap {
     margin: 10px auto;
     background-position: center center;
     background-repeat: no-repeat;
+}
+
+.goods-card:hover{
+    box-shadow: 0 2px 5px 2px #e6e6e6;
+    -webkit-box-shadow: 0 2px 5px 2px #e6e6e6;
+    -moz-box-shadow: 0 2px 5px 2px #e6e6e6;
+    -webkit-animation: jianbian .9s ease 0s;
+    -moz-animation: jianbian .9s ease 0s;
+    animation: jianbian .9s ease 0s;
+}
+
+/*返回顶部按钮*/
+#backTop {
+    width: 36px;
+    height: 40px;
+    position: fixed;
+    display: none;
+    bottom: 55px;
+    right: 38px;
+    cursor: pointer;
+    transition: .3s;
+}
+.up-arrowww {
+    display: inline-block;
+    width: 20px;
+    height: 18px;
+    background-image: url(../../images/gooddetail/arrowupp.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    cursor: pointer;
 }

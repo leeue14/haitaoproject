@@ -19,7 +19,7 @@
 
 <iframe class="iframecontent" frameborder=0 width="100%" scrolling="no" src="../header/index.html"
         style="min-width: 1200px;min-height: 249px;"></iframe>
-
+<div id="nTalk_post_hiddenElement" style="left: -10px; top: -10px; visibility: hidden; display: none; width: 1px; height: 1px;"></div>
 <!--中间的内容开始-->
 <div class="clearfix out-wrap ">
     <div class="specify">
@@ -617,7 +617,7 @@
                     </div>
                     <div class="gallery-thumb">
                         <div class="gallery-thumb-wrapper" id="list_small_img">
-                            <ul style="width: 800px;">
+                            <ul style="width: 800px;left: 0px;">
                                 <li data-index = "0">
                                     <a href="javascript:;"><img
                                         src="../../images/gooddetail/good_2.jpg"
@@ -736,23 +736,23 @@
                             <ul>
                                 <li id="style" class="block-style j_style">
                                     <label for="Color" style="line-height: 60px;">颜色</label>
-                                    <div class="rect-select">
+                                    <div id="rect-select" class="rect-select" >
                                         <a class="rect-option " data-style="Running White Ftw" title="Running White Ftw" style="width: 60px;height: 60px;">
-                                      <!--      <b></b>-->
+                                            <b></b>
                                             <div class="img" alt="Running White Ftw"
                                                  style=" background-image: url('../../images/gooddetail/good_2.jpg');width: 60px; height: 60px;">
                                                <!-- ;-->
                                             </div>
                                         </a>
                                         <a class="rect-option " data-style="Running White Ftw" title="Running White Ftw" style="width: 60px;height: 60px;">
-                                            <!--      <b></b>-->
+                                                  <b></b>
                                             <div class="img" alt="Running White Ftw"
                                                  style=" background-image: url('../../images/gooddetail/good_2.jpg');width: 60px; height: 60px;">
                                                 <!-- ;-->
                                             </div>
                                         </a>
                                         <a class="rect-option " data-style="Running White Ftw" title="Running White Ftw" style="width: 60px;height: 60px;">
-                                            <!--      <b></b>-->
+                                                  <b></b>
                                             <div class="img" alt="Running White Ftw"
                                                  style=" background-image: url('../../images/gooddetail/good_2.jpg');width: 60px; height: 60px;">
                                                 <!-- ;-->
@@ -1095,52 +1095,18 @@
 </div>
 
 
+<a id="backTop" class="scroll-to-top-button" style="position: fixed;
+bottom: 50px; border: 1px solid rgb(51, 51, 51); z-index: 2; text-align: center; height: 46px;
+ width: 46px; font-weight: bold; margin-top: -65px; background: rgb(51, 51, 51); left: 50%;
+ margin-left: 610px; display: inline;" onclick="toTop()">
+    <div class="up-arrowww sprite-dt-arrow-backtotop-black"
+         style="text-align: center;margin: 14px auto 0;">
+    </div>
+</a>
+<script type="text/javascript" src="../../../templates/js/module/js/gooddetail.js"></script>
+
 <!--<iframe class="iframecontent"  frameborder=0 width="100%" src="../footer/index.html" style="min-width: 1200px;min-height: 309px;margin-bottom: 0px;">-->
 <script>
-    var oAllin = document.getElementById('allIn');
-    var banner = document.getElementById('banner');
-    oAllin.onmousemove = function () {
-        banner.style.display = 'block';
-        aHoverBox[0].style.visibility = 'visible';
-    }
-    /*移进去会显示*/
-
-    oAllin.onmouseout = function () {
-        banner.style.display = 'none';
-    }
-    /*子菜单添加事件*/
-    var oCates = document.getElementById('cates');
-    var aCatesLi = oCates.children;
-
-    var aHoverBox = document.getElementsByClassName('hover-boxs');
-    /*获取到隐藏框*/
-
-    var aWhite = oCates.getElementsByClassName('white');
-
-    /* alert();*/
-    for (var i = 0; i < aCatesLi.length; i++) {
-        aCatesLi[i].index = i;
-        aCatesLi[i].onmousemove = function () {
-            for (var j = 0; j < aHoverBox.length; j++) {
-                aHoverBox[j].style.visibility = 'hidden';
-                aWhite[j].style.display = 'none';
-            }
-            aHoverBox[this.index].style.visibility = 'visible';
-            aWhite[this.index].style.display = 'block';
-            banner.style.display = 'block';
-        }
-
-        aCatesLi[i].onmouseout = function () {
-            for (var j = 0; j < aHoverBox.length; j++) {
-                /*aHoverBox[j].style.visibility = 'hidden';
-                 aWhite[j].style.display = 'none';
-                 banner.style.display = 'none';*/
-                aHoverBox[j].style.color = "#fff";
-            }
-
-
-        }
-    }
 
 
 </script>
