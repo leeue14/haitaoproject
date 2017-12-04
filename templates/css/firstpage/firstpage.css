@@ -326,6 +326,8 @@
 }
 
 /*超值单品 css*/
+
+
 .benifits-goods .index-amazon-wrap .sn-h3 {
     padding-bottom: 10px;
     border-bottom: 1px solid #ff4200;
@@ -1334,4 +1336,13 @@ a, img {
 /*模糊效果*/
 .out-wrap .navs .link:hover {
     color: #b0b0b0;
+}
+/*影阴*/
+a.item:hover, .must-buys a:hover, .specials a:hover ,a.imgitem:hover{
+    box-shadow: 0 2px 5px 2px #e6e6e6;
+    -webkit-box-shadow: 0 2px 5px 2px #e6e6e6;
+    -moz-box-shadow: 0 2px 5px 2px #e6e6e6;
+    -webkit-animation: jianbian .9s ease 0s;
+    -moz-animation: jianbian .9s ease 0s;
+    animation: jianbian .9s ease 0s;
 }
