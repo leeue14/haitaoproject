@@ -371,14 +371,14 @@ function onClickMove() {
         aPre[i].index = i;
         aPre[i].indexPre = 0;
         aNext[i].onclick = function () {
-            var aImgItem =   aImgItems[i-2].getElementsByTagName("a");
+            var aImgItem =   aImgItems[this.index-2].getElementsByTagName("a");
 
             clickNext(this.indeNext,aPre[this.index].indexPre,aImgItem,aImgItems[this.index-2]);
            // console.log("aPre[this.index].indexPre"+aPre[this.index].indexPre);
            // alert("hah");
         };
         aPre[i].onclick = function () {
-            var aImgItem =   aImgItems[i-2].getElementsByTagName("a");
+            var aImgItem =   aImgItems[this.index-2].getElementsByTagName("a");
             //  alert(aImgItem[0].offsetWidth);
             clickPrev(this.indeNext,aPre[this.index].indexPre,aImgItem,aImgItems[this.index-2]);
            // aImgItems[0].style.marginLeft = aImgItem[0].offsetWidth + 15 +"px";

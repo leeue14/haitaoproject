@@ -91,6 +91,7 @@ img {
     background: #fff;
     overflow: visible;
     width: 346px;
+    margin-right: 20px;
 }
 .login-wrap .login-form {
     float: right;
@@ -527,6 +528,7 @@ ul, menu, dir {
     width: 990px;
     margin: 0 auto;
 }
+
 .login-wrap .i-inner {
     position: relative;
     z-index: 3;

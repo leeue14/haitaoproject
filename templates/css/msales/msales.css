@@ -70,4 +70,14 @@
     z-index: 2;
 }
 
-
+.imgitems{
+    transition: .5s;
+}
+a.item:hover, .must-buys a:hover, .specials a:hover ,a.imgitem:hover{
+    box-shadow: 0 2px 5px 2px #e6e6e6;
+    -webkit-box-shadow: 0 2px 5px 2px #e6e6e6;
+    -moz-box-shadow: 0 2px 5px 2px #e6e6e6;
+    -webkit-animation: jianbian .9s ease 0s;
+    -moz-animation: jianbian .9s ease 0s;
+    animation: jianbian .9s ease 0s;
+}
