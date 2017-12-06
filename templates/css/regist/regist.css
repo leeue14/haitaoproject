@@ -1,0 +1,281 @@
+body {
+    font-size: 14px;
+    color: #666;
+}
+body, button, input, txt {
+    font-family: "Microsoft YaHei","Hiragino Sans GB";
+}
+.header {
+    height: 110px;
+    background: url(../../images/regist/headbg.jpg) repeat-x left bottom;
+}
+
+.w {
+    width: 1210px;
+    margin: 0 auto;
+}
+.header .logo {
+    width: 230px;
+    height: 50px;
+    float: left;
+    margin-top: 24px;
+    background: url("../../images/hearder/99_2.png") no-repeat;
+}
+.header .logo-title {
+    float: left;
+    height: 34px;
+    line-height: 34px;
+    font-size: 24px;
+    color: #333;
+    padding-left: 20px;
+    margin-top: 34px;
+}
+.header .have-account {
+    font-size: 16px;
+    float: right;
+    margin-top: 55px;
+    color: #999;
+}
+.header .have-account a {
+    color: #333;
+}
+
+/*中间注册内容*/
+.main {
+    margin: 50px auto 60px;
+    width: 830px;
+}
+.reg-form {
+    width: 400px;
+}
+body, button, input, txt {
+    font-family: "Microsoft YaHei","Hiragino Sans GB";
+}
+button, input, select, textarea {
+    outline: 0;
+}
+.form-item {
+    position: relative;
+    border: solid 1px #ddd;
+    width: 398px;
+    height: 52px;
+    z-index: 0;
+}
+.form-item-account {
+    z-index: 13;
+}
+.form-item label {
+    float: left;
+    width: 90px;
+    height: 52px;
+    line-height: 52px;
+    padding-left: 20px;
+}
+.form-item txt {
+    margin-top: 2px!important;
+}
+.form-item .field {
+    border: 0 none;
+    font-size: 14px;
+    width: 190px;
+    height: 19px;
+    padding-bottom: 11px;
+    padding-left: 20px;
+    padding-top: 16px;
+}
+.form-item .i-status {
+    position: absolute;
+    display: none;
+    width: 16px;
+    height: 16px;
+    top: 20px;
+    right: 20px;
+}
+.form-item .i-status {
+    position: absolute;
+    display: none;
+    width: 16px;
+    height: 16px;
+    top: 20px;
+    right: 20px;
+}
+.input-tip {
+    color: #c5c5c5;
+    height: 27px;
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+.item-email-wrap {
+    display: none;
+    height: 86px;
+    position: relative;
+    z-index: 11;
+}
+.form-item {
+    position: relative;
+    border: solid 1px #ddd;
+    width: 398px;
+    height: 52px;
+    z-index: 0;
+}
+.item-email-wrap .form-item {
+    z-index: 11;
+}
+
+.email-suggest {
+    position: absolute;
+    border: solid 1px #ccc;
+    z-index: 10;
+    background: #fff;
+    left: -1px;
+    top: 52px;
+    width: 100%;
+}
+.suggest-container {
+    display: none;
+}
+.email-suggest li {
+    height: 40px;
+    line-height: 40px;
+    padding-left: 130px;
+    color: #333;
+    padding-right: 12px;
+    text-align: right;
+    text-indent: -1000px;
+}
+.email-suggest li .value {
+    overflow: hidden;
+}
+.item-email-wrap .orPhone {
+    position: absolute;
+    right: 0;
+    bottom: 6px;
+    font-size: 12px;
+}
+.item-email-wrap .orPhone a {
+    color: #38f;
+}
+.item-phone-wrap {
+    height: 86px;
+    position: relative;
+    z-index: 2;
+}
+.form-item-phone .select-country {
+    width: 104px;
+    padding: 0 0 0 20px;
+    height: 52px;
+    border: none;
+    color: #666;
+    border-right: solid 1px #ddd;
+}
+.form-item-phone txt {
+    margin-left: 7px!important;
+}
+.form-item-phone input {
+    padding-left: 7px!important;
+}
+.item-phone-wrap .orEmail {
+    position: absolute;
+    right: 0;
+    bottom: 6px;
+    font-size: 12px;
+}
+.item-phone-wrap .orEmail a {
+    color: #38f;
+}
+.form-item .img-code {
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    width: 110px;
+    height: 46px;
+    cursor: pointer;
+}
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+.btn-phonecode {
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    width: 110px;
+    height: 46px;
+    border: none;
+    background: #f2f2f2;
+    color: #333;
+    padding: 0;
+    cursor: pointer;
+
+}
+.form-item-phonecode .i-status {
+    right: 125px;
+    display: none;
+}
+.btn-register {
+    width: 100%;
+    height: 54px;
+    color: #fff;
+    background: #e22;
+    border: 0;
+    font-size: 16px;
+    font-family: "Microsoft YaHei","Hiragino Sans GB";
+    cursor: pointer;
+
+}
+:focus{
+    outline: 0;
+}
+
+/*右边*/
+.reg-other {
+    float: left;
+    margin-left: 104px;
+    height: 605px;
+    padding-left: 90px;
+    border-left: solid 1px #e6e6e6;
+}
+.reg-other .company-reg {
+    width: 160px;
+    height: 60px;
+    border-bottom: solid 1px #ddd;
+    margin-left: 30px;
+}
+/*
+.reg-other .company-reg a {
+    display: block;
+    width: 160px;
+    height: 30px;
+}
+.reg-other .company-reg a i {
+    display: inline-block;
+    width: 30px;
+    height: 29px;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+.reg-other .company-reg a span {
+    vertical-align: middle;
+}
+.reg-other .inter-cust {
+    width: 160px;
+    margin-left: 30px;
+    margin-top: 30px;
+}*/
+.footer {
+    font-size: 12px;
+    text-align: center;
+    border-top: solid 1px #e6e6e6;
+    color: #999;
+    padding-bottom: 30px;
+}
+.footer .links {
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.footer a {
+    color: #999;
+    margin: 0 10px;
+}
