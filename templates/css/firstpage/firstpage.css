@@ -1333,6 +1333,54 @@ a, img {
     background: #333;
     color: #fff;
 }
+
+/*右侧导航栏*/
+.elevator-box {
+    /* background: #f5f5f5; */
+    background: transparent;
+    position: fixed;
+    z-index: 999;
+    width: 64px;
+    /* height: 443px; */
+    margin-top: -189px;
+    top: 50%;
+    left: 50%;
+    margin-left: 610px;
+    display: none;
+}
+.elevator {
+    width: 100%;
+    background-color: #fff;
+}
+.elevator a.on, .elevator a:hover {
+    width: 64px;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #000;
+    color: #fff;
+    border-bottom-color: transparent;
+}
+.elevator a {
+    display: inline-block;
+    width: 64px;
+    margin: -1px 0 0;
+    cursor: pointer;
+    text-align: center;
+    color: #9a9a9a;
+    height: 39px;
+    font: 100 13px/39px "Microsoft YaHei", tahoma, arial;
+    border-bottom: 1px solid #f1f1f1;
+}
+.back-top {
+    margin-top: 1px;
+    cursor: pointer;
+    float: none;
+    width: 64px;
+    height: 40px;
+    background-image: url(../../images/firstpage/back-top.jpg);
+}
+
+
 /*模糊效果*/
 .out-wrap .navs .link:hover {
     color: #b0b0b0;
@@ -1346,3 +1394,5 @@ a.item:hover, .must-buys a:hover, .specials a:hover ,a.imgitem:hover{
     -moz-animation: jianbian .9s ease 0s;
     animation: jianbian .9s ease 0s;
 }
+
+

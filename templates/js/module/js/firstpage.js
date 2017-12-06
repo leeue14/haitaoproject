@@ -392,6 +392,58 @@ function onClickMove() {
 
 
 
+/*左侧导航栏js*/
+window.onscroll = function () {
+    getHeaderHeight();
+}
+function  getHeaderHeight() {
+    var oIframeContent = document.getElementById('iframecontent');
+    var oSpecify = document.getElementById('specify');
+
+    var oSidebar = document.getElementById('side-bar');
+    var oFloor1 = document.getElementById('0F').offsetHeight;
+    var oFloor2 = document.getElementById('1F').offsetHeight;
+    var oFloor3 = document.getElementById('2F').offsetHeight;
+    var oFloor4 = document.getElementById('3F').offsetHeight;
+    var oFloor5 = document.getElementById('4F').offsetHeight;
+    var oFloor6 = document.getElementById('5F').offsetHeight;
+    var aFloorH = [oFloor1,oFloor2,oFloor3,oFloor4,oFloor5,oFloor6];
+    /*获取左侧导航栏的a*/
+    var oLift = document.getElementById('lift');
+    var aLifta = oLift.getElementsByTagName('a');
+
+    var height = oIframeContent.offsetHeight + oSpecify.offsetHeight;
+    console.log(oIframeContent.offsetHeight);
+    var scroll=document.documentElement.scrollTop||document.body.scrollTop;
+    console.log("当前height="+height+"滚动高度"+scroll);
+    if(scroll >= height){
+        oSidebar.style.display ='block';
+        height += aFloorH[0];
+    }else{
+        oSidebar.style.display ='none';
+    }
+    for(var i = 1; i <aLifta.length; i++){
+        /* console.log("当前height="+height+"滚动高度"+scroll);*/
+        if(scroll >= height){
+            height += aFloorH[i];
+            intiFloorA(aLifta);
+            aLifta[i].className += ' on';
+            console.log(i+"加了");
+        }
+    }
+    /* console.log("顶部"+scroll);*/
+    //alert(height);
+}/*getHeaderHeight end*/
+/*获取某个object的高度*/
+function getHeight(obj) {
+    var height = obj.offsetHeight;
+    return height;
+}/*getHeight end*/
+function  intiFloorA(aLifta) {
+    for(var i = 0; i < aLifta.length; i++){
+        aLifta[i].setAttribute('class','');
+    }
+}
 
 
 

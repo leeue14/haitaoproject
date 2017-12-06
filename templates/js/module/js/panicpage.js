@@ -45,7 +45,7 @@ function onMoverBanner(){
 
 function  getTop() {
     var scroll=document.documentElement.scrollTop||document.body.scrollTop;
-    console.log("顶部"+scroll);
+
 
 }/*getTop end*/
 
@@ -68,30 +68,32 @@ function  getHeaderHeight() {
     var oFloor3 = document.getElementById('floor3').offsetHeight;
     var oFloor4 = document.getElementById('floor4').offsetHeight;
     var oFloor5 = document.getElementById('floor5').offsetHeight;
-    var oFloor6 = document.getElementById('floor5').offsetHeight;
+    var oFloor6 = document.getElementById('floor6').offsetHeight;
     var aFloorH = [oFloor1,oFloor2,oFloor3,oFloor4,oFloor5,oFloor6];
 /*获取左侧导航栏的a*/
     var oLift = document.getElementById('lift');
     var aLifta = oLift.getElementsByTagName('a');
 
-    var height = oIframeContent.offsetHeight + oSpecify.offsetHeight + oVipBanner.offsetHeight + oVippink.offsetHeight - 20;
+    var height = oIframeContent.offsetHeight + oSpecify.offsetHeight + oVipBanner.offsetHeight + oVippink.offsetHeight;
 
     var scroll=document.documentElement.scrollTop||document.body.scrollTop;
+    console.log("当前height="+height+"滚动高度"+scroll);
     if(scroll >= height){
         oSidebar.style.display ='block';
         height += aFloorH[0];
     }else{
         oSidebar.style.display ='none';
     }
-    for(var i = 0; i <aLifta.length; i++){
+    for(var i = 1; i <aLifta.length; i++){
+       /* console.log("当前height="+height+"滚动高度"+scroll);*/
         if(scroll >= height){
             height += aFloorH[i];
             intiFloorA(aLifta);
             aLifta[i].className += ' selected';
-
+            console.log(i+"加了");
         }
     }
-    console.log("顶部"+scroll);
+   /* console.log("顶部"+scroll);*/
     //alert(height);
 }/*getHeaderHeight end*/
 /*获取某个object的高度*/
