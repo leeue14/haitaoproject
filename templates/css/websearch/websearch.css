@@ -19,7 +19,7 @@
 }
 .out-wrap .part-3 .p3-classic{
     background-color: #ffffff;
-    width: 230px;
+    width: 200px;
 }
 
 .out-wrap .part-3 .p3-filter .name{
@@ -180,7 +180,7 @@
 }
 
 .filter-input {/*小输入框*/
-    width: 156px;
+    width: 127px;
     float: left;
     background-color: #fff;
     height: 24px;
@@ -191,7 +191,7 @@
 }
 .icon-filter-search{/*搜索小图标*/
     width: 12px;
-    height: 12px;
+    height: 14px;
     background-image: url(../../images/websearch/nav-light.png);
     background-color: #fff;
     background-size: contain;
@@ -216,7 +216,7 @@
     background-color: #fff;
     border: solid 1px #eceded;
     color: #fff;
-    width: 958px;
+    width: 988px;
     height: 36px;
 }
 .sort_cate a {
@@ -338,7 +338,7 @@
     vertical-align: middle;
 }
 .relate-query {
-    width: 958px;
+    width: 988px;
     font-size: 0;
     text-align: center;
     float: right;
@@ -361,7 +361,7 @@
 .out-wrap .part-3 .p3-goods {
     height: auto;
     padding: 0 0 22px;
-    width: 958px;
+    width: 988px;
     margin-left: 10px;
 }
 .filter-box {
@@ -389,7 +389,7 @@ ul.filter {
 
 .out-wrap .part-3 ul.m-list li:hover {
     box-shadow: 0 2px 5px 2px #e6e6e6;
-    margin-top: -2px;
+    /*margin-top: -2px;*/
 }
 .tag {
     z-index: 1;
@@ -491,4 +491,468 @@ ul.filter {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+}
+
+/*优化部分css*/
+body {
+    FONT-SIZE: 12px;
+    COLOR: #666;
+}
+.srp {
+    line-height: 1.5;
+    font-family: "Microsoft Yahei";
+    margin-top: 10px;
+}
+.breadcrumb {
+    width: 790px;
+    height: 35px;
+    margin-bottom: 6px;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+/*.breadcrumb .line {
+    width: 958px;
+    height: 2px;
+    font-size: 0;
+    border-bottom: 4px solid #666666;
+}*/
+.breadcrumb .crumb {
+    width: 958px;
+    height: 38px;
+    line-height: 33px;
+    overflow: hidden;
+    border-top: 4px solid #666666;
+}
+body {
+    font: 500 14px/36px "Microsoft YaHei", tahoma, arial,sans-serif !important;
+}
+.crumb * {
+    float: left;
+    display: inline-block;
+}
+.new_topNum {
+    float: right;
+}
+.srp i {
+    font-style: normal;
+}
+.new_topNum em {
+    font-style: normal;
+}
+.new_topNum span {
+    color: #cf010e;
+}
+.srp img, .srp span, .srp i {
+    vertical-align: top;
+}
+.crumb .square {
+    width: 11px;
+    height: 11px;
+    background: url(../../images/websearch/srpIcons.png) no-repeat 0 0;
+    margin: 11px 13px auto 17px;
+}
+.crumb .level1 {
+    color: #333;
+}
+.crumb .arrow {
+    width: 8px;
+    height: 15px;
+    background: url(../../images/websearch/srpIcons.png) no-repeat -18px 0;
+    margin: 9px 20px auto;
+}
+.crumb .level2 {
+    color: #ce020d;
+}
+.clearfix:after {
+    clear: both;
+    display: block;
+    content: "...";
+    visibility: hidden;
+    height: 0;
+    font-size: 0;
+}
+.select{
+    width: 988px;
+    float: right;
+    height: auto;
+    border: 1px solid #eaeaea;
+    background-color: #f6f6f6;
+    z-index: 88;
+    position: relative;
+}
+.brandS {
+    width: 988px;
+    height: auto;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    overflow: hidden;
+    background: #f6f6f6;
+}
+.select .brandS {
+    width: 988px;
+    border: none;
+    border-top: 1px dotted #ccc;
+}
+.brandS .title {
+    width: 115px;
+    height: auto;
+    overflow: hidden;
+    display: inline-block;
+}
+.brandS .title p {
+    color: #cf010e;
+    margin: 10px auto 15px 15px;
+}
+.title .innerSearch {
+    width: 80px;
+    height: 19px;
+    border: 1px solid #d9d9d9;
+    margin-left: 15px;
+    overflow: hidden;
+    background-color: #fff;
+}
+.innerSearch a {
+    width: 15px;
+    height: 15px;
+    background: url(../../images/websearch/srpIcons.png) no-repeat -30px 0;
+    margin: 2px 3px auto 2px;
+}
+.innerSearch * {
+    float: left;
+    display: inline-block;
+}
+a {
+    COLOR: #666;
+    TEXT-DECORATION: none;
+    blr: expression(this.onFocus=this.blur());
+}
+.innerSearch input {
+    width: 55px;
+    height: 19px;
+    overflow: hidden;
+    padding-left: 5px;
+}
+.srp input {
+    box-sizing: content-box;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    outline: none;
+}
+
+input, select {
+    vertical-align: middle;
+    outline: none;
+}
+
+.select .brandS .frameR {
+    border-bottom: none;
+}
+.brandS .frameR {
+    width: 873px;
+    height: auto;
+    float: right;
+    display: inline-block;
+    overflow: hidden;
+    background-color: #fff;
+    border-bottom: 1px dotted #ccc;
+}
+.brandS .frameR, .situationS .situ, .select .proRight {
+    width: 873px;/*873   988*/
+}
+.frameC {
+    width: 615px;
+    height: auto;
+    float: left;
+    display: inline-block;
+}
+.frameR .letterS {
+    width: 615px;
+    padding-top: 10px;
+}
+
+.letterS li {
+    margin-right: 7px;
+}
+.letterS li {
+    float: left;
+    display: inline-block;
+}
+.letterS li a {
+    width: 21px;
+    height: 24px;
+    line-height: 19px;
+    text-align: center;
+    display: inline-block;
+}
+.letterS .all {
+    width: 60px;
+    height: 24px;
+    background: url(../../images/websearch/srpIcons.png) no-repeat -34px -74px;
+    color: #fff;
+    margin-right: 5px;
+}
+.letterS .letter.on {
+    background: url(../img/srpIcons.png) no-repeat -34px -108px;
+    color: #fff;
+}
+.select .brandAll {
+    margin-bottom: 10px;
+}
+.brandAll {
+    width: 615px;
+    height: 75px;
+    margin: 10px 0 5px 8px;
+    overflow: hidden;
+}
+.frameC, .frameR .letterS, .brandAll, .brandAll.national {
+    width: 790px;/*815*/
+}
+.brandAll li {
+    width: 70px;
+    height: 18px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: left;
+    display: inline-block;
+    overflow: hidden;
+}
+.brandAll li a {
+    padding: 0 5px;
+    color: #666;
+}
+.brandS .open {
+    width: 38px;
+    height: 20px;
+    padding-left: 2px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    margin-right: 6px;
+    line-height: 20px;
+    float: right;
+    display: inline-block;
+    overflow: hidden;
+    _height: 18px;
+    font-size: 12px;
+}
+.open i {
+    width: 9px;
+    height: 5px;
+    background: url(../../images/websearch/srpIcons.png) no-repeat -71px -53px;
+    margin: 7px 2px 0 2px;
+    display: inline-block;
+    _margin-top: 6px;
+}
+.frameC, .frameR .letterS, .brandAll, .brandAll.national {
+    width: 815px;
+}
+.main-srp, .breadcrumb, .breadcrumb .line, .breadcrumb .crumb, .store, .alreadyS, .moreS {
+    width: 990px;
+}
+
+.select .selectLine2, .select .selectLine1 {
+    border-top: 1px dotted #ccc;
+}
+.selectLine1, .selectLine2, .selectLine3 {
+    overflow: hidden;
+}
+.select .proLeft {
+    width: 100px;
+    padding-left: 15px;
+    height: auto;
+    line-height: 39px;
+    color: #cf010e;
+    float: left;
+    display: inline-block;
+}
+.select .proRight {
+    width: 873px;
+    height: auto;
+    padding: 10px 0;
+    background-color: #fff;
+    float: left;
+    display: inline-block;
+}
+.proRight a {
+    height: 20px;
+    padding: 0 6px;
+    margin-left: 8px;
+    line-height: 20px;
+    float: left;
+    display: inline-block;
+}
+.cqS.yjStyle {
+    border-top: 1px dotted #ccc;
+    border-left: none;
+    border-right: none;
+}
+.cqS {
+    width: 788px;
+    height: auto;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    background-color: #f6f6f6;
+    overflow: hidden;
+}
+.cqS .title {
+    width: 98px;
+    height: auto;
+    color: #999;
+    padding-top: 16px;
+    padding-left: 17px;
+    overflow: hidden;
+    float: left;
+    display: inline-block;
+}
+.cqS .title.colRed {
+    color: #cf010e;
+    padding-top: 12px;
+}
+.cqS .list {
+    width: 672px;
+    height: auto;
+    padding-top: 10px;
+    border-left: 1px solid #fff;
+    border-bottom: 1px dotted #ccc;
+    float: left;
+    display: inline-block;
+    overflow: hidden;
+    background: #fff;
+    _padding-bottom: 10px;
+}
+.cqS .list {
+    width: 872px;
+}
+.cqS li {
+    float: left;
+    display: inline-block;
+    width: 70px;
+    height: 18px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    margin-left: 8px;
+}
+.cqS li a {
+    padding: 0 5px;
+    color: #666;
+}
+.brandS, .situationS, .order, .main-srp .proListSearch, .cqS, .order_fixed, .order_div, .select, .srpty .moreS {
+    width: 988px;
+}
+.moreS {
+    width: 790px;
+    height: 39px;
+    background-color: #f5f5f5;
+    padding-bottom: 10px;
+}
+.moreS {
+    width: 990px;
+   /* border: 1px dotted #ccc;*/
+    border-top: 1px dotted #ccc;
+    border-bottom: 1px dotted #ccc;
+}
+
+.moreS .title {
+    width: 100px;
+    height: 39px;
+    padding-left: 15px;
+    line-height: 39px;
+    color: #cf010e;
+    display: inline-block;
+    float: left;
+}
+.moreOption {
+    width: 872px;
+    height: 27px;
+    border: 1px solid #e5e5e5;
+    border-right: none;
+    margin-top: 10px;
+    background-color: #fff;
+    position: relative;
+    top: 0;
+    left: 0;
+    float: left;
+    display: inline-block;
+    z-index: 59;
+}
+.moreOption .choose {
+    width: 70px;
+    height: 12px;
+    line-height: 1;
+    padding: 8px 12px 7px;
+    border-right: 1px solid #e5e5e5;
+    float: left;
+    display: inline-block;
+    _padding-top: 5px;
+    _padding-bottom: 0;
+    _height: 0;
+    _margin-bottom: -8px;
+    text-align: center;
+}
+.moreOption i {
+    width: 9px;
+    height: 5px;
+    background: url(../../images/websearch/srpIcons.png) no-repeat -86px -53px;
+    margin-top: 3px;
+    margin-left: 10px;
+    float: right;
+    display: inline-block;
+    _margin-top: -5px;
+}
+.moreOption .box {
+    width: 653px;
+    height: auto;
+    padding: 10px;
+    border: 1px solid #e5e5e5;
+    background-color: #fff;
+    position: absolute;
+    top: 27px;
+    left: -1px;
+    z-index: 100;
+    display: none;
+}
+.moreOption .box {
+    width: 853px;
+}
+
+.box li {
+    margin-right: 20px;
+    margin-bottom: 5px;
+    white-space: nowrap;
+    float: left;
+    display: inline-block;
+}
+.box li a {
+    padding: 0 5px;
+}
+.moreOption .choose {
+    width: 70px;
+    height: 12px;
+    line-height: 1;
+    padding: 8px 12px 7px;
+    border-right: 1px solid #e5e5e5;
+    float: left;
+    display: inline-block;
+    _padding-top: 5px;
+    _padding-bottom: 0;
+    _height: 0;
+    _margin-bottom: -8px;
+    text-align: center;
+}
+
+.cqS li a:hover {
+    text-decoration: none;
+    background-color: #cf010e;
+    color: #fff;
+}
+.proRight a:hover {
+    background-color: #cf010e;
+    text-decoration: none;
+    color: #fff;
+}
+.brandAll li a:hover {
+    text-decoration: none;
+    background-color: #cf010e;
+    color: #fff;
 }
