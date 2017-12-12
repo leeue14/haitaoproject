@@ -54,6 +54,10 @@ body {
 #menu dl dd a {
     color: #777;
 }
+#menu dl dd a:hover {
+    color: #e4393c;
+    text-decoration: underline;
+}
 
 /*中间部分*/
 #content:after {
@@ -292,7 +296,7 @@ input, textarea, select, button, meter, progress {
     width: 18px;
     height: 16px;
     overflow: hidden;
-    background: url(//misc.360buyimg.com/user/myjd/ordercenter/css/i/order-icons.png) -8px -58px;
+    background: url(../../images/order/order-icons.png) -8px -58px;
 }
 .mt .search .default-btn {
     float: left;
@@ -321,7 +325,7 @@ input, textarea, select, button, meter, progress {
     margin-left: 5px;
     overflow: hidden;
     vertical-align: middle;
-    background: url(//misc.360buyimg.com/user/myjd/ordercenter/css/i/order-icons.png) -37px -207px no-repeat;
+    background: url(../../images/order/order-icons.png) -37px -207px no-repeat;
 }
 /*订单筛选项*/
 .mod-comm .mc {
@@ -420,7 +424,7 @@ input, textarea, select, button, meter, progress {
     width: 21px;
     height: 21px;
     overflow: hidden;
-    background: url(//misc.360buyimg.com/user/myjd/ordercenter/css/i/order-icons.png) -44px -55px;
+    background: url(../../images/order/order-icons.png) -44px -55px;
 }
 /*三月订单*/
 
@@ -436,6 +440,8 @@ table {
     border-spacing: 2px;
     border-color: grey;
 }
+
+
 .order-tb .number-col {
     width: 589px;
 }
@@ -465,6 +471,15 @@ thead {
     width: 138px;
     cursor: pointer;
 }
+.order-tb .ordertime-hover .time-txt {
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,.12);
+
+}
+.order-tb .ordertime-cont .time-list li a:hover {
+    background: #f5f5f5;
+    color: #e4393c;
+}
 .order-tb .ordertime-cont .time-txt {
     position: relative;
     height: 30px;
@@ -485,6 +500,23 @@ thead {
     border: 1px solid #f5f5f5;
     border-top: 0;
 }
+.order-tb .ordertime-hover .time-list {
+    display: block;
+    box-shadow: 0 0 10px rgba(0,0,0,.12);
+}
+.order-tb .ordertime-hover .time-txt .blank {
+    display: block;
+    position: absolute;
+    height: 10px;
+    width: 136px;
+    top: 21px;
+    left: 0;
+    background: #fff;
+    z-index: 3;
+}
+
+
+
 .order-tb .ordertime-cont .time-list li {
     height: 30px;
     line-height: 30px;
@@ -506,9 +538,11 @@ thead {
     top: 13px;
     overflow: hidden;
     vertical-align: middle;
-    background: url(//misc.360buyimg.com/user/myjd/ordercenter/css/i/order-icons.png) -37px -207px no-repeat;
+    background: url(../../images/order/order-icons.png) -37px -207px no-repeat;
 }
-
+.order-tb .ordertime-hover .time-txt b {
+    background-position: -20px -207px;
+}
 .order-tb .order-detail-txt {
     display: inline-block;
     vertical-align: middle;
@@ -542,7 +576,17 @@ table {
     top: 13px;
     overflow: hidden;
     vertical-align: middle;
-    background: url(//misc.360buyimg.com/user/myjd/ordercenter/css/i/order-icons.png) -37px -207px no-repeat;
+    background: url(../../images/order/order-icons.png) -37px -207px no-repeat;
+}
+.order-tb .deal-state-hover .state-txt .blank {
+    display: block;
+    position: absolute;
+    height: 10px;
+    width: 96px;
+    top: 21px;
+    left: 0;
+    background: #fff;
+    z-index: 3;
 }
 .order-tb .deal-state-cont .state-list {
     position: absolute;
@@ -555,7 +599,43 @@ table {
     border: 1px solid #f5f5f5;
     border-top: 0;
 }
+.order-tb .deal-state-cont .state-list li a {
+    display: block;
+    position: relative;
+    color: #666;
+    height: 30px;
+    line-height: 30px;
+   /* padding-left: 20px;*/
+}
+.order-tb .deal-state-hover .state-txt {
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,.12);
+}
+.order-tb .deal-state-hover .state-list {
+    display: block;
+    box-shadow: 0 0 10px rgba(0,0,0,.12);
+}
+.order-tb .deal-state-hover .state-txt b {
+    background-position: -20px -207px;
+}
 
+.order-tb .deal-state-cont .state-list li a:hover {
+    background: #f5f5f5;
+    color: #e4393c;
+}
+.order-tb .deal-state-cont .state-list li a b {
+    display: block;
+    position: absolute;
+    left: 5px;
+    top: 10px;
+    width: 10px;
+    height: 7px;
+    vertical-align: middle;
+    overflow: hidden;
+}
+.order-tb .deal-state-cont .state-list li a.curr b {
+    background: url(../../images/order/order-icons.png) 0 -207px;
+}
 tbody {
     display: table-row-group;
     vertical-align: middle;
@@ -631,7 +711,7 @@ tbody {
     height: 16px;
     margin: 0 0 0 5px;
     overflow: hidden;
-    background: url(//misc.360buyimg.com/user/myjd/ordercenter/css/i/sprite-im.png) -26px 0 no-repeat;
+    background: url(../../images/order/sprite-im.png) -26px 0 no-repeat;
     vertical-align: middle;
 }
 .order-tb .tr-th .tel {
@@ -646,7 +726,7 @@ tbody {
     margin-right: 3px;
     overflow: hidden;
     vertical-align: middle;
-    background: url(//misc.360buyimg.com/user/myjd/ordercenter/css/i/order-icons.png) -75px -55px;
+    background: url(../../images/order/order-icons.png) -75px -55px;
 }
 .order-tb .tr-bd {
     text-align: center;
@@ -684,6 +764,9 @@ td, th {
 }
 .p-detail, .p-img, .p-market, .p-name, .p-price {
     overflow: hidden;
+}
+.order-tb .goods-item .p-name a:hover {
+    color: #e4393c;
 }
 img {
     border: 0;
@@ -735,7 +818,7 @@ img {
 }
 .jd-otc, .order-tb .goods-item .o-match i, .order-tb .goods-item .o-similar i {
     display: inline-block;
-    background-image: url(//misc.360buyimg.com/user/myjd/ordercenter/css/i/sprite-order-icon.png);
+    background-image: url(../../images/order/sprite-order-icon.png);
     background-repeat: no-repeat;
 }
 .order-tb .goods-item .o-match em, .order-tb .goods-item .o-similar em {
@@ -793,7 +876,7 @@ img {
     display: inline-block;
     width: 14px;
     height: 16px;
-    background: url(//misc.360buyimg.com/user/myjd/ordercenter/css/i/order-icons.png) 0 -24px;
+    background: url(../../images/order/order-icons.png) 0 -24px;
     vertical-align: middle;
     margin: 0 0 0 5px;
 }
@@ -866,7 +949,7 @@ img {
 }
 .prompt-01 .p-arrow {
     position: absolute;
-    background: url(//misc.360buyimg.com/user/myjd/ordercenter/css/i/arrow-gray.png) no-repeat;
+    background: url(../../images/order/arrow-gray.png) no-repeat;
 }
 .order-tb .amount {
     color: #AAA;
@@ -896,7 +979,7 @@ img {
     height: 16px;
     margin: 0 3px 0 0;
     overflow: hidden;
-    background: url(//misc.360buyimg.com/user/myjd/ordercenter/css/i/order-icons.png) -48px -24px no-repeat;
+    background: url(../../images/order/order-icons.png) -48px -24px no-repeat;
     vertical-align: middle;
 }
 .order-tb .tooltip .circle-icon {
@@ -905,7 +988,7 @@ img {
     height: 7px;
     margin: 0 0 0 3px;
     overflow: hidden;
-    background: url(//misc.360buyimg.com/user/myjd/ordercenter/css/i/order-icons.png) 0 -115px no-repeat;
+    background: url(../../images/order/order-icons.png) 0 -115px no-repeat;
     vertical-align: middle;
 }
 .order-tb .operate {
@@ -971,6 +1054,11 @@ a.btn-5:link, a.btn-5:visited, a.btn-6:link, a.btn-6:visited, a.btn-7:link, a.bt
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
 }
+.pagin a:active, .pagin a:hover {
+    background: #005aa0;
+    color: #fff;
+    text-decoration: none;
+}
 .pagin .next, .pagin .next-disabled, .pagin .prev, .pagin .prev-disabled {
     position: relative;
     padding-top: 5px;
@@ -987,6 +1075,14 @@ a.btn-5:link, a.btn-5:visited, a.btn-6:link, a.btn-6:visited, a.btn-7:link, a.bt
 .pagin .prev-disabled b {
     left: 3px;
     background-position: -80px -608px;
+}
+.pagin a:link, .pagin a:visited {
+    color: #005aa0;
+}
+.pagin a:active, .pagin a:hover {
+    background: #005aa0;
+    color: #fff;
+    text-decoration: none;
 }
 /*.next-disabled b, .prev-disabled b, .ui-pager-next b, .ui-pager-prev b {
     display: inline-block;

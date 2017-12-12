@@ -7,6 +7,7 @@
 
 window.onload = function () {
     clickDesc();/*菜单显示隐藏点击事件*/
+    openClick();//分类点击事件
 };
 
 /*小按钮点击事件*/
@@ -40,7 +41,59 @@ function clickDesc() {
             }
         };
     }
-
-
-
 }
+
+
+/*分类*/
+
+function openClick(){
+    aOpen = document.getElementById("open");
+    aLetter = document.getElementById("letterS")
+    aBrandAll = document.getElementById("brandAll");
+    var flag = true;
+    aOpen.onclick = function () {
+
+        if(flag){
+            aLetter.style.display = "block";
+            aBrandAll.style.overflow = "auto";
+            aBrandAll.style.height = "165px";
+            this.innerHTML = "收起";
+            var node = document.createElement("i");
+            node.style.backgroundPosition = "-55px -53px";
+            this.appendChild(node);
+
+            flag = false;
+        }else{
+            aLetter.style.display = "none";
+            aBrandAll.style.overflow = "hidden";
+            aBrandAll.style.height = "84px";
+            this.innerHTML = "展开";
+            var node = document.createElement("i");
+            node.style.backgroundPosition = "-71px -53px";
+            this.appendChild(node);
+            flag = true;
+        }
+    };
+
+    /*酒精hover*/
+    aChoose = document.getElementsByClassName("choose");
+    aDiv = document.getElementsByClassName("moreOption")[0].getElementsByTagName("div");
+    for (var i = 0; i < aChoose.length; i++){
+        aChoose[i].index = i;
+        aChoose[i].onmousemove = function () {
+            aDiv[this.index].style.display = "block";
+            aDiv[this.index].onmousemove = function () {
+                this.style.display = "block";
+            };
+        };
+        aChoose[i].onmouseout = function () {
+            aDiv[this.index].style.display = "none";
+            aDiv[this.index].onmouseout = function () {
+                this.style.display = "none";
+            };
+        };
+    }
+}
+
+
+

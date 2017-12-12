@@ -721,6 +721,7 @@ input, select {
     padding: 0 5px;
     color: #666;
 }
+
 .brandS .open {
     width: 38px;
     height: 20px;
@@ -742,6 +743,13 @@ input, select {
     margin: 7px 2px 0 2px;
     display: inline-block;
     _margin-top: 6px;
+}
+.letterS .letter:hover {
+    background: url(../../images/websearch/srpIcons.png) no-repeat -34px -108px;
+    color: #fff;
+}
+.letterS .all:hover {
+    color: #fff;
 }
 .frameC, .frameR .letterS, .brandAll, .brandAll.national {
     width: 815px;
@@ -925,6 +933,11 @@ input, select {
 }
 .box li a {
     padding: 0 5px;
+}
+.box li a:hover {
+    color: #fff;
+    background-color: #cf010e;
+    text-decoration: none;
 }
 .moreOption .choose {
     width: 70px;
